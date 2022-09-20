@@ -140,6 +140,7 @@ namespace SystemTrayMenu.UserInterface
             this.buttonAddSampleStartMenuFolder = new System.Windows.Forms.Button();
             this.checkBoxGenerateShortcutsToDrives = new System.Windows.Forms.CheckBox();
             this.checkBoxShowOnlyAsSearchResult = new System.Windows.Forms.CheckBox();
+            this.checkBoxRemoveDuplicateShortcuts = new System.Windows.Forms.CheckBox();
             this.buttonDefaultFolders = new System.Windows.Forms.Button();
             this.tabPageExpert = new System.Windows.Forms.TabPage();
             this.tableLayoutPanelExpert = new System.Windows.Forms.TableLayoutPanel();
@@ -978,7 +979,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageSizeAndLocation.Margin = new System.Windows.Forms.Padding(3, 3, 6, 3);
             this.tabPageSizeAndLocation.Name = "tabPageSizeAndLocation";
             this.tabPageSizeAndLocation.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSizeAndLocation.Size = new System.Drawing.Size(412, 493);
+            this.tabPageSizeAndLocation.Size = new System.Drawing.Size(412, 485);
             this.tabPageSizeAndLocation.TabIndex = 3;
             this.tabPageSizeAndLocation.Text = "tabPageSizeAndLocation";
             this.tabPageSizeAndLocation.UseVisualStyleBackColor = true;
@@ -1433,7 +1434,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageAdvanced.Location = new System.Drawing.Point(4, 24);
             this.tabPageAdvanced.Name = "tabPageAdvanced";
             this.tabPageAdvanced.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAdvanced.Size = new System.Drawing.Size(412, 493);
+            this.tabPageAdvanced.Size = new System.Drawing.Size(412, 485);
             this.tabPageAdvanced.TabIndex = 0;
             this.tabPageAdvanced.Text = "tabPageAdvanced";
             this.tabPageAdvanced.UseVisualStyleBackColor = true;
@@ -1836,7 +1837,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageFolders.Location = new System.Drawing.Point(4, 24);
             this.tabPageFolders.Name = "tabPageFolders";
             this.tabPageFolders.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageFolders.Size = new System.Drawing.Size(412, 493);
+            this.tabPageFolders.Size = new System.Drawing.Size(412, 485);
             this.tabPageFolders.TabIndex = 2;
             this.tabPageFolders.Text = "tabPageFolders";
             this.tabPageFolders.UseVisualStyleBackColor = true;
@@ -1856,7 +1857,7 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelFoldersInRootFolder.Size = new System.Drawing.Size(345, 415);
+            this.tableLayoutPanelFoldersInRootFolder.Size = new System.Drawing.Size(345, 440);
             this.tableLayoutPanelFoldersInRootFolder.TabIndex = 1;
             // 
             // groupBoxFoldersInRootFolder
@@ -1867,7 +1868,7 @@ namespace SystemTrayMenu.UserInterface
             this.groupBoxFoldersInRootFolder.Controls.Add(this.tableLayoutPanelFolderToRootFoldersList);
             this.groupBoxFoldersInRootFolder.Location = new System.Drawing.Point(3, 3);
             this.groupBoxFoldersInRootFolder.Name = "groupBoxFoldersInRootFolder";
-            this.groupBoxFoldersInRootFolder.Size = new System.Drawing.Size(333, 366);
+            this.groupBoxFoldersInRootFolder.Size = new System.Drawing.Size(333, 391);
             this.groupBoxFoldersInRootFolder.TabIndex = 0;
             this.groupBoxFoldersInRootFolder.TabStop = false;
             this.groupBoxFoldersInRootFolder.Text = "groupBoxFoldersInRootFolder";
@@ -1882,17 +1883,19 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.tableLayoutPanelAddSampleStartMenuFolder, 0, 4);
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxGenerateShortcutsToDrives, 0, 5);
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxShowOnlyAsSearchResult, 0, 0);
+            this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxRemoveDuplicateShortcuts, 0, 6);
             this.tableLayoutPanelFolderToRootFoldersList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelFolderToRootFoldersList.Location = new System.Drawing.Point(3, 19);
             this.tableLayoutPanelFolderToRootFoldersList.Name = "tableLayoutPanelFolderToRootFoldersList";
-            this.tableLayoutPanelFolderToRootFoldersList.RowCount = 6;
+            this.tableLayoutPanelFolderToRootFoldersList.RowCount = 7;
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelFolderToRootFoldersList.Size = new System.Drawing.Size(327, 344);
+            this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelFolderToRootFoldersList.Size = new System.Drawing.Size(327, 369);
             this.tableLayoutPanelFolderToRootFoldersList.TabIndex = 0;
             // 
             // tableLayoutPanelFolderToRootFolder
@@ -2044,11 +2047,21 @@ namespace SystemTrayMenu.UserInterface
             this.checkBoxShowOnlyAsSearchResult.Text = "checkBoxShowOnlyAsSearchResult";
             this.checkBoxShowOnlyAsSearchResult.UseVisualStyleBackColor = true;
             // 
+            // checkBoxRemoveDuplicateShortcuts
+            // 
+            this.checkBoxRemoveDuplicateShortcuts.AutoSize = true;
+            this.checkBoxRemoveDuplicateShortcuts.Location = new System.Drawing.Point(3, 347);
+            this.checkBoxRemoveDuplicateShortcuts.Name = "checkBoxRemoveDuplicateShortcuts";
+            this.checkBoxRemoveDuplicateShortcuts.Size = new System.Drawing.Size(220, 19);
+            this.checkBoxRemoveDuplicateShortcuts.TabIndex = 9;
+            this.checkBoxRemoveDuplicateShortcuts.Text = "checkBoxRemoveDuplicateShortcuts";
+            this.checkBoxRemoveDuplicateShortcuts.UseVisualStyleBackColor = true;
+            // 
             // buttonDefaultFolders
             // 
             this.buttonDefaultFolders.AutoSize = true;
             this.buttonDefaultFolders.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonDefaultFolders.Location = new System.Drawing.Point(9, 381);
+            this.buttonDefaultFolders.Location = new System.Drawing.Point(9, 406);
             this.buttonDefaultFolders.Margin = new System.Windows.Forms.Padding(9, 9, 3, 9);
             this.buttonDefaultFolders.MinimumSize = new System.Drawing.Size(75, 25);
             this.buttonDefaultFolders.Name = "buttonDefaultFolders";
@@ -2064,7 +2077,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageExpert.Location = new System.Drawing.Point(4, 24);
             this.tabPageExpert.Name = "tabPageExpert";
             this.tabPageExpert.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageExpert.Size = new System.Drawing.Size(412, 493);
+            this.tabPageExpert.Size = new System.Drawing.Size(412, 485);
             this.tabPageExpert.TabIndex = 1;
             this.tabPageExpert.Text = "tabPageExpert";
             this.tabPageExpert.UseVisualStyleBackColor = true;
@@ -2431,7 +2444,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageCustomize.Location = new System.Drawing.Point(4, 24);
             this.tabPageCustomize.Name = "tabPageCustomize";
             this.tabPageCustomize.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCustomize.Size = new System.Drawing.Size(412, 493);
+            this.tabPageCustomize.Size = new System.Drawing.Size(412, 485);
             this.tabPageCustomize.TabIndex = 0;
             this.tabPageCustomize.Text = "tabPageCustomize";
             this.tabPageCustomize.UseVisualStyleBackColor = true;
@@ -5438,5 +5451,6 @@ namespace SystemTrayMenu.UserInterface
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeyPinMenu;
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeySettings;
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeyRestart;
+        private System.Windows.Forms.CheckBox checkBoxRemoveDuplicateShortcuts;
     }
 }

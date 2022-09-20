@@ -537,4 +537,7 @@
   <data name="Application size" xml:space="preserve">
     <value>Toepassingsgrootte</value>
   </data>
+  <data name="Remove Duplicate Shortcuts" xml:space="preserve">
+    <value>Verwyder enige duplikaatkortpaaie uit die kieslys</value>
+  </data>
 </root>

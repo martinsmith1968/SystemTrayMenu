@@ -178,6 +178,7 @@ namespace SystemTrayMenu.UserInterface
                 buttonAddSampleStartMenuFolder.Text = Translator.GetText("Add sample directory 'Start Menu'");
                 buttonDefaultFolders.Text = Translator.GetText("Default");
                 checkBoxGenerateShortcutsToDrives.Text = Translator.GetText("Generate drive shortcuts on startup");
+                checkBoxRemoveDuplicateShortcuts.Text = Translator.GetText("Remove Duplicate Shortcuts");
 
                 tabPageExpert.Text = Translator.GetText("Expert");
                 groupBoxStaysOpen.Text = Translator.GetText("Menu stays open");
@@ -497,6 +498,7 @@ namespace SystemTrayMenu.UserInterface
             }
 
             checkBoxGenerateShortcutsToDrives.Checked = Settings.Default.GenerateShortcutsToDrives;
+            checkBoxRemoveDuplicateShortcuts.Checked = Settings.Default.RemoveDuplicateShortcuts;
 
             checkBoxStayOpenWhenItemClicked.Checked = Settings.Default.StaysOpenWhenItemClicked;
             checkBoxStayOpenWhenFocusLost.Checked = Settings.Default.StaysOpenWhenFocusLost;
@@ -990,6 +992,7 @@ namespace SystemTrayMenu.UserInterface
             }
 
             Settings.Default.GenerateShortcutsToDrives = checkBoxGenerateShortcutsToDrives.Checked;
+            Settings.Default.RemoveDuplicateShortcuts = checkBoxRemoveDuplicateShortcuts.Checked;
 
             Settings.Default.StaysOpenWhenItemClicked = checkBoxStayOpenWhenItemClicked.Checked;
             Settings.Default.StaysOpenWhenFocusLost = checkBoxStayOpenWhenFocusLost.Checked;
@@ -1166,6 +1169,7 @@ namespace SystemTrayMenu.UserInterface
             checkBoxShowOnlyAsSearchResult.Checked = false;
             dataGridViewFolders.Rows.Clear();
             checkBoxGenerateShortcutsToDrives.Checked = false;
+            checkBoxRemoveDuplicateShortcuts.Checked = false;
         }
 
         private void ButtonAddFolderToRootFolder_Click(object sender, EventArgs e)

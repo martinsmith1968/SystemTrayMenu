@@ -575,6 +575,29 @@ namespace SystemTrayMenu.Business
             dataTable.Columns.Add(dgv.Columns[1].Name, typeof(string));
             dataTable.Columns.Add("data", typeof(RowData));
             dataTable.Columns.Add("SortIndex");
+
+            if (Properties.Settings.Default.RemoveDuplicateShortcuts && !Properties.Settings.Default.ShowOnlyAsSearchResult)
+            {
+                var filteredRowData = new List<RowData>();
+
+                foreach (RowData rowData in data)
+                {
+                    var firstItem = data.FirstOrDefault(d =>
+                        d.FileInfo.Name == rowData.FileInfo.Name
+                        && d.FileInfo.Extension == rowData.FileInfo.Extension);
+
+                    if (!string.Equals(firstItem?.FileInfo.FullName, rowData.FileInfo.FullName, StringComparison.Ordinal))
+                    {
+                        Log.Info($"Removed duplicate: {rowData.FileInfo.Name}{rowData.FileInfo.Extension} ({rowData.FileInfo.FullName})");
+                        continue;
+                    }
+
+                    filteredRowData.Add(rowData);
+                }
+
+                data = filteredRowData;
+            }
+
             foreach (RowData rowData in data)
             {
                 if (!(rowData.IsAddionalItem && Properties.Settings.Default.ShowOnlyAsSearchResult))

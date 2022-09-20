@@ -537,4 +537,7 @@
   <data name="Application size" xml:space="preserve">
     <value>Application size</value>
   </data>
+  <data name="Remove Duplicate Shortcuts" xml:space="preserve">
+    <value>Remove any Duplicate Shortcuts from the Menu</value>
+  </data>
 </root>
