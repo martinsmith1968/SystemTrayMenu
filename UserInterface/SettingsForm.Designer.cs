@@ -342,6 +342,16 @@ namespace SystemTrayMenu.UserInterface
             this.buttonOk = new System.Windows.Forms.Button();
             this.buttonCancel = new System.Windows.Forms.Button();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.groupBoxTrayIcon = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.radioButtonUseIconFromRootFolder = new System.Windows.Forms.RadioButton();
+            this.radioButtonUseSpecificIcon = new System.Windows.Forms.RadioButton();
+            this.textBoxSpecificIcon = new System.Windows.Forms.TextBox();
+            this.buttonChangeSpecificIcon = new System.Windows.Forms.Button();
+            this.buttonTrayIconDefault = new System.Windows.Forms.Button();
+            this.radioButtonCycleOverIconsFromFolder = new System.Windows.Forms.RadioButton();
+            this.textBoxCycleOverIconsFolder = new System.Windows.Forms.TextBox();
+            this.buttonChangeCycleOverIconsFolder = new System.Windows.Forms.Button();
             this.tableLayoutPanelMain.SuspendLayout();
             this.tabControl.SuspendLayout();
             this.tabPageGeneral.SuspendLayout();
@@ -497,6 +507,8 @@ namespace SystemTrayMenu.UserInterface
             this.groupBoxAppearance.SuspendLayout();
             this.tableLayoutPanelAppearance.SuspendLayout();
             this.tableLayoutPanelBottom.SuspendLayout();
+            this.groupBoxTrayIcon.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanelMain
@@ -978,7 +990,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageSizeAndLocation.Margin = new System.Windows.Forms.Padding(3, 3, 6, 3);
             this.tabPageSizeAndLocation.Name = "tabPageSizeAndLocation";
             this.tabPageSizeAndLocation.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageSizeAndLocation.Size = new System.Drawing.Size(412, 493);
+            this.tabPageSizeAndLocation.Size = new System.Drawing.Size(412, 485);
             this.tabPageSizeAndLocation.TabIndex = 3;
             this.tabPageSizeAndLocation.Text = "tabPageSizeAndLocation";
             this.tabPageSizeAndLocation.UseVisualStyleBackColor = true;
@@ -1433,7 +1445,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageAdvanced.Location = new System.Drawing.Point(4, 24);
             this.tabPageAdvanced.Name = "tabPageAdvanced";
             this.tabPageAdvanced.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageAdvanced.Size = new System.Drawing.Size(412, 493);
+            this.tabPageAdvanced.Size = new System.Drawing.Size(412, 485);
             this.tabPageAdvanced.TabIndex = 0;
             this.tabPageAdvanced.Text = "tabPageAdvanced";
             this.tabPageAdvanced.UseVisualStyleBackColor = true;
@@ -1836,7 +1848,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageFolders.Location = new System.Drawing.Point(4, 24);
             this.tabPageFolders.Name = "tabPageFolders";
             this.tabPageFolders.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageFolders.Size = new System.Drawing.Size(412, 493);
+            this.tabPageFolders.Size = new System.Drawing.Size(412, 485);
             this.tabPageFolders.TabIndex = 2;
             this.tabPageFolders.Text = "tabPageFolders";
             this.tabPageFolders.UseVisualStyleBackColor = true;
@@ -2064,7 +2076,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageExpert.Location = new System.Drawing.Point(4, 24);
             this.tabPageExpert.Name = "tabPageExpert";
             this.tabPageExpert.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageExpert.Size = new System.Drawing.Size(412, 493);
+            this.tabPageExpert.Size = new System.Drawing.Size(412, 485);
             this.tabPageExpert.TabIndex = 1;
             this.tabPageExpert.Text = "tabPageExpert";
             this.tabPageExpert.UseVisualStyleBackColor = true;
@@ -2431,7 +2443,7 @@ namespace SystemTrayMenu.UserInterface
             this.tabPageCustomize.Location = new System.Drawing.Point(4, 24);
             this.tabPageCustomize.Name = "tabPageCustomize";
             this.tabPageCustomize.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageCustomize.Size = new System.Drawing.Size(412, 493);
+            this.tabPageCustomize.Size = new System.Drawing.Size(412, 485);
             this.tabPageCustomize.TabIndex = 0;
             this.tabPageCustomize.Text = "tabPageCustomize";
             this.tabPageCustomize.UseVisualStyleBackColor = true;
@@ -2442,17 +2454,19 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelCustomize.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanelCustomize.ColumnCount = 1;
             this.tableLayoutPanelCustomize.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxColorsDarkMode, 0, 2);
-            this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxColorsLightMode, 0, 1);
+            this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxColorsDarkMode, 0, 3);
+            this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxColorsLightMode, 0, 2);
             this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxAppearance, 0, 0);
+            this.tableLayoutPanelCustomize.Controls.Add(this.groupBoxTrayIcon, 0, 1);
             this.tableLayoutPanelCustomize.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanelCustomize.Name = "tableLayoutPanelCustomize";
             this.tableLayoutPanelCustomize.Padding = new System.Windows.Forms.Padding(0, 0, 6, 0);
-            this.tableLayoutPanelCustomize.RowCount = 3;
+            this.tableLayoutPanelCustomize.RowCount = 4;
             this.tableLayoutPanelCustomize.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelCustomize.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelCustomize.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelCustomize.Size = new System.Drawing.Size(385, 1581);
+            this.tableLayoutPanelCustomize.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelCustomize.Size = new System.Drawing.Size(385, 1842);
             this.tableLayoutPanelCustomize.TabIndex = 0;
             // 
             // groupBoxColorsDarkMode
@@ -2461,7 +2475,7 @@ namespace SystemTrayMenu.UserInterface
             this.groupBoxColorsDarkMode.AutoSize = true;
             this.groupBoxColorsDarkMode.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBoxColorsDarkMode.Controls.Add(this.tableLayoutPanelDarkMode);
-            this.groupBoxColorsDarkMode.Location = new System.Drawing.Point(3, 973);
+            this.groupBoxColorsDarkMode.Location = new System.Drawing.Point(3, 1234);
             this.groupBoxColorsDarkMode.Name = "groupBoxColorsDarkMode";
             this.groupBoxColorsDarkMode.Size = new System.Drawing.Size(373, 605);
             this.groupBoxColorsDarkMode.TabIndex = 0;
@@ -3532,7 +3546,7 @@ namespace SystemTrayMenu.UserInterface
             this.groupBoxColorsLightMode.AutoSize = true;
             this.groupBoxColorsLightMode.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBoxColorsLightMode.Controls.Add(this.tableLayoutPanelColorsAndDefault);
-            this.groupBoxColorsLightMode.Location = new System.Drawing.Point(3, 362);
+            this.groupBoxColorsLightMode.Location = new System.Drawing.Point(3, 623);
             this.groupBoxColorsLightMode.Name = "groupBoxColorsLightMode";
             this.groupBoxColorsLightMode.Size = new System.Drawing.Size(373, 605);
             this.groupBoxColorsLightMode.TabIndex = 0;
@@ -4841,6 +4855,125 @@ namespace SystemTrayMenu.UserInterface
             this.buttonCancel.UseVisualStyleBackColor = true;
             this.buttonCancel.Click += new System.EventHandler(this.ButtonCancel_Click);
             // 
+            // groupBoxTrayIcon
+            // 
+            this.groupBoxTrayIcon.Controls.Add(this.tableLayoutPanel2);
+            this.groupBoxTrayIcon.Location = new System.Drawing.Point(3, 362);
+            this.groupBoxTrayIcon.Name = "groupBoxTrayIcon";
+            this.groupBoxTrayIcon.Size = new System.Drawing.Size(373, 255);
+            this.groupBoxTrayIcon.TabIndex = 2;
+            this.groupBoxTrayIcon.TabStop = false;
+            this.groupBoxTrayIcon.Text = "groupBoxTrayIcon";
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel2.Controls.Add(this.radioButtonUseSpecificIcon, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.radioButtonUseIconFromRootFolder, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.textBoxSpecificIcon, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.buttonChangeSpecificIcon, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.buttonTrayIconDefault, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.radioButtonCycleOverIconsFromFolder, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.textBoxCycleOverIconsFolder, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.buttonChangeCycleOverIconsFolder, 0, 6);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 19);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 8;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(367, 230);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // radioButtonUseIconFromRootFolder
+            // 
+            this.radioButtonUseIconFromRootFolder.AutoSize = true;
+            this.radioButtonUseIconFromRootFolder.Location = new System.Drawing.Point(3, 3);
+            this.radioButtonUseIconFromRootFolder.Name = "radioButtonUseIconFromRootFolder";
+            this.radioButtonUseIconFromRootFolder.Size = new System.Drawing.Size(216, 19);
+            this.radioButtonUseIconFromRootFolder.TabIndex = 0;
+            this.radioButtonUseIconFromRootFolder.TabStop = true;
+            this.radioButtonUseIconFromRootFolder.Text = "radioButtonUseIconFromRootFolder";
+            this.radioButtonUseIconFromRootFolder.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonUseSpecificIcon
+            // 
+            this.radioButtonUseSpecificIcon.AutoSize = true;
+            this.radioButtonUseSpecificIcon.Location = new System.Drawing.Point(3, 28);
+            this.radioButtonUseSpecificIcon.Name = "radioButtonUseSpecificIcon";
+            this.radioButtonUseSpecificIcon.Size = new System.Drawing.Size(171, 19);
+            this.radioButtonUseSpecificIcon.TabIndex = 1;
+            this.radioButtonUseSpecificIcon.TabStop = true;
+            this.radioButtonUseSpecificIcon.Text = "radioButtonUseSpecificIcon";
+            this.radioButtonUseSpecificIcon.UseVisualStyleBackColor = true;
+            // 
+            // textBoxSpecificIcon
+            // 
+            this.textBoxSpecificIcon.Location = new System.Drawing.Point(30, 53);
+            this.textBoxSpecificIcon.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
+            this.textBoxSpecificIcon.Name = "textBoxSpecificIcon";
+            this.textBoxSpecificIcon.ReadOnly = true;
+            this.textBoxSpecificIcon.Size = new System.Drawing.Size(331, 23);
+            this.textBoxSpecificIcon.TabIndex = 3;
+            // 
+            // buttonChangeSpecificIcon
+            // 
+            this.buttonChangeSpecificIcon.AutoSize = true;
+            this.buttonChangeSpecificIcon.Location = new System.Drawing.Point(30, 82);
+            this.buttonChangeSpecificIcon.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
+            this.buttonChangeSpecificIcon.Name = "buttonChangeSpecificIcon";
+            this.buttonChangeSpecificIcon.Size = new System.Drawing.Size(158, 25);
+            this.buttonChangeSpecificIcon.TabIndex = 5;
+            this.buttonChangeSpecificIcon.Text = "buttonChangeSpecificIcon";
+            this.buttonChangeSpecificIcon.UseVisualStyleBackColor = true;
+            // 
+            // buttonTrayIconDefault
+            // 
+            this.buttonTrayIconDefault.AutoSize = true;
+            this.buttonTrayIconDefault.Location = new System.Drawing.Point(3, 203);
+            this.buttonTrayIconDefault.Name = "buttonTrayIconDefault";
+            this.buttonTrayIconDefault.Size = new System.Drawing.Size(135, 24);
+            this.buttonTrayIconDefault.TabIndex = 6;
+            this.buttonTrayIconDefault.Text = "buttonTrayIconDefault";
+            this.buttonTrayIconDefault.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonCycleOverIconsFromFolder
+            // 
+            this.radioButtonCycleOverIconsFromFolder.AutoSize = true;
+            this.radioButtonCycleOverIconsFromFolder.Location = new System.Drawing.Point(3, 113);
+            this.radioButtonCycleOverIconsFromFolder.Name = "radioButtonCycleOverIconsFromFolder";
+            this.radioButtonCycleOverIconsFromFolder.Size = new System.Drawing.Size(231, 19);
+            this.radioButtonCycleOverIconsFromFolder.TabIndex = 7;
+            this.radioButtonCycleOverIconsFromFolder.TabStop = true;
+            this.radioButtonCycleOverIconsFromFolder.Text = "radioButtonCycleOverIconsFromFolder";
+            this.radioButtonCycleOverIconsFromFolder.UseVisualStyleBackColor = true;
+            // 
+            // textBoxCycleOverIconsFolder
+            // 
+            this.textBoxCycleOverIconsFolder.Location = new System.Drawing.Point(30, 143);
+            this.textBoxCycleOverIconsFolder.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
+            this.textBoxCycleOverIconsFolder.Name = "textBoxCycleOverIconsFolder";
+            this.textBoxCycleOverIconsFolder.ReadOnly = true;
+            this.textBoxCycleOverIconsFolder.Size = new System.Drawing.Size(331, 23);
+            this.textBoxCycleOverIconsFolder.TabIndex = 8;
+            // 
+            // buttonChangeCycleOverIconsFolder
+            // 
+            this.buttonChangeCycleOverIconsFolder.AutoSize = true;
+            this.buttonChangeCycleOverIconsFolder.Location = new System.Drawing.Point(30, 173);
+            this.buttonChangeCycleOverIconsFolder.Margin = new System.Windows.Forms.Padding(30, 3, 3, 3);
+            this.buttonChangeCycleOverIconsFolder.Name = "buttonChangeCycleOverIconsFolder";
+            this.buttonChangeCycleOverIconsFolder.Size = new System.Drawing.Size(209, 24);
+            this.buttonChangeCycleOverIconsFolder.TabIndex = 9;
+            this.buttonChangeCycleOverIconsFolder.Text = "buttonChangeCycleOverIconsFolder";
+            this.buttonChangeCycleOverIconsFolder.UseVisualStyleBackColor = true;
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -5117,6 +5250,9 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelAppearance.PerformLayout();
             this.tableLayoutPanelBottom.ResumeLayout(false);
             this.tableLayoutPanelBottom.PerformLayout();
+            this.groupBoxTrayIcon.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -5438,5 +5574,15 @@ namespace SystemTrayMenu.UserInterface
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeyPinMenu;
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeySettings;
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeyRestart;
+        private System.Windows.Forms.GroupBox groupBoxTrayIcon;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.RadioButton radioButtonUseSpecificIcon;
+        private System.Windows.Forms.RadioButton radioButtonUseIconFromRootFolder;
+        private System.Windows.Forms.TextBox textBoxSpecificIcon;
+        private System.Windows.Forms.Button buttonChangeSpecificIcon;
+        private System.Windows.Forms.Button buttonTrayIconDefault;
+        private System.Windows.Forms.RadioButton radioButtonCycleOverIconsFromFolder;
+        private System.Windows.Forms.TextBox textBoxCycleOverIconsFolder;
+        private System.Windows.Forms.Button buttonChangeCycleOverIconsFolder;
     }
 }
