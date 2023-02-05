@@ -2,6 +2,9 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using System.Collections.Generic;
+using System.Linq;
+
 namespace SystemTrayMenu.UserInterface
 {
     using System;
@@ -1187,6 +1190,107 @@ namespace SystemTrayMenu.UserInterface
                 if (!SettingsForm.IsOpen())
                 {
                     Properties.Settings.Default.Save();
+                }
+            }
+        }
+
+        private void Menu_KeyUp(object sender, KeyEventArgs e)
+        {
+            static MouseEventArgs DefaultMouseEventArgs()
+            {
+                return new MouseEventArgs(MouseButtons.Left, 1, 0, 0, 0);
+            }
+
+            var keyMaps = new Dictionary<KeyEventArgs, Action<object>>
+            {
+                {
+                    new KeyEventArgs(Keys.A | Keys.Alt), (originator) =>
+                    {
+                        if (pictureBoxMenuAlwaysOpen.Visible)
+                        {
+                            PictureBoxMenuAlwaysOpen_Click(originator, EventArgs.Empty);
+                        }
+                    }
+                },
+                {
+                    new KeyEventArgs(Keys.O | Keys.Alt), (originator) =>
+                    {
+                        if (pictureBoxOpenFolder.Visible)
+                        {
+                            PictureBoxOpenFolder_Click(originator, DefaultMouseEventArgs());
+                        }
+                    }
+                },
+                {
+                    new KeyEventArgs(Keys.R | Keys.Alt), (originator) =>
+                    {
+                        if (pictureBoxRestart.Visible)
+                        {
+                            PictureBoxRestart_MouseClick(originator, DefaultMouseEventArgs());
+                        }
+                    }
+                },
+                {
+                    new KeyEventArgs(Keys.S | Keys.Alt), (originator) =>
+                    {
+                        if (pictureBoxSettings.Visible)
+                        {
+                            PictureBoxSettings_MouseClick(originator, DefaultMouseEventArgs());
+                        }
+                    }
+                },
+            };
+
+            var keyMapAction = keyMaps
+                .Where(km =>
+                    km.Key.KeyCode == e.KeyCode
+                    && km.Key.Modifiers == e.Modifiers)
+                .Select(km => km.Value)
+                .FirstOrDefault();
+
+            if (keyMapAction != null)
+            {
+                keyMapAction.Invoke(sender);
+                e.Handled = true;
+                e.SuppressKeyPress = true;
+            }
+            else
+            {
+                if (e.KeyCode == Keys.A && e.Alt && !e.Control && !e.Shift)
+                {
+                    if (pictureBoxMenuAlwaysOpen.Visible)
+                    {
+                        PictureBoxMenuAlwaysOpen_Click(sender, EventArgs.Empty);
+                        e.Handled = true;
+                        e.SuppressKeyPress = true;
+                    }
+                }
+                else if (e.KeyCode == Keys.O && e.Alt && !e.Control && !e.Shift)
+                {
+                    if (pictureBoxOpenFolder.Visible)
+                    {
+                        PictureBoxOpenFolder_Click(sender, DefaultMouseEventArgs());
+                        e.Handled = true;
+                        e.SuppressKeyPress = true;
+                    }
+                }
+                else if (e.KeyCode == Keys.R && e.Alt && !e.Control && !e.Shift)
+                {
+                    if (pictureBoxRestart.Visible)
+                    {
+                        PictureBoxRestart_MouseClick(sender, DefaultMouseEventArgs());
+                        e.Handled = true;
+                        e.SuppressKeyPress = true;
+                    }
+                }
+                else if (e.KeyCode == Keys.S && e.Alt && !e.Control && !e.Shift)
+                {
+                    if (pictureBoxSettings.Visible)
+                    {
+                        PictureBoxSettings_MouseClick(sender, DefaultMouseEventArgs());
+                        e.Handled = true;
+                        e.SuppressKeyPress = true;
+                    }
                 }
             }
         }
