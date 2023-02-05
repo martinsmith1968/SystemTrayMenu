@@ -2,6 +2,8 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using SystemTrayMenu.Properties;
+
 namespace SystemTrayMenu.Business
 {
     using System;
@@ -576,26 +578,9 @@ namespace SystemTrayMenu.Business
             dataTable.Columns.Add("data", typeof(RowData));
             dataTable.Columns.Add("SortIndex");
 
-            if (Properties.Settings.Default.RemoveDuplicateShortcuts && !Properties.Settings.Default.ShowOnlyAsSearchResult)
+            if (Settings.Default.RemoveDuplicateShortcuts && !Settings.Default.ShowOnlyAsSearchResult)
             {
-                var filteredRowData = new List<RowData>();
-
-                foreach (RowData rowData in data)
-                {
-                    var firstItem = data.FirstOrDefault(d =>
-                        d.FileInfo.Name == rowData.FileInfo.Name
-                        && d.FileInfo.Extension == rowData.FileInfo.Extension);
-
-                    if (!string.Equals(firstItem?.FileInfo.FullName, rowData.FileInfo.FullName, StringComparison.Ordinal))
-                    {
-                        Log.Info($"Removed duplicate: {rowData.FileInfo.Name}{rowData.FileInfo.Extension} ({rowData.FileInfo.FullName})");
-                        continue;
-                    }
-
-                    filteredRowData.Add(rowData);
-                }
-
-                data = filteredRowData;
+                data = FilterRowData(data);
             }
 
             foreach (RowData rowData in data)
@@ -632,6 +617,39 @@ namespace SystemTrayMenu.Business
                     row[columnSortIndex] = 0;
                 }
             }
+        }
+
+        private static List<RowData> FilterRowData(List<RowData> data)
+        {
+            var filteredRowData = new List<RowData>();
+
+            foreach (RowData rowData in data)
+            {
+                RowData firstItem = null;
+
+                if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FullFileName)
+                {
+                    firstItem = data.FirstOrDefault(d => d.FileInfo.FullName == rowData.FileInfo.FullName);
+                }
+                else if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FileNameAndExtension)
+                {
+                    firstItem = data.FirstOrDefault(d => d.FileInfo.Name == rowData.FileInfo.Name && d.FileInfo.Extension == rowData.FileInfo.Extension);
+                }
+                else if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FileNameOnly)
+                {
+                    firstItem = data.FirstOrDefault(d => d.FileInfo.Name == rowData.FileInfo.Name);
+                }
+
+                if (!string.Equals(firstItem?.FileInfo.FullName, rowData.FileInfo.FullName, StringComparison.Ordinal))
+                {
+                    Log.Info($"Removed duplicate: {rowData.FileInfo.Name}{rowData.FileInfo.Extension} ({rowData.FileInfo.FullName})");
+                    continue;
+                }
+
+                filteredRowData.Add(rowData);
+            }
+
+            return filteredRowData;
         }
 
         private bool IsActive()

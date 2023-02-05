@@ -141,6 +141,10 @@ namespace SystemTrayMenu.UserInterface
             this.checkBoxGenerateShortcutsToDrives = new System.Windows.Forms.CheckBox();
             this.checkBoxShowOnlyAsSearchResult = new System.Windows.Forms.CheckBox();
             this.checkBoxRemoveDuplicateShortcuts = new System.Windows.Forms.CheckBox();
+            this.panelRemoveDuplicateShortcuts = new System.Windows.Forms.Panel();
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly = new System.Windows.Forms.RadioButton();
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension = new System.Windows.Forms.RadioButton();
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName = new System.Windows.Forms.RadioButton();
             this.buttonDefaultFolders = new System.Windows.Forms.Button();
             this.tabPageExpert = new System.Windows.Forms.TabPage();
             this.tableLayoutPanelExpert = new System.Windows.Forms.TableLayoutPanel();
@@ -400,6 +404,7 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFolderToRootFolder.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFolders)).BeginInit();
             this.tableLayoutPanelAddSampleStartMenuFolder.SuspendLayout();
+            this.panelRemoveDuplicateShortcuts.SuspendLayout();
             this.tabPageExpert.SuspendLayout();
             this.tableLayoutPanelExpert.SuspendLayout();
             this.groupBoxSearchPattern.SuspendLayout();
@@ -1857,7 +1862,7 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFoldersInRootFolder.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanelFoldersInRootFolder.Size = new System.Drawing.Size(345, 440);
+            this.tableLayoutPanelFoldersInRootFolder.Size = new System.Drawing.Size(345, 521);
             this.tableLayoutPanelFoldersInRootFolder.TabIndex = 1;
             // 
             // groupBoxFoldersInRootFolder
@@ -1868,7 +1873,7 @@ namespace SystemTrayMenu.UserInterface
             this.groupBoxFoldersInRootFolder.Controls.Add(this.tableLayoutPanelFolderToRootFoldersList);
             this.groupBoxFoldersInRootFolder.Location = new System.Drawing.Point(3, 3);
             this.groupBoxFoldersInRootFolder.Name = "groupBoxFoldersInRootFolder";
-            this.groupBoxFoldersInRootFolder.Size = new System.Drawing.Size(333, 391);
+            this.groupBoxFoldersInRootFolder.Size = new System.Drawing.Size(333, 472);
             this.groupBoxFoldersInRootFolder.TabIndex = 0;
             this.groupBoxFoldersInRootFolder.TabStop = false;
             this.groupBoxFoldersInRootFolder.Text = "groupBoxFoldersInRootFolder";
@@ -1884,10 +1889,11 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxGenerateShortcutsToDrives, 0, 5);
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxShowOnlyAsSearchResult, 0, 0);
             this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.checkBoxRemoveDuplicateShortcuts, 0, 6);
+            this.tableLayoutPanelFolderToRootFoldersList.Controls.Add(this.panelRemoveDuplicateShortcuts, 0, 7);
             this.tableLayoutPanelFolderToRootFoldersList.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanelFolderToRootFoldersList.Location = new System.Drawing.Point(3, 19);
             this.tableLayoutPanelFolderToRootFoldersList.Name = "tableLayoutPanelFolderToRootFoldersList";
-            this.tableLayoutPanelFolderToRootFoldersList.RowCount = 7;
+            this.tableLayoutPanelFolderToRootFoldersList.RowCount = 8;
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
@@ -1895,7 +1901,8 @@ namespace SystemTrayMenu.UserInterface
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanelFolderToRootFoldersList.Size = new System.Drawing.Size(327, 369);
+            this.tableLayoutPanelFolderToRootFoldersList.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanelFolderToRootFoldersList.Size = new System.Drawing.Size(327, 450);
             this.tableLayoutPanelFolderToRootFoldersList.TabIndex = 0;
             // 
             // tableLayoutPanelFolderToRootFolder
@@ -2056,12 +2063,59 @@ namespace SystemTrayMenu.UserInterface
             this.checkBoxRemoveDuplicateShortcuts.TabIndex = 9;
             this.checkBoxRemoveDuplicateShortcuts.Text = "checkBoxRemoveDuplicateShortcuts";
             this.checkBoxRemoveDuplicateShortcuts.UseVisualStyleBackColor = true;
+            this.checkBoxRemoveDuplicateShortcuts.CheckedChanged += new System.EventHandler(this.checkBoxRemoveDuplicateShortcuts_CheckedChanged);
+            // 
+            // panelRemoveDuplicateShortcuts
+            // 
+            this.panelRemoveDuplicateShortcuts.Controls.Add(this.radioButtonRemoveDuplicateShortcutsByFileNameOnly);
+            this.panelRemoveDuplicateShortcuts.Controls.Add(this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension);
+            this.panelRemoveDuplicateShortcuts.Controls.Add(this.radioButtonRemoveDuplicateShortcutsByFullFileName);
+            this.panelRemoveDuplicateShortcuts.Location = new System.Drawing.Point(3, 372);
+            this.panelRemoveDuplicateShortcuts.Name = "panelRemoveDuplicateShortcuts";
+            this.panelRemoveDuplicateShortcuts.Size = new System.Drawing.Size(321, 75);
+            this.panelRemoveDuplicateShortcuts.TabIndex = 10;
+            // 
+            // radioButtonRemoveDuplicateShortcutsByFileNameOnly
+            // 
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.AutoSize = true;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.Location = new System.Drawing.Point(20, 50);
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.Name = "radioButtonRemoveDuplicateShortcutsByFileNameOnly";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.Size = new System.Drawing.Size(319, 19);
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.TabIndex = 2;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.TabStop = true;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag = "FILENAMEONLY";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.Text = "radioButtonRemoveDuplicateShortcutsByFileNameOnly";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameOnly.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRemoveDuplicateShortcutsByFileNameAndExtension
+            // 
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.AutoSize = true;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Location = new System.Drawing.Point(20, 25);
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Name = "radioButtonRemoveDuplicateShortcutsByFileNameAndExtension";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Size = new System.Drawing.Size(367, 19);
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.TabIndex = 1;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.TabStop = true;
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag = "FILENAMEANDEXTENSION";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Text = "radioButtonRemoveDuplicateShortcutsByFileNameAndExtension";
+            this.radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.UseVisualStyleBackColor = true;
+            // 
+            // radioButtonRemoveDuplicateShortcutsByFullFileName
+            // 
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.AutoSize = true;
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.Location = new System.Drawing.Point(20, 0);
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.Name = "radioButtonRemoveDuplicateShortcutsByFullFileName";
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.Size = new System.Drawing.Size(313, 19);
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.TabIndex = 0;
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.TabStop = true;
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.Tag = "FULLFILENAME";
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.Text = "radioButtonRemoveDuplicateShortcutsByFullFileName";
+            this.radioButtonRemoveDuplicateShortcutsByFullFileName.UseVisualStyleBackColor = true;
             // 
             // buttonDefaultFolders
             // 
             this.buttonDefaultFolders.AutoSize = true;
             this.buttonDefaultFolders.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonDefaultFolders.Location = new System.Drawing.Point(9, 406);
+            this.buttonDefaultFolders.Location = new System.Drawing.Point(9, 487);
             this.buttonDefaultFolders.Margin = new System.Windows.Forms.Padding(9, 9, 3, 9);
             this.buttonDefaultFolders.MinimumSize = new System.Drawing.Size(75, 25);
             this.buttonDefaultFolders.Name = "buttonDefaultFolders";
@@ -4974,6 +5028,8 @@ namespace SystemTrayMenu.UserInterface
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewFolders)).EndInit();
             this.tableLayoutPanelAddSampleStartMenuFolder.ResumeLayout(false);
             this.tableLayoutPanelAddSampleStartMenuFolder.PerformLayout();
+            this.panelRemoveDuplicateShortcuts.ResumeLayout(false);
+            this.panelRemoveDuplicateShortcuts.PerformLayout();
             this.tabPageExpert.ResumeLayout(false);
             this.tabPageExpert.PerformLayout();
             this.tableLayoutPanelExpert.ResumeLayout(false);
@@ -5452,5 +5508,9 @@ namespace SystemTrayMenu.UserInterface
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeySettings;
         private System.Windows.Forms.CheckBox checkBoxShowFunctionKeyRestart;
         private System.Windows.Forms.CheckBox checkBoxRemoveDuplicateShortcuts;
+        private System.Windows.Forms.Panel panelRemoveDuplicateShortcuts;
+        private System.Windows.Forms.RadioButton radioButtonRemoveDuplicateShortcutsByFileNameOnly;
+        private System.Windows.Forms.RadioButton radioButtonRemoveDuplicateShortcutsByFileNameAndExtension;
+        private System.Windows.Forms.RadioButton radioButtonRemoveDuplicateShortcutsByFullFileName;
     }
 }

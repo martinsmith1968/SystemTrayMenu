@@ -540,4 +540,13 @@
   <data name="Remove Duplicate Shortcuts" xml:space="preserve">
     <value>Remove any Duplicate Shortcuts from the Menu</value>
   </data>
+  <data name="Remove Duplicate Shortcuts By FileName and Extension" xml:space="preserve">
+    <value>By File Name and Extension</value>
+  </data>
+  <data name="Remove Duplicate Shortcuts By FileName Only" xml:space="preserve">
+    <value>By File Name Only</value>
+  </data>
+  <data name="Remove Duplicate Shortcuts By Full File Name" xml:space="preserve">
+    <value>By Full File Name</value>
+  </data>
 </root>

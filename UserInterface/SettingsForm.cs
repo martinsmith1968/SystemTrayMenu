@@ -53,6 +53,11 @@ namespace SystemTrayMenu.UserInterface
                 tableLayoutPanelHotkey.Controls.Add(textBoxHotkey, 0, 0);
             }
 
+            // Initialise Tags
+            radioButtonRemoveDuplicateShortcutsByFullFileName.Tag = Constants.RemoveDuplicatesBy.FullFileName;
+            radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag = Constants.RemoveDuplicatesBy.FileNameAndExtension;
+            radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag = Constants.RemoveDuplicatesBy.FileNameOnly;
+
             // designer always resets it to 1
             tabControl.SelectedIndex = 0;
 
@@ -179,6 +184,9 @@ namespace SystemTrayMenu.UserInterface
                 buttonDefaultFolders.Text = Translator.GetText("Default");
                 checkBoxGenerateShortcutsToDrives.Text = Translator.GetText("Generate drive shortcuts on startup");
                 checkBoxRemoveDuplicateShortcuts.Text = Translator.GetText("Remove Duplicate Shortcuts");
+                radioButtonRemoveDuplicateShortcutsByFullFileName.Text = Translator.GetText("Remove Duplicate Shortcuts By Full File Name");
+                radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Text = Translator.GetText("Remove Duplicate Shortcuts By FileName and Extension");
+                radioButtonRemoveDuplicateShortcutsByFileNameOnly.Text = Translator.GetText("Remove Duplicate Shortcuts By FileName Only");
 
                 tabPageExpert.Text = Translator.GetText("Expert");
                 groupBoxStaysOpen.Text = Translator.GetText("Menu stays open");
@@ -499,6 +507,15 @@ namespace SystemTrayMenu.UserInterface
 
             checkBoxGenerateShortcutsToDrives.Checked = Settings.Default.GenerateShortcutsToDrives;
             checkBoxRemoveDuplicateShortcuts.Checked = Settings.Default.RemoveDuplicateShortcuts;
+            radioButtonRemoveDuplicateShortcutsByFullFileName.Checked = Settings.Default.RemoveDuplicateShortcutsBy == (string)radioButtonRemoveDuplicateShortcutsByFullFileName.Tag;
+            radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Checked = Settings.Default.RemoveDuplicateShortcutsBy == (string)radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag;
+            radioButtonRemoveDuplicateShortcutsByFileNameOnly.Checked = Settings.Default.RemoveDuplicateShortcutsBy == (string)radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag;
+            if (!(radioButtonRemoveDuplicateShortcutsByFullFileName.Checked
+                  || radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Checked
+                  || radioButtonRemoveDuplicateShortcutsByFileNameOnly.Checked))
+            {
+                radioButtonRemoveDuplicateShortcutsByFullFileName.Checked = true;
+            }
 
             checkBoxStayOpenWhenItemClicked.Checked = Settings.Default.StaysOpenWhenItemClicked;
             checkBoxStayOpenWhenFocusLost.Checked = Settings.Default.StaysOpenWhenFocusLost;
@@ -993,6 +1010,10 @@ namespace SystemTrayMenu.UserInterface
 
             Settings.Default.GenerateShortcutsToDrives = checkBoxGenerateShortcutsToDrives.Checked;
             Settings.Default.RemoveDuplicateShortcuts = checkBoxRemoveDuplicateShortcuts.Checked;
+            Settings.Default.RemoveDuplicateShortcutsBy =
+                radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Checked ? (string)radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag
+                : radioButtonRemoveDuplicateShortcutsByFileNameOnly.Checked ? (string)radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag
+                : (string)radioButtonRemoveDuplicateShortcutsByFullFileName.Tag;
 
             Settings.Default.StaysOpenWhenItemClicked = checkBoxStayOpenWhenItemClicked.Checked;
             Settings.Default.StaysOpenWhenFocusLost = checkBoxStayOpenWhenFocusLost.Checked;
@@ -1515,6 +1536,11 @@ namespace SystemTrayMenu.UserInterface
             radioButtonNextToPreviousMenu.Checked = false;
             radioButtonNextToPreviousMenu.CheckedChanged += RadioButtonNextToPreviousMenu_CheckedChanged;
             numericUpDownOverlappingOffsetPixels.Enabled = true;
+        }
+
+        private void checkBoxRemoveDuplicateShortcuts_CheckedChanged(object sender, EventArgs e)
+        {
+            panelRemoveDuplicateShortcuts.Enabled = checkBoxRemoveDuplicateShortcuts.Checked;
         }
     }
 }
