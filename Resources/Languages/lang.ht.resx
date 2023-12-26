@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Konplo koulè nwa toujou aktif</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Avanse</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Elaji</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Nan kote sourit la</value>
@@ -268,7 +268,7 @@
     <value>Flèch</value>
   </data>
   <data name="Arrow when clicking" xml:space="preserve">
-    <value>Flèch lè w klike</value>
+    <value>Flèch lè w klike sou</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
     <value>Flèch pandan y ap sourit la sou li</value>
@@ -397,7 +397,7 @@
     <value>Anba dwat</value>
   </data>
   <data name="Main menu appears" xml:space="preserve">
-    <value>Meni prensipal parèt</value>
+    <value>Meni prensipal la parèt</value>
   </data>
   <data name="Mouse location (above Taskbar icon)" xml:space="preserve">
     <value>Kote sourit (anwo a ikòn ba Travay la)</value>
@@ -437,6 +437,9 @@
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Yon sèl klike sou yo louvri yon anyè</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Sipòte Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Akote youn anvan an</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Anyè ikon chemen kout sou entènèt</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ranje pa kalite ak dat</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ranje pa kalite (dosye oswa dosye) ak dat</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ranje pa kalite ak non</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Ranje pa kalite (dosye oswa dosye) ak non</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Tcheke pou mizajou</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Gwosè aplikasyon an</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Karakteristik si ou vle</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Rezoud lyen ki mennen nan dosye epi montre kontni</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Ranje pa ekstansyon dosye ak non</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Pou koupe</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Pou kole</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Chwazi tout</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Defèt</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Pa montre sijesyon sa a ankò.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Sijesyon</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Ou ka louvri meni paramèt la tou lè w klike sou ikòn ki nan plato sistèm nan anba a dwat, nan ka ou pa kapab ouvri li ankò atravè meni an.</value>
   </data>
 </root>

@@ -118,423 +118,459 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About SystemTrayMenu" xml:space="preserve">
-    <value>Om SystemTrayMenu</value>
+    <value>Tungkol sa SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
     <value>OK</value>
   </data>
   <data name="App start" xml:space="preserve">
-    <value>Appstart</value>
+    <value>Pagsisimula ng app</value>
   </data>
   <data name="Exit app" xml:space="preserve">
-    <value>Avslutt appen</value>
+    <value>Lumabas sa app</value>
   </data>
   <data name="Directory" xml:space="preserve">
-    <value>Katalog</value>
+    <value>Direktoryo</value>
   </data>
   <data name="Directory empty" xml:space="preserve">
-    <value>Katalog tom</value>
+    <value>Walang laman ang direktoryo</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Detaljer</value>
+    <value>Mga Detalye</value>
   </data>
   <data name="System Info" xml:space="preserve">
-    <value>Systeminformasjon</value>
+    <value>Info ng sistema</value>
   </data>
   <data name="Directory inaccessible" xml:space="preserve">
-    <value>Katalog utilgjengelig</value>
+    <value>Hindi naa-access ang direktoryo</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Språk</value>
+    <value>Wika</value>
   </data>
   <data name="Log File" xml:space="preserve">
-    <value>Loggfil</value>
+    <value>Log File</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>Omstart</value>
+    <value>I-restart</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
-    <value>Kunne ikke registrere hurtigtasten.</value>
+    <value>Hindi mairehistro ang hot key.</value>
   </data>
   <data name="Abort" xml:space="preserve">
-    <value>Avbryte</value>
+    <value>I-abort</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Generell</value>
+    <value>Heneral</value>
   </data>
   <data name="Hotkey" xml:space="preserve">
-    <value>Hurtigtast</value>
+    <value>Hotkey</value>
   </data>
   <data name="Start with Windows" xml:space="preserve">
-    <value>Start med Windows</value>
+    <value>Magsimula sa Windows</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Innstillinger</value>
+    <value>Mga setting</value>
   </data>
   <data name="Frequently Asked Questions" xml:space="preserve">
-    <value>ofte stilte spørsmål</value>
+    <value>Mga Madalas Itanong</value>
   </data>
   <data name="Read the FAQ and then choose a root directory for SystemTrayMenu." xml:space="preserve">
-    <value>Les FAQ og velg deretter en rotkatalog for SystemTrayMenu.</value>
+    <value>Basahin ang FAQ at pagkatapos ay pumili ng root directory para sa SystemTrayMenu.</value>
   </data>
   <data name="Select directory" xml:space="preserve">
-    <value>Velg katalog</value>
+    <value>Pumili ng direktoryo</value>
   </data>
   <data name="Your root directory for the app does not exist or is empty! Change the root directory or put some files, directories or shortcuts into the root directory." xml:space="preserve">
-    <value>Rotkatalogen din for appen eksisterer ikke eller er tom! Endre rotkatalogen eller legg noen filer, kataloger eller snarveier inn i rotkatalogen.</value>
+    <value>Ang iyong root directory para sa app ay wala o walang laman! Baguhin ang root directory o maglagay ng ilang file, directory o shortcut sa root directory.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
-    <value>Du har ikke tilgang til rotkatalogen til appen. Gi tilgang til katalogen eller endre rotkatalogen.</value>
+    <value>Wala kang access sa root directory ng app. Magbigay ng access sa direktoryo o baguhin ang root directory.</value>
   </data>
   <data name="Single click to open an element" xml:space="preserve">
-    <value>Enkeltklikk for å åpne et element</value>
+    <value>Isang pag-click upang buksan ang isang elemento</value>
   </data>
   <data name="Color scheme dark always active" xml:space="preserve">
-    <value>Fargeskjema mørk alltid aktiv</value>
+    <value>Madilim ang kulay na laging aktibo</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Avansert</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Pinalawak</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
-    <value>På museplassering</value>
+    <value>Sa lokasyon ng mouse</value>
   </data>
   <data name="Changing directory" xml:space="preserve">
-    <value>Bytter katalog</value>
+    <value>Pagbabago ng direktoryo</value>
   </data>
   <data name="Click" xml:space="preserve">
-    <value>Klikk</value>
+    <value>I-click</value>
   </data>
   <data name="Customize" xml:space="preserve">
-    <value>Tilpass</value>
+    <value>I-customize</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Misligholde</value>
+    <value>Default</value>
   </data>
   <data name="If the focus is lost and the mouse is still on the menu" xml:space="preserve">
-    <value>Hvis fokuset er tapt og musen fortsatt er på menyen</value>
+    <value>Kung nawala ang focus at nasa menu pa rin ang mouse</value>
   </data>
   <data name="Milliseconds until a menu opens when the mouse is on it" xml:space="preserve">
-    <value>Millisekunder til en meny åpnes når musen er på den</value>
+    <value>Milliseconds hanggang magbukas ang isang menu kapag ang mouse ay nasa ibabaw nito</value>
   </data>
   <data name="Milliseconds until the menu closes if the mouse then leaves the menu" xml:space="preserve">
-    <value>Millisekunder til menyen lukkes hvis musen da forlater menyen</value>
+    <value>Milliseconds hanggang sa magsara ang menu kung aalis ang mouse sa menu</value>
   </data>
   <data name="Maximum menu width" xml:space="preserve">
-    <value>Maksimal menybredde</value>
+    <value>Pinakamataas na lapad ng menu</value>
   </data>
   <data name="Menu stays open" xml:space="preserve">
-    <value>Menyen forblir åpen</value>
+    <value>Nananatiling bukas ang menu</value>
   </data>
   <data name="Time until a menu opens" xml:space="preserve">
-    <value>Tid til en meny åpnes</value>
+    <value>Oras hanggang magbukas ang isang menu</value>
   </data>
   <data name="If an element was clicked" xml:space="preserve">
-    <value>Hvis et element ble klikket</value>
+    <value>Kung may na-click na elemento</value>
   </data>
   <data name="Background" xml:space="preserve">
-    <value>Bakgrunn</value>
+    <value>Background</value>
   </data>
   <data name="Opened directory" xml:space="preserve">
-    <value>Åpnet katalog</value>
+    <value>Binuksan ang direktoryo</value>
   </data>
   <data name="Border of opened directory" xml:space="preserve">
-    <value>Kant til åpnet katalog</value>
+    <value>Border ng binuksan na direktoryo</value>
   </data>
   <data name="Search field" xml:space="preserve">
-    <value>Søkefelt</value>
+    <value>Field ng paghahanap</value>
   </data>
   <data name="Selected element" xml:space="preserve">
-    <value>Valgt element</value>
+    <value>Napiling elemento</value>
   </data>
   <data name="Border of selected element" xml:space="preserve">
-    <value>Kantlinje til valgt element</value>
+    <value>Border ng napiling elemento</value>
   </data>
   <data name="Relative directory" xml:space="preserve">
-    <value>Relativ katalog</value>
+    <value>Kamag-anak na direktoryo</value>
   </data>
   <data name="Save configuration file in application directory" xml:space="preserve">
-    <value>Lagre konfigurasjonsfilen i programkatalogen</value>
+    <value>I-save ang configuration file sa application directory</value>
   </data>
   <data name="Configuration and log files" xml:space="preserve">
-    <value>Konfigurasjon og loggfiler</value>
+    <value>Configuration at log file</value>
   </data>
   <data name="Open application directory" xml:space="preserve">
-    <value>Åpne programkatalogen</value>
+    <value>Buksan ang direktoryo ng application</value>
   </data>
   <data name="Maximum menu height" xml:space="preserve">
-    <value>Maksimal menyhøyde</value>
+    <value>Pinakamataas na taas ng menu</value>
   </data>
   <data name="Arrow" xml:space="preserve">
-    <value>Pil</value>
+    <value>Palaso</value>
   </data>
   <data name="Arrow when clicking" xml:space="preserve">
-    <value>Pil når du klikker</value>
+    <value>Arrow kapag nag-click</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
-    <value>Pil mens musen svever over den</value>
+    <value>Arrow habang naka-hover ang mouse sa ibabaw nito</value>
   </data>
   <data name="Background of arrow when clicking" xml:space="preserve">
-    <value>Bakgrunn av pil når du klikker</value>
+    <value>Background ng arrow kapag nag-click</value>
   </data>
   <data name="Background of arrow while mouse hovers over it" xml:space="preserve">
-    <value>Bakgrunn av pil mens musen svever over den</value>
+    <value>Background ng arrow habang naka-hover ang mouse sa ibabaw nito</value>
   </data>
   <data name="Color scheme dark" xml:space="preserve">
-    <value>Fargeskjema mørkt</value>
+    <value>Madilim ang scheme ng kulay</value>
   </data>
   <data name="Color scheme bright" xml:space="preserve">
-    <value>Lys fargevalg</value>
+    <value>Maliwanag ang scheme ng kulay</value>
   </data>
   <data name="App menu" xml:space="preserve">
-    <value>Appmeny</value>
+    <value>Menu ng app</value>
   </data>
   <data name="Scrollbar" xml:space="preserve">
-    <value>Rullefelt</value>
+    <value>Scroll bar</value>
   </data>
   <data name="Slider" xml:space="preserve">
-    <value>Skyveknapp</value>
+    <value>Slider</value>
   </data>
   <data name="Slider while dragging" xml:space="preserve">
-    <value>Skyveknapp mens du drar</value>
+    <value>Slider habang kinakaladkad</value>
   </data>
   <data name="Slider while mouse hovers over it 1" xml:space="preserve">
-    <value>Skyv mens musen svever over den 1</value>
+    <value>Slider habang naka-hover ang mouse sa ibabaw nito 1</value>
   </data>
   <data name="Slider while mouse hovers over it 2" xml:space="preserve">
-    <value>Skyv mens musen svever over den 2</value>
+    <value>Slider habang naka-hover ang mouse sa ibabaw nito 2</value>
   </data>
   <data name="Use icon from directory" xml:space="preserve">
-    <value>Bruk ikon fra katalogen</value>
+    <value>Gamitin ang icon mula sa direktoryo</value>
   </data>
   <data name="Sizes in percent" xml:space="preserve">
-    <value>Størrelser i prosent</value>
+    <value>Mga sukat sa porsyento</value>
   </data>
   <data name="Border of menu" xml:space="preserve">
-    <value>Kant av menyen</value>
+    <value>Border ng menu</value>
   </data>
   <data name="Icons" xml:space="preserve">
-    <value>Ikoner</value>
+    <value>Mga icon</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
-    <value>Sett av kontekstmeny</value>
+    <value>Itakda sa pamamagitan ng menu ng konteksto</value>
   </data>
   <data name="Set as directory" xml:space="preserve">
-    <value>Sett som katalog</value>
+    <value>Itakda bilang direktoryo</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>lasting</value>
+    <value>naglo-load</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
-    <value>Problem med snarveislenke</value>
+    <value>Problema sa shortcut link</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>Elementet som denne snarveien refererer til har blitt endret eller flyttet, så denne snarveien vil ikke lenger fungere som den skal.</value>
+    <value>Ang item na tinutukoy ng shortcut na ito ay binago o inilipat, kaya hindi na gagana nang maayos ang shortcut na ito.</value>
   </data>
   <data name="Open directory" xml:space="preserve">
-    <value>Åpne katalogen</value>
+    <value>Buksan ang direktoryo</value>
   </data>
   <data name="Task Manager" xml:space="preserve">
-    <value>Oppgavebehandling</value>
+    <value>Task manager</value>
   </data>
   <data name="Deactivated" xml:space="preserve">
-    <value>Deaktivert</value>
+    <value>Na-deactivate</value>
   </data>
   <data name="Activated" xml:space="preserve">
-    <value>Aktivert</value>
+    <value>Na-activate</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>Ekspert</value>
+    <value>Dalubhasa</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
-    <value>Hvis fokuset mistes og Enter-tasten ble trykket</value>
+    <value>Kung nawala ang focus at pinindot ang Enter key</value>
   </data>
   <data name="Milliseconds until the menu closes if the menu is not reactivated" xml:space="preserve">
-    <value>Millisekunder til menyen lukkes hvis menyen ikke aktiveres på nytt</value>
+    <value>Milliseconds hanggang sa magsara ang menu kung hindi muling na-activate ang menu</value>
   </data>
   <data name="Show in Taskbar" xml:space="preserve">
-    <value>Vis i oppgavelinjen</value>
+    <value>Ipakita sa Taskbar</value>
   </data>
   <data name="Add directory" xml:space="preserve">
-    <value>Legg til katalog</value>
+    <value>Magdagdag ng direktoryo</value>
   </data>
   <data name="Add content of directory to root directory" xml:space="preserve">
-    <value>Legg til innholdet i katalogen til rotkatalogen</value>
+    <value>Magdagdag ng nilalaman ng direktoryo sa root directory</value>
   </data>
   <data name="Directory paths" xml:space="preserve">
-    <value>Katalogstier</value>
+    <value>Mga landas ng direktoryo</value>
   </data>
   <data name="Directories" xml:space="preserve">
-    <value>Kataloger</value>
+    <value>Mga direktoryo</value>
   </data>
   <data name="Recursive" xml:space="preserve">
-    <value>Tilbakevendende</value>
+    <value>Recursive</value>
   </data>
   <data name="Remove directory" xml:space="preserve">
-    <value>Fjern katalogen</value>
+    <value>Alisin ang direktoryo</value>
   </data>
   <data name="Only Files" xml:space="preserve">
-    <value>Kun filer</value>
+    <value>Mga File lang</value>
   </data>
   <data name="Clear cache if more than this number of items" xml:space="preserve">
-    <value>Tøm hurtigbufferen hvis flere enn dette antallet elementer</value>
+    <value>I-clear ang cache kung higit pa sa bilang na ito ng mga item</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>Legg til eksempelkatalog "Startmeny"</value>
+    <value>Magdagdag ng sample na direktoryo na 'Start Menu'</value>
   </data>
   <data name="Row height" xml:space="preserve">
-    <value>Radhøyde</value>
+    <value>Taas ng hilera</value>
   </data>
   <data name="Round corners" xml:space="preserve">
-    <value>Runde hjørner</value>
+    <value>Pabilog na sulok</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Utseende</value>
+    <value>Hitsura</value>
   </data>
   <data name="Bottom left" xml:space="preserve">
-    <value>Nede til venstre</value>
+    <value>Babang kaliwa</value>
   </data>
   <data name="Bottom right" xml:space="preserve">
-    <value>Nede til høyre</value>
+    <value>kanang ibaba</value>
   </data>
   <data name="Main menu appears" xml:space="preserve">
-    <value>Hovedmenyen vises</value>
+    <value>Lumilitaw ang pangunahing menu</value>
   </data>
   <data name="Mouse location (above Taskbar icon)" xml:space="preserve">
-    <value>Museplassering (over oppgavelinjeikonet)</value>
+    <value>Lokasyon ng mouse (sa itaas ng icon ng Taskbar)</value>
   </data>
   <data name="Custom (drag it to the appropriate position)" xml:space="preserve">
-    <value>Egendefinert (dra den til riktig posisjon)</value>
+    <value>Custom (i-drag ito sa naaangkop na posisyon)</value>
   </data>
   <data name="element" xml:space="preserve">
-    <value>element</value>
+    <value>elemento</value>
   </data>
   <data name="elements" xml:space="preserve">
-    <value>elementer</value>
+    <value>mga elemento</value>
   </data>
   <data name="Generate drive shortcuts on startup" xml:space="preserve">
-    <value>Generer stasjonssnarveier ved oppstart</value>
+    <value>Bumuo ng mga shortcut sa drive sa startup</value>
   </data>
   <data name="Cache" xml:space="preserve">
     <value>Cache</value>
   </data>
   <data name="Always show" xml:space="preserve">
-    <value>Alltid vis</value>
+    <value>Laging ipakita</value>
   </data>
   <data name="Hidden files and directories" xml:space="preserve">
-    <value>Skjulte filer og kataloger</value>
+    <value>Mga nakatagong file at direktoryo</value>
   </data>
   <data name="Never show" xml:space="preserve">
-    <value>Vis aldri</value>
+    <value>Huwag kailanman ipakita</value>
   </data>
   <data name="Size and location" xml:space="preserve">
-    <value>Størrelse og plassering</value>
+    <value>Sukat at lokasyon</value>
   </data>
   <data name="Use operating system settings" xml:space="preserve">
-    <value>Bruk operativsysteminnstillinger</value>
+    <value>Gumamit ng mga setting ng operating system</value>
   </data>
   <data name="Show only as search result" xml:space="preserve">
-    <value>Vis kun som søkeresultat</value>
+    <value>Ipakita lamang bilang resulta ng paghahanap</value>
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
-    <value>Enkeltklikk for å åpne en katalog</value>
+    <value>Isang pag-click upang buksan ang isang direktoryo</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Suportahan ang Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
-    <value>Ved siden av den forrige</value>
+    <value>Sa tabi ng nauna</value>
   </data>
   <data name="Offset by pixels" xml:space="preserve">
-    <value>Forskjøvet med piksler</value>
+    <value>Offset ng mga pixel</value>
   </data>
   <data name="Overlapping" xml:space="preserve">
-    <value>Overlappende</value>
+    <value>Nagsasapawan</value>
   </data>
   <data name="Sub menu appears" xml:space="preserve">
-    <value>Undermenyen vises</value>
+    <value>Lumilitaw ang sub menu</value>
   </data>
   <data name="Icon size" xml:space="preserve">
-    <value>Ikonstørrelse</value>
+    <value>Laki ng icon</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
-    <value>Støtte SystemTrayMenu</value>
+    <value>Suportahan ang SystemTrayMenu</value>
   </data>
   <data name="Fading" xml:space="preserve">
-    <value>Fading</value>
+    <value>Kumukupas</value>
   </data>
   <data name="Send hotkey to other instance" xml:space="preserve">
-    <value>Send hurtigtast til en annen instans</value>
+    <value>Ipadala ang hotkey sa ibang instance</value>
   </data>
   <data name="Sorted by date" xml:space="preserve">
-    <value>Sortert etter dato</value>
+    <value>Pinagbukud-bukod ayon sa petsa</value>
   </data>
   <data name="Sorted by name" xml:space="preserve">
-    <value>Sortert etter navn</value>
+    <value>Pinagbukud-bukod ayon sa pangalan</value>
   </data>
   <data name="Sorting" xml:space="preserve">
-    <value>Sortering</value>
+    <value>Pag-uuri</value>
   </data>
   <data name="Copy row element via drag and drop" xml:space="preserve">
-    <value>Kopier radelement via dra og slipp</value>
+    <value>Kopyahin ang elemento ng row sa pamamagitan ng drag and drop</value>
   </data>
   <data name="Drag" xml:space="preserve">
-    <value>Dra</value>
+    <value>I-drag</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
-    <value>Rull via sveip</value>
+    <value>Mag-scroll sa pamamagitan ng pag-swipe</value>
   </data>
   <data name="Filter menu by file type e.g.: *.exe|*.dll" xml:space="preserve">
-    <value>Filtrer menyen etter filtype, f.eks.: *.exe|*.dll</value>
+    <value>I-filter ang menu ayon sa uri ng file hal.: *.exe|*.dll</value>
   </data>
   <data name="Show count of elements" xml:space="preserve">
-    <value>Vis antall elementer</value>
+    <value>Ipakita ang bilang ng mga elemento</value>
   </data>
   <data name="Show directory title at top" xml:space="preserve">
-    <value>Vis katalogtittel øverst</value>
+    <value>Ipakita ang pamagat ng direktoryo sa itaas</value>
   </data>
   <data name="Show function key 'Open Folder'" xml:space="preserve">
-    <value>Vis funksjonstast 'Åpne mappe'</value>
+    <value>Ipakita ang function key na 'Buksan ang Folder'</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
-    <value>Vis funksjonstast 'Pin-meny'</value>
+    <value>Ipakita ang function key na 'Pin menu'</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
-    <value>Vis funksjonstasten "Innstillinger"</value>
+    <value>Ipakita ang function key na 'Mga Setting'</value>
   </data>
   <data name="Show function key 'Restart'" xml:space="preserve">
-    <value>Vis funksjonstast 'Start på nytt'</value>
+    <value>Ipakita ang function key na 'I-restart'</value>
   </data>
   <data name="Show search bar" xml:space="preserve">
-    <value>Vis søkefeltet</value>
+    <value>Ipakita ang search bar</value>
   </data>
   <data name="Saving log file in application directory" xml:space="preserve">
-    <value>Lagrer loggfilen i programkatalogen</value>
+    <value>Pag-save ng log file sa direktoryo ng application</value>
   </data>
   <data name="Show link overlay" xml:space="preserve">
-    <value>Vis linkoverlegg</value>
+    <value>Ipakita ang overlay ng link</value>
   </data>
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
-    <value>Katalog over Internett-snarveisikoner</value>
+    <value>Direktoryo ng Internet Shortcut Icon</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Sortert etter type og dato</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Pinagbukud-bukod ayon sa uri (folder o file) at petsa</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Sortert etter type og navn</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Pinagbukud-bukod ayon sa uri (folder o file) at pangalan</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
-    <value>Se etter oppdateringer</value>
+    <value>Tingnan ang mga update</value>
   </data>
   <data name="Go to download page" xml:space="preserve">
-    <value>Gå til nedlastingssiden</value>
+    <value>Pumunta sa pahina ng pag-download</value>
   </data>
   <data name="Latest available version:" xml:space="preserve">
-    <value>Siste tilgjengelige versjon:</value>
+    <value>Pinakabagong available na bersyon:</value>
   </data>
   <data name="New version available!" xml:space="preserve">
-    <value>Ny versjon tilgjengelig!</value>
+    <value>Available ang bagong bersyon!</value>
   </data>
   <data name="You have the latest version of SystemTrayMenu!" xml:space="preserve">
-    <value>Du har den nyeste versjonen av SystemTrayMenu!</value>
+    <value>Mayroon kang pinakabagong bersyon ng SystemTrayMenu!</value>
   </data>
   <data name="Application size" xml:space="preserve">
-    <value>Søknadsstørrelse</value>
+    <value>Laki ng application</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Opsyonal na Mga Tampok</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Lutasin ang mga link sa mga folder at ipakita ang nilalaman</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Pinagbukud-bukod ayon sa extension ng file at pangalan</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopya</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Upang putulin</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Idikit</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Pagpili ng Lahat</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Pawalang-bisa</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Huwag ipakita muli ang pahiwatig na ito.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Pahiwatig</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Ang menu ng mga setting ay maaari ding buksan sa pamamagitan ng pag-right click sa icon sa system tray sa kanang ibaba, kung sakaling hindi mo na ito mabuksan sa pamamagitan ng menu.</value>
   </data>
 </root>

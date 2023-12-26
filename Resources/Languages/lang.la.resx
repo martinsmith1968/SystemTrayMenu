@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Color ratio obscura semper activae</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Provecta</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Expanded</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>In mus locum</value>
@@ -328,7 +328,7 @@
     <value>Difficultas pagina brevis</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>Item quod haec brevis ad mutatum vel motum refertur, ideo haec brevis iam non recte operatur.</value>
+    <value>Item quod haec brevis refers to mutatum aut motum est, ergo haec brevis iam non recte operatur.</value>
   </data>
   <data name="Open directory" xml:space="preserve">
     <value>Open Directory</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Single click aperire directorium</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Support Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Iuxta priorem</value>
   </data>
@@ -487,13 +490,13 @@
     <value>Ostende comitem elementorum</value>
   </data>
   <data name="Show directory title at top" xml:space="preserve">
-    <value>Ostendere indicem titulum ad top</value>
+    <value>Ostende indicem titulum ad top</value>
   </data>
   <data name="Show function key 'Open Folder'" xml:space="preserve">
     <value>Munus monstrare clavis 'Open Folder'</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
-    <value>Munus monstrare key 'Pin menu'</value>
+    <value>Munus monstrare clavis 'Pin menu'</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
     <value>Munus monstrare key 'Optiones'</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Directorium Internet Brevis Icones</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ordinatae genus et diem</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ordinatae generis (folder vel lima) et diem</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ordinata genus et nomen</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Sorted by type (folder or file) and name</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Reprehendo pro updates</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Applicationem magnitudine</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Features libitum</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Resolve nexus ad folder et ostende content</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Digerere lima extensio et nomen</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Ut interficiam de</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Ad crustulum</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Discriptis All</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Noli hoc innuere iterum.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Tabulae uncinis etiam aperiri possunt iconem in ius strepitando in lance ratio imo ad dextram, si non iam potes eam per menu aperire.</value>
   </data>
 </root>

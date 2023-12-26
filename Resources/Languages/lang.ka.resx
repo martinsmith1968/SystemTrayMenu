@@ -127,7 +127,7 @@
     <value>აპლიკაციის დაწყება</value>
   </data>
   <data name="Exit app" xml:space="preserve">
-    <value>აპიდან გასვლა</value>
+    <value>აპლიკაციიდან გასვლა</value>
   </data>
   <data name="Directory" xml:space="preserve">
     <value>დირექტორია</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>მუქი ფერის სქემა ყოველთვის აქტიურია</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Მოწინავე</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>გაფართოვდა</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>მაუსის ადგილმდებარეობაზე</value>
@@ -283,7 +283,7 @@
     <value>ფერის სქემა მუქი</value>
   </data>
   <data name="Color scheme bright" xml:space="preserve">
-    <value>ნათელი ფერების სქემა</value>
+    <value>ფერადი სქემა ნათელი</value>
   </data>
   <data name="App menu" xml:space="preserve">
     <value>აპლიკაციის მენიუ</value>
@@ -316,7 +316,7 @@
     <value>ხატები</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
-    <value>დაყენებულია კონტექსტური მენიუს მიხედვით</value>
+    <value>კონტექსტური მენიუს დაყენება</value>
   </data>
   <data name="Set as directory" xml:space="preserve">
     <value>დააყენეთ დირექტორიად</value>
@@ -355,7 +355,7 @@
     <value>დავალების პანელში ჩვენება</value>
   </data>
   <data name="Add directory" xml:space="preserve">
-    <value>დირექტორია დაამატეთ</value>
+    <value>დირექტორიას დამატება</value>
   </data>
   <data name="Add content of directory to root directory" xml:space="preserve">
     <value>დაამატეთ დირექტორიას შინაარსი root დირექტორიაში</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ერთი დაწკაპუნებით დირექტორიას გასახსნელად</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Gamepad-ის მხარდაჭერა</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>წინას გვერდით</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>ინტერნეტ მალსახმობების ხატულების დირექტორია</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>დალაგებულია ტიპისა და თარიღის მიხედვით</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>დალაგებულია ტიპის (საქაღალდე ან ფაილი) და თარიღის მიხედვით</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>დალაგებულია ტიპისა და სახელის მიხედვით</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>დალაგებულია ტიპის (საქაღალდის ან ფაილის) და სახელის მიხედვით</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Შეამოწმოთ განახლებები</value>
@@ -529,12 +532,45 @@
     <value>უახლესი ხელმისაწვდომი ვერსია:</value>
   </data>
   <data name="New version available!" xml:space="preserve">
-    <value>ხელმისაწვდომია ახალი ვერსია!</value>
+    <value>ახალი ვერსია ხელმისაწვდომია!</value>
   </data>
   <data name="You have the latest version of SystemTrayMenu!" xml:space="preserve">
     <value>თქვენ გაქვთ SystemTrayMenu-ს უახლესი ვერსია!</value>
   </data>
   <data name="Application size" xml:space="preserve">
     <value>განაცხადის ზომა</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>არჩევითი ფუნქციები</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>საქაღალდეების ბმულების გადაჭრა და შინაარსის ჩვენება</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>დალაგებულია ფაილის გაფართოებისა და სახელის მიხედვით</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>კოპირება</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>ამოჭრა</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>ჩასვით</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>ყველას შერჩევა</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>გაუქმება</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>აღარ აჩვენო ეს მინიშნება.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>მინიშნება</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>პარამეტრების მენიუს გახსნა ასევე შესაძლებელია ქვედა მარჯვენა კუთხეში სისტემის უჯრაზე მაუსის მარჯვენა ღილაკით დაწკაპუნებით, იმ შემთხვევაში, თუ მენიუს მეშვეობით ვეღარ გახსნით.</value>
   </data>
 </root>

@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>ពណ៌ចម្រុះងងឹតតែងតែសកម្ម</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>កម្រិតខ្ពស់</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>បានពង្រីក</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>នៅទីតាំងកណ្តុរ</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ចុចមួយដងដើម្បីបើកថត</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>គាំទ្រ Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>នៅជាប់នឹងមុន។</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>បញ្ជីឈ្មោះរូបតំណាងផ្លូវកាត់អ៊ីនធឺណិត</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>តម្រៀបតាមប្រភេទ និងកាលបរិច្ឆេទ</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>តម្រៀបតាមប្រភេទ (ថតឯកសារ ឬឯកសារ) និងកាលបរិច្ឆេទ</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>តម្រៀបតាមប្រភេទនិងឈ្មោះ</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>តម្រៀបតាមប្រភេទ (ថតឯកសារ ឬឯកសារ) និងឈ្មោះ</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>ពិនិត្យមើលបច្ចុប្បន្នភាព</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>ទំហំកម្មវិធី</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>លក្ខណៈពិសេសស្រេចចិត្ត</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>ដោះស្រាយតំណភ្ជាប់ទៅថតឯកសារ និងបង្ហាញមាតិកា</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>តម្រៀបតាមផ្នែកបន្ថែមឯកសារ និងឈ្មោះ</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>ចម្លង</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>ដើម្បីកាត់ចេញ</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>ដើម្បីបិទភ្ជាប់</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>ការជ្រើសរើសទាំងអស់។</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>មិនធ្វើវិញ</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>កុំបង្ហាញការណែនាំនេះម្តងទៀត។</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>ព័ត៌មានជំនួយ</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>ម៉ឺនុយការកំណត់ក៏អាចបើកបានដោយចុចកណ្ដុរស្ដាំលើរូបតំណាងនៅក្នុងថាសប្រព័ន្ធនៅខាងស្តាំខាងក្រោម ក្នុងករណីដែលអ្នកលែងអាចបើកវាតាមរយៈម៉ឺនុយ។</value>
   </data>
 </root>

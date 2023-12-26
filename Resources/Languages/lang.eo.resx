@@ -157,7 +157,7 @@
     <value>Ne eblis registri la klavoklavon.</value>
   </data>
   <data name="Abort" xml:space="preserve">
-    <value>Ĉesigi</value>
+    <value>Ĉesi</value>
   </data>
   <data name="General" xml:space="preserve">
     <value>Generalo</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Kolorskemo malhela ĉiam aktiva</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Altnivela</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Vastigita</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Ĉe musloko</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Unu alklaku por malfermi dosierujon</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Subtenu Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Apud la antaŭa</value>
   </data>
@@ -454,7 +457,7 @@
     <value>Ikono grandeco</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
-    <value>Subtenu SystemTrayMenu</value>
+    <value>Subteno SystemTrayMenu</value>
   </data>
   <data name="Fading" xml:space="preserve">
     <value>Forvelkanta</value>
@@ -496,7 +499,7 @@
     <value>Montru funkcioklavon 'Alpingli menuon'</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
-    <value>Montri funkcioklavon 'Agordoj'</value>
+    <value>Montru funkcioklavon 'Agordoj'</value>
   </data>
   <data name="Show function key 'Restart'" xml:space="preserve">
     <value>Montru funkcioklavon 'Rekomenci'</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Dosierujo de Interretaj Ŝparvojaj Ikonoj</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ordigita laŭ tipo kaj dato</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ordigita laŭ tipo (dosierujo aŭ dosiero) kaj dato</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ordigita laŭ tipo kaj nomo</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Ordigita laŭ tipo (dosierujo aŭ dosiero) kaj nomo</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Kontrolu ĝisdatigojn</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Aplika grandeco</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Laŭvolaj Trajtoj</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Solvu ligilojn al dosierujoj kaj montru enhavon</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Ordigita laŭ dosiera etendo kaj nomo</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiu</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Eltranĉi</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Alglui</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Elektante Ĉiujn</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Malfari</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Ne montru ĉi tiun sugeston denove.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Sugesto</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>La agorda menuo ankaŭ povas esti malfermita per dekstre alklakante la piktogramon en la sistempleto malsupre dekstre, se vi ne plu povas malfermi ĝin per la menuo.</value>
   </data>
 </root>

@@ -192,7 +192,7 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Renk düzeni koyu her zaman etkin</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
+  <data name="Expanded" xml:space="preserve">
     <value>Gelişmiş</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Bir klasörü açmak için tek tıklama</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Destek Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Bir öncekinin yanında</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>İnternet Kısayol Simgeleri Klasörü</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Türe ve tarihe göre sıralanmış</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Türe (klasör veya dosya) ve tarihe göre sıralanır</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Türe ve ada göre sıralanmış</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Türe (klasör veya dosya) ve ada göre sıralanır</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Güncellemeleri kontrol et</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Uygulama boyutu</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Opsiyonel özellikler</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Klasör bağlantılarını çözün ve içeriği gösterin</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Dosya uzantısına ve adına göre sıralanmış</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Kesmek</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Yapıştırmak</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Tümünü Seçmek</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Geri alma</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Bu ipucunu bir daha gösterme.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>İpucu</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Ayarlar menüsü, artık menü aracılığıyla açamıyorsanız, sağ alttaki sistem tepsisindeki simgeye sağ tıklanarak da açılabilir.</value>
   </data>
 </root>

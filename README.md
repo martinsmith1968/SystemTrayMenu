@@ -5,7 +5,6 @@
 -->
 
 [![Release](https://img.shields.io/github/v/release/hofknecht/systemtraymenu?label=Download%20release%20(click%20here))](https://github.com/Hofknecht/SystemTrayMenu/releases) 
-[![Framework](https://img.shields.io/badge/framework-.NET%206%20(Win%2010/11)-darkturquoise?label=Download%20framework%20(click%20here))](https://dotnet.microsoft.com/download/dotnet/6.0) 
 [![Tweet](https://img.shields.io/badge/Tweet-blue&logo=twitter?&labelColor=white&logo=twitter&color=white)](https://twitter.com/intent/tweet?text=SystemTrayMenu%20is%20an%20open-source%20%27Desktop%20Toolbar%27%20or%20%27Start%20Menu%27%20alternative.%20It%20offers%20a%20clear%2C%20personalized%20menu%20which%20can%20be%20opened%20via%20keyboard%20or%20mouse.%20Files%2C%20links%20and%20folders%20are%20organized%20in%20several%20levels%20as%20drop-down%20menus.%0A%0Ahttps%3A%2F%2Fgithub.com%2FHofknecht%2FSystemTrayMenu%23systemtraymenu%0A%0A)
 [![Facebook](https://img.shields.io/badge/Share-blue&logo=facebook?&labelColor=white&logo=facebook&color=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgithub.com%2FHofknecht%2FSystemTrayMenu%23systemtraymenu%0A%0ASystemTrayMenu)
 
@@ -36,13 +35,13 @@ Keyboard shortcuts
 
 | Shortcut                                              | Function                              |
 |-------------------------------------------------------|---------------------------------------|
-| <kbd>Ctrl</kbd>+<kbd>Win</kbd>                        | Open SytemTrayMenu (Shortcut can be configured) |
+| <kbd>Ctrl</kbd>+<kbd>Win</kbd>                        | Open SystemTrayMenu (Shortcut can be configured) |
 | <kbd>&#8593;</kbd>/<kbd>&#8595;</kbd>                 | Navigate items within a menu          |
 | <kbd>&#8592;</kbd>/<kbd>&#8594;</kbd>                 | Navigate through menus             |
 | <kbd>Return</kbd>                                     | Open selected item                    |
 | <kbd>Apps</kbd>                                       | Open Explorer Context Menu            |
 | <kbd>Tab</kbd>                                        | Switch to next/previous menu (also via <kbd>Shift</kbd>+<kbd>Tab</kbd>) |
-| <kbd>Esc</kbd>                                        | Close SytemTrayMenu                   |
+| <kbd>Esc</kbd>                                        | Close SystemTrayMenu                   |
 
 Sources
 ------------------
@@ -65,12 +64,11 @@ Sources
 [![rjno1](https://user-images.githubusercontent.com/52528841/121582195-04ef5700-ca2f-11eb-9c22-cf8239c6e99b.png)](https://www.rjno1.com/systemtraymenu/)&nbsp;
 [![softaro](https://user-images.githubusercontent.com/52528841/121581997-c9548d00-ca2e-11eb-9145-fab017925475.png)](https://softaro.net/systemtraymenu/)&nbsp;
 [![bytesin](https://user-images.githubusercontent.com/52528841/136706178-0bd2e812-f087-40f4-8c30-301ba645f10d.png)](https://www.bytesin.com/software/SystemTrayMenu/)&nbsp;
-[![rsload](https://user-images.githubusercontent.com/52528841/121584316-a1b2f400-ca31-11eb-8a90-242b9ba80dc4.png)](https://rsload.net/soft/desktop/35219-systemtraymenu.html)&nbsp;
 [![softonic](https://user-images.githubusercontent.com/52528841/121586781-5a7a3280-ca34-11eb-8a03-618b4661f859.png)](https://systemtraymenu.en.softonic.com/) 
-[![mirsofta](https://user-images.githubusercontent.com/52528841/121584682-0706e500-ca32-11eb-8629-4599579a1620.png)](https://mirsofta.ru/index.php?id=1623024195)
 [![downloaddrivers](https://user-images.githubusercontent.com/52528841/116524789-0f6aec80-a8d8-11eb-9037-06b2c101fa72.png)](https://www.downloaddrivers.info/download-systemtraymenu-1-2-4-0/) 
 [![baominh](https://user-images.githubusercontent.com/52528841/120082388-0c277400-c0c3-11eb-97c8-ee35e692b38d.png)](https://baominh.tech/systemtraymenu-tao-menu-start-tuy-chinh-duoi-khai-he-thong.html)
-[![softodrom](https://user-images.githubusercontent.com/52528841/142266835-80248737-60d6-4e80-9ce3-e9b68bb217c0.png)](https://soft.softodrom.ru/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C/28225)&nbsp;
+[![softodrom](https://user-images.githubusercontent.com/52528841/142266835-80248737-60d6-4e80-9ce3-e9b68bb217c0.png)](https://soft.softodrom.ru/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C/28225)
+[![lo4d](https://github.com/Hofknecht/SystemTrayMenu/assets/52528841/3ba7d63a-5882-42e6-9cc7-0a7fa167f2c6)](https://systemtraymenu.en.lo4d.com/windows)&nbsp;
 
 Reviews
 ------------------
@@ -83,7 +81,6 @@ Reviews
 [ghacks.net](https://www.ghacks.net/2021/04/10/create-a-custom-start-menu-that-you-can-access-with-a-hotkey-using-systemtraymenu/) |
 [shrayas.com](http://www.shrayas.com/posts/quick-access-everything-with-systemtraymenu/) |
 [reviewsapp.org](https://reviewsapp.org/systemtraymenu-better-organization-of-windows) |
-[white-windows.ru](https://www.white-windows.ru/systemtraymenu-podobie-menyu-pusk-no-bolee-prostoe-i-rabotayushhee-iz-sistemnogo-treya/) |
 [thewindowsclub.com](https://www.thewindowsclub.com/systemtraymenu-for-windows) |
 [br.atsit.in](https://br.atsit.in/id/?p=100192) |
 [nesabamedia.com](https://www.nesabamedia.com/systemtraymenu-alternatif-start-menu-untuk-windows/) |
@@ -100,8 +97,6 @@ FAQ
 
 SystemTrayMenu is portable, so it does not need to be installed. After downloading e.g. SystemTrayMenu-1.2.6.0.zip, **unzip the folder**, then **start SystemTrayMenu.exe**. If you prefer an installation there is the possibility to install SystemTrayMenu via the [Microsoft Store](https://www.microsoft.com/store/apps/9N24F8ZBJMT1). 
 
-If not already installed, download and install .Net 6 [https://dotnet.microsoft.com](https://dotnet.microsoft.com/download/dotnet/6.0) (e.g. dotnet-sdk-6.0.100-win-x64.exe). 
-  
 1. Step: After starting the application the first time you have to **choose the root directory**.  
 In this directory you should put shortcuts, files and folders (App, Game, Script, URL, Network),  
 which you are often using and especially when you can not find them over the windows start menu search.  
@@ -211,8 +206,8 @@ Build
 ------------------
 
 [![Build Status](https://dev.azure.com/MarkusHofknecht/SystemTrayMenu/_apis/build/status/Hofknecht.SystemTrayMenu?branchName=master)](https://dev.azure.com/MarkusHofknecht/SystemTrayMenu/_build)  
-Install Visual Studio 2022.  
-Install .NET 6 SDK [https://dotnet.microsoft.com](https://dotnet.microsoft.com/download/dotnet/6.0).
+[![IDE](https://img.shields.io/badge/framework-2022-darkturquoise?label=Downlaod%20Visual%20Studio%202022%20(click%20here))](https://visualstudio.microsoft.com/de/downloads/)  
+[![Framework](https://img.shields.io/badge/framework-.NET%207%20SDK%20(Win%2010/11)-darkturquoise?label=Download%20framework%20(click%20here))](https://dotnet.microsoft.com/download/dotnet/7.0) 
 
 Contributing
 ------------------
@@ -240,7 +235,6 @@ Special thanks to our productive contibutors!
 
 Thanks for ideas, reporting issues and contributing!
 
-[Mario Sedlmayr](https://github.com/verdammt89x),
 #123 [Mordecai00](https://github.com/Mordecai00), 
 #125 [Holgermh](https://github.com/Holgermh), 
 #135 #153 #154 #164 [jakkaas](https://github.com/jakkaas), 
@@ -274,8 +268,8 @@ Thanks for ideas, reporting issues and contributing!
 #283 #284 #289 [RuSieg](https://github.com/RuSieg),
 #285 #286 [dao-net](https://github.com/dao-net),
 #288 William P.,
-#294 #295 #296 Stefan Mahrer,
-#225 #297 #299 #317 #321 #324 #330 #386 #390 #401 #402 #407 #409 #414 #416 #418 #428 #430 [chip33](https://github.com/chip33),
+#294 #295 #296 Stefan M.,
+#225 #297 #299 #317 #321 #324 #330 #386 #390 #401 #402 #407 #409 #414 #416 #418 #428 #430 #443 [chip33](https://github.com/chip33),
 #298 [phanirithvij](https://github.com/phanirithvij),
 #306 [wini2](https://github.com/wini2),
 #370 [dna5589](https://github.com/dna5589),
@@ -285,7 +279,20 @@ Thanks for ideas, reporting issues and contributing!
 #380 #394 [TransLucida](https://github.com/TransLucida),
 #384 #434 #435 [boydfields](https://github.com/boydfields),
 #386 [visusys](https://github.com/visusys),
-#387 #411 [yrctw](https://github.com/yrctw)
+#387 #411 #444 [yrctw](https://github.com/yrctw),
+#446 [timinformatica](https://github.com/timinformatica),
+#450 [ppt-oldoerp](https://github.com/ppt-oldoerp),
+#453 [fubaWoW](https://github.com/fubaWoW),
+#454 [WouterVanGoey](https://github.com/WouterVanGoey),
+#462 [verdammt89x](https://github.com/verdammt89x),
+#463 #494 Dirk S.,
+#466 [Dean-Corso](https://github.com/Dean-Corso),
+#488 [DailenG](https://github.com/DailenG),
+#490 [TrampiPW](https://github.com/TrampiPW),
+#497 Aziz,
+#499 [spitzlbergerj](https://github.com/spitzlbergerj),
+ 
+
 
 Donations
 ------------------
@@ -330,10 +337,18 @@ PayPal/GitHub Sponsors - Thank you!
 ------------------
 (Sponsors are listed here in the ReadMe and in the application about menu)
 * Stefan Mahrer
+* [boydfields](https://github.com/boydfields)
 * [RuSieg](https://github.com/RuSieg)
+* [igor-davidov](https://github.com/igor-davidov)
 * Ralf K.
+* Tim K.
+* Georg W.
 * [donaldaken](https://github.com/donaldaken)
 * Marc Speer
-* [boydfields](https://github.com/boydfields)
+* [Cito](https://github.com/Cito)
+* Peter G.
 * [Traditional_Tap3954](https://www.reddit.com/user/Traditional_Tap3954/)
 * Maximilian H.
+* Jens B.
+* [spitzlbergerj](https://github.com/spitzlbergerj)
+* Udo N.

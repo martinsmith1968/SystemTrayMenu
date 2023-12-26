@@ -133,7 +133,7 @@
     <value>ڈائریکٹری</value>
   </data>
   <data name="Directory empty" xml:space="preserve">
-    <value>ڈائریکٹری خالی</value>
+    <value>ڈائرکٹری خالی ہے۔</value>
   </data>
   <data name="Details" xml:space="preserve">
     <value>تفصیلات</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>رنگ سکیم سیاہ ہمیشہ فعال</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>اعلی درجے کی</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>توسیع شدہ</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>ماؤس کے مقام پر</value>
@@ -217,7 +217,7 @@
     <value>جب ماؤس اس پر ہوتا ہے تو ایک مینو کھلنے تک ملی سیکنڈ</value>
   </data>
   <data name="Milliseconds until the menu closes if the mouse then leaves the menu" xml:space="preserve">
-    <value>ملی سیکنڈ جب تک مینو بند نہ ہو جائے اگر ماؤس پھر مینو کو چھوڑ دیتا ہے۔</value>
+    <value>ملی سیکنڈ جب تک مینو بند نہ ہو جائے اگر ماؤس مینو کو چھوڑ دیتا ہے۔</value>
   </data>
   <data name="Maximum menu width" xml:space="preserve">
     <value>مینو کی زیادہ سے زیادہ چوڑائی</value>
@@ -238,7 +238,7 @@
     <value>ڈائرکٹری کھولی۔</value>
   </data>
   <data name="Border of opened directory" xml:space="preserve">
-    <value>کھلی ڈائریکٹری کا بارڈر</value>
+    <value>کھلی ڈائرکٹری کا بارڈر</value>
   </data>
   <data name="Search field" xml:space="preserve">
     <value>تلاش کا میدان</value>
@@ -325,10 +325,10 @@
     <value>لوڈ ہو رہا ہے</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
-    <value>شارٹ کٹ لنک میں مسئلہ</value>
+    <value>شارٹ کٹ لنک کے ساتھ مسئلہ</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>یہ شارٹ کٹ جس آئٹم کا حوالہ دیتا ہے اسے تبدیل یا منتقل کر دیا گیا ہے، لہذا یہ شارٹ کٹ اب ٹھیک سے کام نہیں کرے گا۔</value>
+    <value>یہ شارٹ کٹ جس آئٹم کا حوالہ دیتا ہے اسے تبدیل یا منتقل کر دیا گیا ہے، اس لیے یہ شارٹ کٹ اب ٹھیک سے کام نہیں کرے گا۔</value>
   </data>
   <data name="Open directory" xml:space="preserve">
     <value>ڈائرکٹری کھولیں۔</value>
@@ -412,7 +412,7 @@
     <value>عناصر</value>
   </data>
   <data name="Generate drive shortcuts on startup" xml:space="preserve">
-    <value>اسٹارٹ اپ پر ڈرائیو شارٹ کٹ بنائیں</value>
+    <value>اسٹارٹ اپ پر ڈرائیو شارٹ کٹس بنائیں</value>
   </data>
   <data name="Cache" xml:space="preserve">
     <value>کیشے</value>
@@ -437,6 +437,9 @@
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ڈائرکٹری کھولنے کے لیے سنگل کلک کریں۔</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>گیم پیڈ کو سپورٹ کریں۔</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>پچھلے کے آگے</value>
@@ -490,7 +493,7 @@
     <value>ڈائرکٹری کا عنوان اوپر دکھائیں۔</value>
   </data>
   <data name="Show function key 'Open Folder'" xml:space="preserve">
-    <value>فنکشن کی کلید 'اوپن فولڈر' دکھائیں</value>
+    <value>فنکشن کلید 'اوپن فولڈر' دکھائیں</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
     <value>فنکشن کلید 'پن مینو' دکھائیں</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>انٹرنیٹ شارٹ کٹ شبیہیں کی ڈائرکٹری</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>قسم اور تاریخ کے لحاظ سے ترتیب دیا گیا ہے۔</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>قسم (فولڈر یا فائل) اور تاریخ کے لحاظ سے ترتیب دیا گیا ہے۔</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>قسم اور نام کے لحاظ سے ترتیب دیا گیا ہے۔</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>قسم (فولڈر یا فائل) اور نام کے لحاظ سے ترتیب دیا گیا ہے۔</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>اپ ڈیٹ کے لیے چیک کریں</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>درخواست کا سائز</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>اختیاری خصوصیات</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>فولڈرز کے لنکس حل کریں اور مواد دکھائیں۔</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>فائل کی توسیع اور نام کے لحاظ سے ترتیب دیا گیا ہے۔</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>کاپی</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>کاٹنا ۔</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>چسپاں کرنا</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>سبھی کو منتخب کرنا</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>کالعدم</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>یہ اشارہ دوبارہ مت دکھائیں۔</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>اشارہ</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>ترتیبات کے مینو کو نیچے دائیں جانب سسٹم ٹرے میں موجود آئیکن پر دائیں کلک کر کے بھی کھولا جا سکتا ہے، اگر آپ اسے مینو کے ذریعے مزید نہیں کھول سکتے ہیں۔</value>
   </data>
 </root>

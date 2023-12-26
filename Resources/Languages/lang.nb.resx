@@ -118,423 +118,459 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About SystemTrayMenu" xml:space="preserve">
-    <value>אודות SystemTrayMenu</value>
+    <value>Om SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>בסדר</value>
+    <value>OK</value>
   </data>
   <data name="App start" xml:space="preserve">
-    <value>התחלת האפליקציה</value>
+    <value>Appstart</value>
   </data>
   <data name="Exit app" xml:space="preserve">
-    <value>צא מהאפליקציה</value>
+    <value>Avslutt appen</value>
   </data>
   <data name="Directory" xml:space="preserve">
-    <value>מַדרִיך</value>
+    <value>Katalog</value>
   </data>
   <data name="Directory empty" xml:space="preserve">
-    <value>ספרייה ריקה</value>
+    <value>Katalog tom</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>פרטים</value>
+    <value>Detaljer</value>
   </data>
   <data name="System Info" xml:space="preserve">
-    <value>מידע מערכת</value>
+    <value>Systeminformasjon</value>
   </data>
   <data name="Directory inaccessible" xml:space="preserve">
-    <value>ספרייה לא נגישה</value>
+    <value>Katalog utilgjengelig</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>שפה</value>
+    <value>Språk</value>
   </data>
   <data name="Log File" xml:space="preserve">
-    <value>קובץ לוג</value>
+    <value>Loggfil</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>אתחול</value>
+    <value>Omstart</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
-    <value>לא ניתן היה לרשום את המקש החם.</value>
+    <value>Kunne ikke registrere hurtigtasten.</value>
   </data>
   <data name="Abort" xml:space="preserve">
-    <value>לְהַפִּיל</value>
+    <value>Avbryte</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>כללי</value>
+    <value>Generell</value>
   </data>
   <data name="Hotkey" xml:space="preserve">
-    <value>מקש קיצור</value>
+    <value>Hurtigtast</value>
   </data>
   <data name="Start with Windows" xml:space="preserve">
-    <value>התחל עם חלונות</value>
+    <value>Start med Windows</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>הגדרות</value>
+    <value>Innstillinger</value>
   </data>
   <data name="Frequently Asked Questions" xml:space="preserve">
-    <value>שאלות נפוצות</value>
+    <value>ofte stilte spørsmål</value>
   </data>
   <data name="Read the FAQ and then choose a root directory for SystemTrayMenu." xml:space="preserve">
-    <value>קרא את השאלות הנפוצות ולאחר מכן בחר ספריית שורש עבור SystemTrayMenu.</value>
+    <value>Les FAQ og velg deretter en rotkatalog for SystemTrayMenu.</value>
   </data>
   <data name="Select directory" xml:space="preserve">
-    <value>בחר ספרייה</value>
+    <value>Velg katalog</value>
   </data>
   <data name="Your root directory for the app does not exist or is empty! Change the root directory or put some files, directories or shortcuts into the root directory." xml:space="preserve">
-    <value>ספריית השורש שלך עבור האפליקציה אינה קיימת או ריקה! שנה את ספריית השורש או הכנס מספר קבצים, ספריות או קיצורי דרך בספריית השורש.</value>
+    <value>Rotkatalogen din for appen eksisterer ikke eller er tom! Endre rotkatalogen eller legg noen filer, kataloger eller snarveier inn i rotkatalogen.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
-    <value>אין לך גישה לספריית השורש של האפליקציה. הענק גישה לספרייה או שנה את ספריית הבסיס.</value>
+    <value>Du har ikke tilgang til rotkatalogen til appen. Gi tilgang til katalogen eller endre rotkatalogen.</value>
   </data>
   <data name="Single click to open an element" xml:space="preserve">
-    <value>לחיצה אחת כדי לפתוח אלמנט</value>
+    <value>Enkeltklikk for å åpne et element</value>
   </data>
   <data name="Color scheme dark always active" xml:space="preserve">
-    <value>ערכת צבעים כהה תמיד פעילה</value>
+    <value>Fargeskjema mørk alltid aktiv</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>מִתקַדֵם</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Utvidet</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
-    <value>במיקום העכבר</value>
+    <value>På museplassering</value>
   </data>
   <data name="Changing directory" xml:space="preserve">
-    <value>משנה ספרייה</value>
+    <value>Bytter katalog</value>
   </data>
   <data name="Click" xml:space="preserve">
-    <value>נְקִישָׁה</value>
+    <value>Klikk</value>
   </data>
   <data name="Customize" xml:space="preserve">
-    <value>התאמה אישית</value>
+    <value>Tilpass</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>בְּרִירַת מֶחדָל</value>
+    <value>Misligholde</value>
   </data>
   <data name="If the focus is lost and the mouse is still on the menu" xml:space="preserve">
-    <value>אם הפוקוס אובד והעכבר עדיין בתפריט</value>
+    <value>Hvis fokuset er tapt og musen fortsatt er på menyen</value>
   </data>
   <data name="Milliseconds until a menu opens when the mouse is on it" xml:space="preserve">
-    <value>אלפיות שניות עד שתפריט נפתח כאשר העכבר נמצא עליו</value>
+    <value>Millisekunder til en meny åpnes når musen er på den</value>
   </data>
   <data name="Milliseconds until the menu closes if the mouse then leaves the menu" xml:space="preserve">
-    <value>אלפיות שניות עד שהתפריט ייסגר אם העכבר עוזב את התפריט</value>
+    <value>Millisekunder til menyen lukkes hvis musen da forlater menyen</value>
   </data>
   <data name="Maximum menu width" xml:space="preserve">
-    <value>רוחב תפריט מקסימלי</value>
+    <value>Maksimal menybredde</value>
   </data>
   <data name="Menu stays open" xml:space="preserve">
-    <value>התפריט נשאר פתוח</value>
+    <value>Menyen forblir åpen</value>
   </data>
   <data name="Time until a menu opens" xml:space="preserve">
-    <value>זמן עד לפתיחת תפריט</value>
+    <value>Tid til en meny åpnes</value>
   </data>
   <data name="If an element was clicked" xml:space="preserve">
-    <value>אם לחצו על אלמנט</value>
+    <value>Hvis et element ble klikket</value>
   </data>
   <data name="Background" xml:space="preserve">
-    <value>רקע כללי</value>
+    <value>Bakgrunn</value>
   </data>
   <data name="Opened directory" xml:space="preserve">
-    <value>ספרייה נפתחה</value>
+    <value>Åpnet katalog</value>
   </data>
   <data name="Border of opened directory" xml:space="preserve">
-    <value>גבול של ספרייה שנפתחה</value>
+    <value>Kant til åpnet katalog</value>
   </data>
   <data name="Search field" xml:space="preserve">
-    <value>שדה חיפוש</value>
+    <value>Søkefelt</value>
   </data>
   <data name="Selected element" xml:space="preserve">
-    <value>אלמנט נבחר</value>
+    <value>Valgt element</value>
   </data>
   <data name="Border of selected element" xml:space="preserve">
-    <value>גבול של אלמנט נבחר</value>
+    <value>Kantlinje til valgt element</value>
   </data>
   <data name="Relative directory" xml:space="preserve">
-    <value>ספרייה יחסית</value>
+    <value>Relativ katalog</value>
   </data>
   <data name="Save configuration file in application directory" xml:space="preserve">
-    <value>שמור קובץ תצורה בספריית היישום</value>
+    <value>Lagre konfigurasjonsfilen i programkatalogen</value>
   </data>
   <data name="Configuration and log files" xml:space="preserve">
-    <value>קבצי תצורה ויומן</value>
+    <value>Konfigurasjon og loggfiler</value>
   </data>
   <data name="Open application directory" xml:space="preserve">
-    <value>פתח את ספריית היישומים</value>
+    <value>Åpne programkatalogen</value>
   </data>
   <data name="Maximum menu height" xml:space="preserve">
-    <value>גובה תפריט מקסימלי</value>
+    <value>Maksimal menyhøyde</value>
   </data>
   <data name="Arrow" xml:space="preserve">
-    <value>חֵץ</value>
+    <value>Pil</value>
   </data>
   <data name="Arrow when clicking" xml:space="preserve">
-    <value>חץ בעת לחיצה</value>
+    <value>Pil når du klikker</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
-    <value>חץ בזמן שהעכבר מרחף מעליו</value>
+    <value>Pil mens musen svever over den</value>
   </data>
   <data name="Background of arrow when clicking" xml:space="preserve">
-    <value>רקע של חץ בעת לחיצה</value>
+    <value>Bakgrunn av pil når du klikker</value>
   </data>
   <data name="Background of arrow while mouse hovers over it" xml:space="preserve">
-    <value>רקע של חץ בזמן שהעכבר מרחף מעליו</value>
+    <value>Bakgrunn av pil mens musen svever over den</value>
   </data>
   <data name="Color scheme dark" xml:space="preserve">
-    <value>ערכת צבעים כהה</value>
+    <value>Fargeskjema mørkt</value>
   </data>
   <data name="Color scheme bright" xml:space="preserve">
-    <value>ערכת צבעים בהירה</value>
+    <value>Lys fargevalg</value>
   </data>
   <data name="App menu" xml:space="preserve">
-    <value>תפריט אפליקציה</value>
+    <value>Appmeny</value>
   </data>
   <data name="Scrollbar" xml:space="preserve">
-    <value>בר גלילה</value>
+    <value>Rullefelt</value>
   </data>
   <data name="Slider" xml:space="preserve">
-    <value>המחוון</value>
+    <value>Skyveknapp</value>
   </data>
   <data name="Slider while dragging" xml:space="preserve">
-    <value>המחוון בזמן גרירה</value>
+    <value>Skyveknapp mens du drar</value>
   </data>
   <data name="Slider while mouse hovers over it 1" xml:space="preserve">
-    <value>המחוון בזמן שהעכבר מרחף מעליו 1</value>
+    <value>Skyv mens musen svever over den 1</value>
   </data>
   <data name="Slider while mouse hovers over it 2" xml:space="preserve">
-    <value>המחוון בזמן שהעכבר מרחף מעליו 2</value>
+    <value>Skyv mens musen svever over den 2</value>
   </data>
   <data name="Use icon from directory" xml:space="preserve">
-    <value>השתמש בסמל מהספרייה</value>
+    <value>Bruk ikon fra katalogen</value>
   </data>
   <data name="Sizes in percent" xml:space="preserve">
-    <value>מידות באחוזים</value>
+    <value>Størrelser i prosent</value>
   </data>
   <data name="Border of menu" xml:space="preserve">
-    <value>גבול התפריט</value>
+    <value>Kant av menyen</value>
   </data>
   <data name="Icons" xml:space="preserve">
-    <value>אייקונים</value>
+    <value>Ikoner</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
-    <value>מוגדר לפי תפריט ההקשר</value>
+    <value>Angis av kontekstmenyen</value>
   </data>
   <data name="Set as directory" xml:space="preserve">
-    <value>הגדר כספרייה</value>
+    <value>Angi som katalog</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>טוען</value>
+    <value>lasting</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
-    <value>בעיה עם קישור קיצור</value>
+    <value>Problem med snarveislenke</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>הפריט שאליו מתייחס קיצור הדרך השתנה או הועבר, כך שקיצור זה לא יפעל עוד כראוי.</value>
+    <value>Elementet som denne snarveien referer til har blitt endret eller flyttet, så denne snarveien vil ikke lenger fungere som den skal.</value>
   </data>
   <data name="Open directory" xml:space="preserve">
-    <value>פתח את הספרייה</value>
+    <value>Åpne katalogen</value>
   </data>
   <data name="Task Manager" xml:space="preserve">
-    <value>מנהל משימות</value>
+    <value>Oppgavebehandling</value>
   </data>
   <data name="Deactivated" xml:space="preserve">
-    <value>מושבת</value>
+    <value>Deaktivert</value>
   </data>
   <data name="Activated" xml:space="preserve">
-    <value>מוּפעָל</value>
+    <value>Aktivert</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>מוּמחֶה</value>
+    <value>Ekspert</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
-    <value>אם הפוקוס אובד והמקש Enter נלחץ</value>
+    <value>Hvis fokuset mistes og Enter-tasten ble trykket</value>
   </data>
   <data name="Milliseconds until the menu closes if the menu is not reactivated" xml:space="preserve">
-    <value>אלפיות שניות עד לסגירת התפריט אם התפריט לא מופעל מחדש</value>
+    <value>Millisekunder til menyen lukkes hvis menyen ikke aktiveres på nytt</value>
   </data>
   <data name="Show in Taskbar" xml:space="preserve">
-    <value>הצג בשורת המשימות</value>
+    <value>Vis i oppgavelinjen</value>
   </data>
   <data name="Add directory" xml:space="preserve">
-    <value>הוסף ספרייה</value>
+    <value>Legg til katalog</value>
   </data>
   <data name="Add content of directory to root directory" xml:space="preserve">
-    <value>הוסף תוכן של ספרייה לספריית השורש</value>
+    <value>Legg til innholdet i katalogen til rotkatalogen</value>
   </data>
   <data name="Directory paths" xml:space="preserve">
-    <value>נתיבי ספרייה</value>
+    <value>Katalogstier</value>
   </data>
   <data name="Directories" xml:space="preserve">
-    <value>מדריכים</value>
+    <value>Kataloger</value>
   </data>
   <data name="Recursive" xml:space="preserve">
-    <value>רקורסיבי</value>
+    <value>Tilbakevendende</value>
   </data>
   <data name="Remove directory" xml:space="preserve">
-    <value>הסר ספרייה</value>
+    <value>Fjern katalogen</value>
   </data>
   <data name="Only Files" xml:space="preserve">
-    <value>רק קבצים</value>
+    <value>Kun filer</value>
   </data>
   <data name="Clear cache if more than this number of items" xml:space="preserve">
-    <value>נקה את המטמון אם יותר ממספר הפריטים הזה</value>
+    <value>Tøm hurtigbufferen hvis flere enn dette antallet elementer</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>הוסף ספרייה לדוגמה 'תפריט התחל'</value>
+    <value>Legg til eksempelkatalog "Startmeny"</value>
   </data>
   <data name="Row height" xml:space="preserve">
-    <value>גובה השורה</value>
+    <value>Radhøyde</value>
   </data>
   <data name="Round corners" xml:space="preserve">
-    <value>פינות עגולות</value>
+    <value>Runde hjørner</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>מראה חיצוני</value>
+    <value>Utseende</value>
   </data>
   <data name="Bottom left" xml:space="preserve">
-    <value>שמאל תחתון</value>
+    <value>Nede til venstre</value>
   </data>
   <data name="Bottom right" xml:space="preserve">
-    <value>למטה מימין</value>
+    <value>Nede til høyre</value>
   </data>
   <data name="Main menu appears" xml:space="preserve">
-    <value>התפריט הראשי מופיע</value>
+    <value>Hovedmenyen vises</value>
   </data>
   <data name="Mouse location (above Taskbar icon)" xml:space="preserve">
-    <value>מיקום העכבר (מעל סמל שורת המשימות)</value>
+    <value>Museplassering (over oppgavelinjeikonet)</value>
   </data>
   <data name="Custom (drag it to the appropriate position)" xml:space="preserve">
-    <value>מותאם אישית (גרור אותו למיקום המתאים)</value>
+    <value>Egendefinert (dra den til riktig posisjon)</value>
   </data>
   <data name="element" xml:space="preserve">
-    <value>אֵלֵמֶנט</value>
+    <value>element</value>
   </data>
   <data name="elements" xml:space="preserve">
-    <value>אלמנטים</value>
+    <value>elementer</value>
   </data>
   <data name="Generate drive shortcuts on startup" xml:space="preserve">
-    <value>צור קיצורי דרך בכונן בעת ​​האתחול</value>
+    <value>Generer stasjonssnarveier ved oppstart</value>
   </data>
   <data name="Cache" xml:space="preserve">
-    <value>מטמון</value>
+    <value>Cache</value>
   </data>
   <data name="Always show" xml:space="preserve">
-    <value>תמיד מראה</value>
+    <value>Alltid vis</value>
   </data>
   <data name="Hidden files and directories" xml:space="preserve">
-    <value>קבצים וספריות נסתרות</value>
+    <value>Skjulte filer og kataloger</value>
   </data>
   <data name="Never show" xml:space="preserve">
-    <value>לעולם אל תראה</value>
+    <value>Vis aldri</value>
   </data>
   <data name="Size and location" xml:space="preserve">
-    <value>גודל ומיקום</value>
+    <value>Størrelse og plassering</value>
   </data>
   <data name="Use operating system settings" xml:space="preserve">
-    <value>השתמש בהגדרות מערכת ההפעלה</value>
+    <value>Bruk operativsysteminnstillinger</value>
   </data>
   <data name="Show only as search result" xml:space="preserve">
-    <value>הצג רק כתוצאת חיפוש</value>
+    <value>Vis kun som søkeresultat</value>
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
-    <value>לחיצה אחת לפתיחת ספרייה</value>
+    <value>Enkeltklikk for å åpne en katalog</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Støtte Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
-    <value>ליד הקודם</value>
+    <value>Ved siden av den forrige</value>
   </data>
   <data name="Offset by pixels" xml:space="preserve">
-    <value>קיזוז לפי פיקסלים</value>
+    <value>Forskjøvet med piksler</value>
   </data>
   <data name="Overlapping" xml:space="preserve">
-    <value>חוֹפֵף</value>
+    <value>Overlappende</value>
   </data>
   <data name="Sub menu appears" xml:space="preserve">
-    <value>תפריט משנה מופיע</value>
+    <value>Undermenyen vises</value>
   </data>
   <data name="Icon size" xml:space="preserve">
-    <value>גודל סמל</value>
+    <value>Ikonstørrelse</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
-    <value>תמיכה ב-SystemTrayMenu</value>
+    <value>Støtte SystemTrayMenu</value>
   </data>
   <data name="Fading" xml:space="preserve">
-    <value>דוֹהֶה</value>
+    <value>Fading</value>
   </data>
   <data name="Send hotkey to other instance" xml:space="preserve">
-    <value>שלח מקש קיצור למופע אחר</value>
+    <value>Send hurtigtast til en annen instans</value>
   </data>
   <data name="Sorted by date" xml:space="preserve">
-    <value>ממוין לפי תאריך</value>
+    <value>Sortert etter dato</value>
   </data>
   <data name="Sorted by name" xml:space="preserve">
-    <value>ממוין לפי שם</value>
+    <value>Sortert etter navn</value>
   </data>
   <data name="Sorting" xml:space="preserve">
-    <value>מִיוּן</value>
+    <value>Sortering</value>
   </data>
   <data name="Copy row element via drag and drop" xml:space="preserve">
-    <value>העתק רכיב שורה באמצעות גרירה ושחרור</value>
+    <value>Kopier radelement via dra og slipp</value>
   </data>
   <data name="Drag" xml:space="preserve">
-    <value>לִגרוֹר</value>
+    <value>Dra</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
-    <value>גלול באמצעות החלקה</value>
+    <value>Rull via sveip</value>
   </data>
   <data name="Filter menu by file type e.g.: *.exe|*.dll" xml:space="preserve">
-    <value>תפריט סינון לפי סוג קובץ, למשל: *.exe|*.dll</value>
+    <value>Filtrer menyen etter filtype, f.eks.: *.exe|*.dll</value>
   </data>
   <data name="Show count of elements" xml:space="preserve">
-    <value>הצג את ספירת האלמנטים</value>
+    <value>Vis antall elementer</value>
   </data>
   <data name="Show directory title at top" xml:space="preserve">
-    <value>הצג את כותרת הספרייה בראש</value>
+    <value>Vis katalogtittel øverst</value>
   </data>
   <data name="Show function key 'Open Folder'" xml:space="preserve">
-    <value>הצג את מקש הפונקציה 'פתח תיקייה'</value>
+    <value>Vis funksjonstast 'Åpne mappe'</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
-    <value>הצג את מקש הפונקציה 'תפריט סיכה'</value>
+    <value>Vis funksjonstast 'Pin-meny'</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
-    <value>הצג את מקש הפונקציה 'הגדרות'</value>
+    <value>Vis funksjonstasten "Innstillinger"</value>
   </data>
   <data name="Show function key 'Restart'" xml:space="preserve">
-    <value>הצג את מקש הפונקציה 'הפעל מחדש'</value>
+    <value>Vis funksjonstast 'Start på nytt'</value>
   </data>
   <data name="Show search bar" xml:space="preserve">
-    <value>הצג את שורת החיפוש</value>
+    <value>Vis søkefeltet</value>
   </data>
   <data name="Saving log file in application directory" xml:space="preserve">
-    <value>שומר קובץ יומן בספריית היישום</value>
+    <value>Lagrer loggfilen i programkatalogen</value>
   </data>
   <data name="Show link overlay" xml:space="preserve">
-    <value>הצג שכבת-על של קישור</value>
+    <value>Vis linkoverlegg</value>
   </data>
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
-    <value>ספריית סמלי קיצורי אינטרנט</value>
+    <value>Katalog over Internett-snarveisikoner</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>ממוין לפי סוג ותאריך</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Sortert etter type (mappe eller fil) og dato</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>ממוין לפי סוג ושם</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Sortert etter type (mappe eller fil) og navn</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
-    <value>בדוק עדכונים</value>
+    <value>Se etter oppdateringer</value>
   </data>
   <data name="Go to download page" xml:space="preserve">
-    <value>עבור לדף ההורדות</value>
+    <value>Gå til nedlastingssiden</value>
   </data>
   <data name="Latest available version:" xml:space="preserve">
-    <value>הגרסה האחרונה הזמינה:</value>
+    <value>Siste tilgjengelige versjon:</value>
   </data>
   <data name="New version available!" xml:space="preserve">
-    <value>גרסה חדשה זמינה!</value>
+    <value>Ny versjon tilgjengelig!</value>
   </data>
   <data name="You have the latest version of SystemTrayMenu!" xml:space="preserve">
-    <value>יש לך את הגרסה האחרונה של SystemTrayMenu!</value>
+    <value>Du har den nyeste versjonen av SystemTrayMenu!</value>
   </data>
   <data name="Application size" xml:space="preserve">
-    <value>גודל יישום</value>
+    <value>Søknadsstørrelse</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Valgfrie funksjoner</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Løs lenker til mapper og vis innhold</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Sortert etter filtype og navn</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopiere</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Å kutte ut</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Å lime inn</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Velger alle</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Angre</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Ikke vis dette hintet igjen.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Hint</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Innstillingsmenyen kan også åpnes ved å høyreklikke på ikonet i systemstatusfeltet nederst til høyre, i tilfelle du ikke lenger kan åpne den via menyen.</value>
   </data>
 </root>

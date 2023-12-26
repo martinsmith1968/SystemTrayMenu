@@ -175,7 +175,7 @@
     <value>அடிக்கடி கேட்கப்படும் கேள்விகள்</value>
   </data>
   <data name="Read the FAQ and then choose a root directory for SystemTrayMenu." xml:space="preserve">
-    <value>அடிக்கடி கேட்கப்படும் கேள்விகளைப் படித்து, பின்னர் SystemTrayMenuக்கான ரூட் கோப்பகத்தைத் தேர்ந்தெடுக்கவும்.</value>
+    <value>அடிக்கடி கேட்கப்படும் கேள்விகளைப் படித்து பின்னர் SystemTrayMenu க்கான ரூட் கோப்பகத்தைத் தேர்ந்தெடுக்கவும்.</value>
   </data>
   <data name="Select directory" xml:space="preserve">
     <value>கோப்பகத்தைத் தேர்ந்தெடுக்கவும்</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>இருண்ட வண்ணத் திட்டம் எப்போதும் சுறுசுறுப்பாக இருக்கும்</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>மேம்படுத்தபட்ட</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>விரிவாக்கப்பட்டது</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>சுட்டி இடத்தில்</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ஒரு கோப்பகத்தைத் திறக்க ஒற்றை கிளிக் செய்யவும்</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>கேம்பேடை ஆதரிக்கவும்</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>முந்தையதை அடுத்து</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>இணைய குறுக்குவழி ஐகான்களின் அடைவு</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>வகை மற்றும் தேதி மூலம் வரிசைப்படுத்தப்பட்டது</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>வகை (கோப்புறை அல்லது கோப்பு) மற்றும் தேதி மூலம் வரிசைப்படுத்தப்பட்டது</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>வகை மற்றும் பெயர் மூலம் வரிசைப்படுத்தப்பட்டது</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>வகை (கோப்புறை அல்லது கோப்பு) மற்றும் பெயர் மூலம் வரிசைப்படுத்தப்பட்டது</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>புதுப்பிப்புகளைச் சரிபார்க்கவும்</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>விண்ணப்ப அளவு</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>விருப்ப அம்சங்கள்</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>கோப்புறைகளுக்கான இணைப்புகளைத் தீர்த்து உள்ளடக்கத்தைக் காட்டு</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>கோப்பு நீட்டிப்பு மற்றும் பெயர் மூலம் வரிசைப்படுத்தப்பட்டது</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>நகலெடுக்கவும்</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>வெட்டுவதற்கு</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>ஒட்டுவதற்கு</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>அனைத்தையும் தேர்ந்தெடுக்கிறது</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>செயல்தவிர்</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>இந்தக் குறிப்பை மீண்டும் காட்டாதே.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>குறிப்பு</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>அமைப்புகள் மெனுவை மெனு வழியாக திறக்க முடியாவிட்டால், கீழ் வலதுபுறத்தில் உள்ள கணினி தட்டில் உள்ள ஐகானை வலது கிளிக் செய்வதன் மூலமும் திறக்க முடியும்.</value>
   </data>
 </root>

@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>קאָליר סכעמע טונקל שטענדיק אַקטיוו</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>אַוואַנסירטע</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>יקספּאַנדיד</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>אין מויז אָרט</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>איין גיט צו עפענען אַ וועגווייַזער</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>שטיצן גאַמעפּאַד</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>נעבן דעם פריערדיקן</value>
   </data>
@@ -448,10 +451,10 @@
     <value>אָוווערלאַפּינג</value>
   </data>
   <data name="Sub menu appears" xml:space="preserve">
-    <value>סוב מעניו איז ארויס</value>
+    <value>אונטער מעניו איז ארויס</value>
   </data>
   <data name="Icon size" xml:space="preserve">
-    <value>בילדל גרייס</value>
+    <value>ייקאַן גרייס</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
     <value>שטיצן SystemTrayMenu</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Directory פון אינטערנעט דורכוועג יקאָנס</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>סאָרטירט לויט טיפּ און דאַטע</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>סאָרטירט לויט טיפּ (טעקע אָדער טעקע) און דאַטע</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>סאָרטירט לויט טיפּ און נאָמען</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>סאָרטירט לויט טיפּ (טעקע אָדער טעקע) און נאָמען</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>זוך נייע ווערסיעס</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>אַפּפּליקאַטיאָן גרייס</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>אָפּטיאָנאַל פֿעיִקייטן</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>סאָלווע לינקס צו פאָלדערס און ווייַזן אינהאַלט</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>סאָרטירט לויט טעקע געשפּרייט און נאָמען</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>קאָפּי</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>צו שנייַדן אויס</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>צו פּאַפּ</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>סעלעקטינג אַלע</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>ופמאַכן</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>צי ניט ווייַזן דעם אָנצוהערעניש ווידער.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>אָנצוהערעניש</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>די סעטטינגס מעניו קענען אויך זיין עפן דורך רעכט-קליקינג אויף די ייקאַן אין די סיסטעם טאַץ אין די דנאָ רעכט, אין פאַל איר קענען ניט מער עפֿענען עס דורך די מעניו.</value>
   </data>
 </root>
