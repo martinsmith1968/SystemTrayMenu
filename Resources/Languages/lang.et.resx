@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Värvilahendus tume alati aktiivne</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Täpsemalt</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Laiendatud</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Hiire asukohas</value>
@@ -343,7 +343,7 @@
     <value>Aktiveeritud</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>Ekspert</value>
+    <value>Asjatundja</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
     <value>Kui fookus on kadunud ja vajutati sisestusklahvi</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Kataloogi avamiseks tehke üks klõps</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Toetage mängupulti</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Eelmise kõrval</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Interneti otseteede ikoonide kataloog</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Sorteeritud tüübi ja kuupäeva järgi</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Sorteeritud tüübi (kaust või fail) ja kuupäeva järgi</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Sorteeritud tüübi ja nime järgi</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Sorteeritud tüübi (kaust või fail) ja nime järgi</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Kontrolli kas uuendused on saadaval</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Rakenduse suurus</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Valikulised funktsioonid</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Lahendage kaustade linke ja kuvage sisu</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Sorteeritud faililaiendi ja nime järgi</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopeeri</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Et välja lõigata</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Kleepimiseks</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Kõik valimine</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Võta tagasi</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Ära näita seda vihjet enam.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Vihje</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Seadete menüü saab avada ka paremklõpsates all paremas nurgas oleval ikoonil, juhuks kui seda enam menüü kaudu avada ei saa.</value>
   </data>
 </root>

@@ -118,423 +118,459 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About SystemTrayMenu" xml:space="preserve">
-    <value>Tungkol sa SystemTrayMenu</value>
+    <value>אודות SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>בסדר</value>
   </data>
   <data name="App start" xml:space="preserve">
-    <value>Pagsisimula ng app</value>
+    <value>התחלת האפליקציה</value>
   </data>
   <data name="Exit app" xml:space="preserve">
-    <value>Lumabas sa app</value>
+    <value>צא מהאפליקציה</value>
   </data>
   <data name="Directory" xml:space="preserve">
-    <value>Direktoryo</value>
+    <value>מַדרִיך</value>
   </data>
   <data name="Directory empty" xml:space="preserve">
-    <value>Walang laman ang direktoryo</value>
+    <value>ספרייה ריקה</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>Mga Detalye</value>
+    <value>פרטים</value>
   </data>
   <data name="System Info" xml:space="preserve">
-    <value>Info ng sistema</value>
+    <value>מידע מערכת</value>
   </data>
   <data name="Directory inaccessible" xml:space="preserve">
-    <value>Hindi naa-access ang direktoryo</value>
+    <value>ספרייה לא נגישה</value>
   </data>
   <data name="Language" xml:space="preserve">
-    <value>Wika</value>
+    <value>שפה</value>
   </data>
   <data name="Log File" xml:space="preserve">
-    <value>Log File</value>
+    <value>קובץ לוג</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>I-restart</value>
+    <value>איתחול</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
-    <value>Hindi mairehistro ang hot key.</value>
+    <value>לא ניתן היה לרשום את המקש החם.</value>
   </data>
   <data name="Abort" xml:space="preserve">
-    <value>I-abort</value>
+    <value>לְהַפִּיל</value>
   </data>
   <data name="General" xml:space="preserve">
-    <value>Heneral</value>
+    <value>כללי</value>
   </data>
   <data name="Hotkey" xml:space="preserve">
-    <value>Hotkey</value>
+    <value>מקש קיצור</value>
   </data>
   <data name="Start with Windows" xml:space="preserve">
-    <value>Magsimula sa Windows</value>
+    <value>התחל עם חלונות</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Mga setting</value>
+    <value>הגדרות</value>
   </data>
   <data name="Frequently Asked Questions" xml:space="preserve">
-    <value>Mga Madalas Itanong</value>
+    <value>שאלות נפוצות</value>
   </data>
   <data name="Read the FAQ and then choose a root directory for SystemTrayMenu." xml:space="preserve">
-    <value>Basahin ang FAQ at pagkatapos ay pumili ng root directory para sa SystemTrayMenu.</value>
+    <value>קרא את השאלות הנפוצות ולאחר מכן בחר ספריית שורש עבור SystemTrayMenu.</value>
   </data>
   <data name="Select directory" xml:space="preserve">
-    <value>Pumili ng direktoryo</value>
+    <value>בחר ספרייה</value>
   </data>
   <data name="Your root directory for the app does not exist or is empty! Change the root directory or put some files, directories or shortcuts into the root directory." xml:space="preserve">
-    <value>Ang iyong root directory para sa app ay wala o walang laman! Baguhin ang root directory o maglagay ng ilang file, directory o shortcut sa root directory.</value>
+    <value>ספריית השורש שלך עבור האפליקציה אינה קיימת או ריקה! שנה את ספריית השורש או הכנס כמה קבצים, ספריות או קיצורי דרך בספריית השורש.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
-    <value>Wala kang access sa root directory ng app. Magbigay ng access sa direktoryo o baguhin ang root directory.</value>
+    <value>אין לך גישה לספריית השורש של האפליקציה. הענק גישה לספרייה או שנה את ספריית הבסיס.</value>
   </data>
   <data name="Single click to open an element" xml:space="preserve">
-    <value>Isang pag-click upang buksan ang isang elemento</value>
+    <value>לחיצה אחת כדי לפתוח אלמנט</value>
   </data>
   <data name="Color scheme dark always active" xml:space="preserve">
-    <value>Madilim ang kulay na laging aktibo</value>
+    <value>ערכת צבעים כהה תמיד פעילה</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Advanced</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>מוּרחָב</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
-    <value>Sa lokasyon ng mouse</value>
+    <value>במיקום העכבר</value>
   </data>
   <data name="Changing directory" xml:space="preserve">
-    <value>Pagbabago ng direktoryo</value>
+    <value>משנה ספרייה</value>
   </data>
   <data name="Click" xml:space="preserve">
-    <value>I-click</value>
+    <value>נְקִישָׁה</value>
   </data>
   <data name="Customize" xml:space="preserve">
-    <value>I-customize</value>
+    <value>התאמה אישית</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Default</value>
+    <value>בְּרִירַת מֶחדָל</value>
   </data>
   <data name="If the focus is lost and the mouse is still on the menu" xml:space="preserve">
-    <value>Kung nawala ang focus at nasa menu pa rin ang mouse</value>
+    <value>אם הפוקוס אובד והעכבר עדיין בתפריט</value>
   </data>
   <data name="Milliseconds until a menu opens when the mouse is on it" xml:space="preserve">
-    <value>Milliseconds hanggang magbukas ang isang menu kapag ang mouse ay nasa ibabaw nito</value>
+    <value>אלפיות שניות עד שתפריט נפתח כאשר העכבר נמצא עליו</value>
   </data>
   <data name="Milliseconds until the menu closes if the mouse then leaves the menu" xml:space="preserve">
-    <value>Milliseconds hanggang sa magsara ang menu kung aalis ang mouse sa menu</value>
+    <value>אלפיות שניות עד שהתפריט ייסגר אם העכבר עוזב את התפריט</value>
   </data>
   <data name="Maximum menu width" xml:space="preserve">
-    <value>Pinakamataas na lapad ng menu</value>
+    <value>רוחב תפריט מקסימלי</value>
   </data>
   <data name="Menu stays open" xml:space="preserve">
-    <value>Nananatiling bukas ang menu</value>
+    <value>התפריט נשאר פתוח</value>
   </data>
   <data name="Time until a menu opens" xml:space="preserve">
-    <value>Oras hanggang magbukas ang isang menu</value>
+    <value>זמן עד לפתיחת תפריט</value>
   </data>
   <data name="If an element was clicked" xml:space="preserve">
-    <value>Kung may na-click na elemento</value>
+    <value>אם לחצו על אלמנט</value>
   </data>
   <data name="Background" xml:space="preserve">
-    <value>Background</value>
+    <value>רקע כללי</value>
   </data>
   <data name="Opened directory" xml:space="preserve">
-    <value>Binuksan ang direktoryo</value>
+    <value>ספרייה נפתחה</value>
   </data>
   <data name="Border of opened directory" xml:space="preserve">
-    <value>Border ng binuksan na direktoryo</value>
+    <value>גבול של ספרייה שנפתחה</value>
   </data>
   <data name="Search field" xml:space="preserve">
-    <value>Field ng paghahanap</value>
+    <value>שדה חיפוש</value>
   </data>
   <data name="Selected element" xml:space="preserve">
-    <value>Napiling elemento</value>
+    <value>אלמנט נבחר</value>
   </data>
   <data name="Border of selected element" xml:space="preserve">
-    <value>Border ng napiling elemento</value>
+    <value>גבול של אלמנט נבחר</value>
   </data>
   <data name="Relative directory" xml:space="preserve">
-    <value>Kamag-anak na direktoryo</value>
+    <value>ספרייה יחסית</value>
   </data>
   <data name="Save configuration file in application directory" xml:space="preserve">
-    <value>I-save ang configuration file sa application directory</value>
+    <value>שמור קובץ תצורה בספריית היישום</value>
   </data>
   <data name="Configuration and log files" xml:space="preserve">
-    <value>Configuration at log file</value>
+    <value>קבצי תצורה ויומן</value>
   </data>
   <data name="Open application directory" xml:space="preserve">
-    <value>Buksan ang direktoryo ng application</value>
+    <value>פתח את ספריית היישומים</value>
   </data>
   <data name="Maximum menu height" xml:space="preserve">
-    <value>Pinakamataas na taas ng menu</value>
+    <value>גובה תפריט מקסימלי</value>
   </data>
   <data name="Arrow" xml:space="preserve">
-    <value>Palaso</value>
+    <value>חֵץ</value>
   </data>
   <data name="Arrow when clicking" xml:space="preserve">
-    <value>Arrow kapag nag-click</value>
+    <value>חץ בעת לחיצה</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
-    <value>Arrow habang naka-hover ang mouse sa ibabaw nito</value>
+    <value>חץ בזמן שהעכבר מרחף מעליו</value>
   </data>
   <data name="Background of arrow when clicking" xml:space="preserve">
-    <value>Background ng arrow kapag nag-click</value>
+    <value>רקע של חץ בעת לחיצה</value>
   </data>
   <data name="Background of arrow while mouse hovers over it" xml:space="preserve">
-    <value>Background ng arrow habang naka-hover ang mouse sa ibabaw nito</value>
+    <value>רקע של חץ בזמן שהעכבר מרחף מעליו</value>
   </data>
   <data name="Color scheme dark" xml:space="preserve">
-    <value>Madilim ang scheme ng kulay</value>
+    <value>ערכת צבעים כהה</value>
   </data>
   <data name="Color scheme bright" xml:space="preserve">
-    <value>Maliwanag ang scheme ng kulay</value>
+    <value>ערכת צבעים בהירה</value>
   </data>
   <data name="App menu" xml:space="preserve">
-    <value>Menu ng app</value>
+    <value>תפריט אפליקציה</value>
   </data>
   <data name="Scrollbar" xml:space="preserve">
-    <value>Scroll bar</value>
+    <value>בר גלילה</value>
   </data>
   <data name="Slider" xml:space="preserve">
-    <value>Slider</value>
+    <value>המחוון</value>
   </data>
   <data name="Slider while dragging" xml:space="preserve">
-    <value>Slider habang kinakaladkad</value>
+    <value>המחוון בזמן גרירה</value>
   </data>
   <data name="Slider while mouse hovers over it 1" xml:space="preserve">
-    <value>Slider habang naka-hover ang mouse sa ibabaw nito 1</value>
+    <value>המחוון בזמן שהעכבר מרחף מעליו 1</value>
   </data>
   <data name="Slider while mouse hovers over it 2" xml:space="preserve">
-    <value>Slider habang naka-hover ang mouse sa ibabaw nito 2</value>
+    <value>המחוון בזמן שהעכבר מרחף מעליו 2</value>
   </data>
   <data name="Use icon from directory" xml:space="preserve">
-    <value>Gamitin ang icon mula sa direktoryo</value>
+    <value>השתמש בסמל מהספרייה</value>
   </data>
   <data name="Sizes in percent" xml:space="preserve">
-    <value>Mga sukat sa porsyento</value>
+    <value>מידות באחוזים</value>
   </data>
   <data name="Border of menu" xml:space="preserve">
-    <value>Border ng menu</value>
+    <value>גבול התפריט</value>
   </data>
   <data name="Icons" xml:space="preserve">
-    <value>Mga icon</value>
+    <value>אייקונים</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
-    <value>Itakda sa pamamagitan ng menu ng konteksto</value>
+    <value>מוגדר לפי תפריט ההקשר</value>
   </data>
   <data name="Set as directory" xml:space="preserve">
-    <value>Itakda bilang direktoryo</value>
+    <value>הגדר כספרייה</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>naglo-load</value>
+    <value>טוען</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
-    <value>Problema sa shortcut link</value>
+    <value>בעיה בקישור קיצורי דרך</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>Ang item na tinutukoy ng shortcut na ito ay binago o inilipat, kaya hindi na gagana nang maayos ang shortcut na ito.</value>
+    <value>הפריט שאליו מתייחס קיצור הדרך השתנה או הועבר, כך שהקיצור הזה כבר לא יפעל כראוי.</value>
   </data>
   <data name="Open directory" xml:space="preserve">
-    <value>Buksan ang direktoryo</value>
+    <value>פתח את הספרייה</value>
   </data>
   <data name="Task Manager" xml:space="preserve">
-    <value>Task manager</value>
+    <value>מנהל משימות</value>
   </data>
   <data name="Deactivated" xml:space="preserve">
-    <value>Na-deactivate</value>
+    <value>מושבת</value>
   </data>
   <data name="Activated" xml:space="preserve">
-    <value>Na-activate</value>
+    <value>מוּפעָל</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>Dalubhasa</value>
+    <value>מוּמחֶה</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
-    <value>Kung nawala ang focus at pinindot ang Enter key</value>
+    <value>אם הפוקוס אובד והמקש Enter נלחץ</value>
   </data>
   <data name="Milliseconds until the menu closes if the menu is not reactivated" xml:space="preserve">
-    <value>Milliseconds hanggang sa magsara ang menu kung hindi muling na-activate ang menu</value>
+    <value>אלפיות שניות עד לסגירת התפריט אם התפריט לא מופעל מחדש</value>
   </data>
   <data name="Show in Taskbar" xml:space="preserve">
-    <value>Ipakita sa Taskbar</value>
+    <value>הצג בשורת המשימות</value>
   </data>
   <data name="Add directory" xml:space="preserve">
-    <value>Magdagdag ng direktoryo</value>
+    <value>הוסף ספרייה</value>
   </data>
   <data name="Add content of directory to root directory" xml:space="preserve">
-    <value>Magdagdag ng nilalaman ng direktoryo sa root directory</value>
+    <value>הוסף תוכן של ספרייה לספריית השורש</value>
   </data>
   <data name="Directory paths" xml:space="preserve">
-    <value>Mga landas ng direktoryo</value>
+    <value>נתיבי ספרייה</value>
   </data>
   <data name="Directories" xml:space="preserve">
-    <value>Mga direktoryo</value>
+    <value>מדריכים</value>
   </data>
   <data name="Recursive" xml:space="preserve">
-    <value>Recursive</value>
+    <value>רקורסיבי</value>
   </data>
   <data name="Remove directory" xml:space="preserve">
-    <value>Alisin ang direktoryo</value>
+    <value>הסר ספרייה</value>
   </data>
   <data name="Only Files" xml:space="preserve">
-    <value>Mga File lang</value>
+    <value>רק קבצים</value>
   </data>
   <data name="Clear cache if more than this number of items" xml:space="preserve">
-    <value>I-clear ang cache kung higit pa sa bilang na ito ng mga item</value>
+    <value>נקה את המטמון אם יותר ממספר הפריטים הזה</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>Magdagdag ng sample na direktoryo na 'Start Menu'</value>
+    <value>הוסף ספרייה לדוגמה 'תפריט התחל'</value>
   </data>
   <data name="Row height" xml:space="preserve">
-    <value>Taas ng hilera</value>
+    <value>גובה השורה</value>
   </data>
   <data name="Round corners" xml:space="preserve">
-    <value>Pabilog na sulok</value>
+    <value>פינות עגולות</value>
   </data>
   <data name="Appearance" xml:space="preserve">
-    <value>Hitsura</value>
+    <value>מראה חיצוני</value>
   </data>
   <data name="Bottom left" xml:space="preserve">
-    <value>Babang kaliwa</value>
+    <value>שמאל תחתון</value>
   </data>
   <data name="Bottom right" xml:space="preserve">
-    <value>kanang ibaba</value>
+    <value>למטה מימין</value>
   </data>
   <data name="Main menu appears" xml:space="preserve">
-    <value>Lumilitaw ang pangunahing menu</value>
+    <value>התפריט הראשי מופיע</value>
   </data>
   <data name="Mouse location (above Taskbar icon)" xml:space="preserve">
-    <value>Lokasyon ng mouse (sa itaas ng icon ng Taskbar)</value>
+    <value>מיקום העכבר (מעל סמל שורת המשימות)</value>
   </data>
   <data name="Custom (drag it to the appropriate position)" xml:space="preserve">
-    <value>Custom (i-drag ito sa naaangkop na posisyon)</value>
+    <value>מותאם אישית (גרור אותו למיקום המתאים)</value>
   </data>
   <data name="element" xml:space="preserve">
-    <value>elemento</value>
+    <value>אֵלֵמֶנט</value>
   </data>
   <data name="elements" xml:space="preserve">
-    <value>mga elemento</value>
+    <value>אלמנטים</value>
   </data>
   <data name="Generate drive shortcuts on startup" xml:space="preserve">
-    <value>Bumuo ng mga shortcut sa drive sa startup</value>
+    <value>צור קיצורי דרך בכונן בעת ​​האתחול</value>
   </data>
   <data name="Cache" xml:space="preserve">
-    <value>Cache</value>
+    <value>מטמון</value>
   </data>
   <data name="Always show" xml:space="preserve">
-    <value>Laging ipakita</value>
+    <value>תמיד מראה</value>
   </data>
   <data name="Hidden files and directories" xml:space="preserve">
-    <value>Mga nakatagong file at direktoryo</value>
+    <value>קבצים וספריות מוסתרים</value>
   </data>
   <data name="Never show" xml:space="preserve">
-    <value>Huwag kailanman ipakita</value>
+    <value>לעולם אל תראה</value>
   </data>
   <data name="Size and location" xml:space="preserve">
-    <value>Sukat at lokasyon</value>
+    <value>גודל ומיקום</value>
   </data>
   <data name="Use operating system settings" xml:space="preserve">
-    <value>Gumamit ng mga setting ng operating system</value>
+    <value>השתמש בהגדרות מערכת ההפעלה</value>
   </data>
   <data name="Show only as search result" xml:space="preserve">
-    <value>Ipakita lamang bilang resulta ng paghahanap</value>
+    <value>הצג רק כתוצאת חיפוש</value>
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
-    <value>Isang pag-click upang buksan ang isang direktoryo</value>
+    <value>לחיצה אחת לפתיחת ספרייה</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>תמיכה ב-Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
-    <value>Sa tabi ng nauna</value>
+    <value>ליד הקודם</value>
   </data>
   <data name="Offset by pixels" xml:space="preserve">
-    <value>Offset ng mga pixel</value>
+    <value>קיזוז לפי פיקסלים</value>
   </data>
   <data name="Overlapping" xml:space="preserve">
-    <value>Nagsasapawan</value>
+    <value>חוֹפֵף</value>
   </data>
   <data name="Sub menu appears" xml:space="preserve">
-    <value>Lumilitaw ang sub menu</value>
+    <value>תפריט משנה מופיע</value>
   </data>
   <data name="Icon size" xml:space="preserve">
-    <value>Laki ng icon</value>
+    <value>גודל סמל</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
-    <value>Suportahan ang SystemTrayMenu</value>
+    <value>תמיכה ב-SystemTrayMenu</value>
   </data>
   <data name="Fading" xml:space="preserve">
-    <value>Kumukupas</value>
+    <value>דוֹהֶה</value>
   </data>
   <data name="Send hotkey to other instance" xml:space="preserve">
-    <value>Ipadala ang hotkey sa ibang instance</value>
+    <value>שלח מקש קיצור למופע אחר</value>
   </data>
   <data name="Sorted by date" xml:space="preserve">
-    <value>Pinagbukud-bukod ayon sa petsa</value>
+    <value>ממוין לפי תאריך</value>
   </data>
   <data name="Sorted by name" xml:space="preserve">
-    <value>Pinagbukud-bukod ayon sa pangalan</value>
+    <value>ממוין לפי שם</value>
   </data>
   <data name="Sorting" xml:space="preserve">
-    <value>Pag-uuri</value>
+    <value>מִיוּן</value>
   </data>
   <data name="Copy row element via drag and drop" xml:space="preserve">
-    <value>Kopyahin ang elemento ng row sa pamamagitan ng drag and drop</value>
+    <value>העתק רכיב שורה באמצעות גרירה ושחרור</value>
   </data>
   <data name="Drag" xml:space="preserve">
-    <value>I-drag</value>
+    <value>לִגרוֹר</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
-    <value>Mag-scroll sa pamamagitan ng pag-swipe</value>
+    <value>גלול באמצעות החלקה</value>
   </data>
   <data name="Filter menu by file type e.g.: *.exe|*.dll" xml:space="preserve">
-    <value>I-filter ang menu ayon sa uri ng file hal.: *.exe|*.dll</value>
+    <value>תפריט סינון לפי סוג קובץ, למשל: *.exe|*.dll</value>
   </data>
   <data name="Show count of elements" xml:space="preserve">
-    <value>Ipakita ang bilang ng mga elemento</value>
+    <value>הצג את ספירת האלמנטים</value>
   </data>
   <data name="Show directory title at top" xml:space="preserve">
-    <value>Ipakita ang pamagat ng direktoryo sa itaas</value>
+    <value>הצג את כותרת הספרייה בראש</value>
   </data>
   <data name="Show function key 'Open Folder'" xml:space="preserve">
-    <value>Ipakita ang function key na 'Buksan ang Folder'</value>
+    <value>הצג את מקש הפונקציה 'פתח תיקייה'</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
-    <value>Ipakita ang function key na 'Pin menu'</value>
+    <value>הצג את מקש הפונקציה 'תפריט סיכה'</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
-    <value>Ipakita ang function key na 'Mga Setting'</value>
+    <value>הצג את מקש הפונקציה 'הגדרות'</value>
   </data>
   <data name="Show function key 'Restart'" xml:space="preserve">
-    <value>Ipakita ang function key na 'I-restart'</value>
+    <value>הצג את מקש הפונקציה 'הפעל מחדש'</value>
   </data>
   <data name="Show search bar" xml:space="preserve">
-    <value>Ipakita ang search bar</value>
+    <value>הצג את שורת החיפוש</value>
   </data>
   <data name="Saving log file in application directory" xml:space="preserve">
-    <value>Pag-save ng log file sa direktoryo ng application</value>
+    <value>שומר קובץ יומן בספריית היישום</value>
   </data>
   <data name="Show link overlay" xml:space="preserve">
-    <value>Ipakita ang overlay ng link</value>
+    <value>הצג שכבת-על של קישור</value>
   </data>
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
-    <value>Direktoryo ng Internet Shortcut Icon</value>
+    <value>ספריית סמלי קיצורי אינטרנט</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Pinagbukud-bukod ayon sa uri at petsa</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>ממוין לפי סוג (תיקיה או קובץ) ותאריך</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Pinagbukud-bukod ayon sa uri at pangalan</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>ממוין לפי סוג (תיקיה או קובץ) ושם</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
-    <value>Tingnan ang mga update</value>
+    <value>בדוק עדכונים</value>
   </data>
   <data name="Go to download page" xml:space="preserve">
-    <value>Pumunta sa pahina ng pag-download</value>
+    <value>עבור לדף ההורדות</value>
   </data>
   <data name="Latest available version:" xml:space="preserve">
-    <value>Pinakabagong available na bersyon:</value>
+    <value>הגרסה האחרונה הזמינה:</value>
   </data>
   <data name="New version available!" xml:space="preserve">
-    <value>Available ang bagong bersyon!</value>
+    <value>גרסה חדשה זמינה!</value>
   </data>
   <data name="You have the latest version of SystemTrayMenu!" xml:space="preserve">
-    <value>Mayroon kang pinakabagong bersyon ng SystemTrayMenu!</value>
+    <value>יש לך את הגרסה האחרונה של SystemTrayMenu!</value>
   </data>
   <data name="Application size" xml:space="preserve">
-    <value>Laki ng application</value>
+    <value>גודל יישום</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>תכונות אופציונליות</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>פתרון קישורים לתיקיות והצג תוכן</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>ממוין לפי סיומת קובץ ושם</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>עותק</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>לחתוך</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>להדביק</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>בחירת הכל</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>לבטל</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>אל תציג את הרמז הזה שוב.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>רֶמֶז</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>ניתן לפתוח את תפריט ההגדרות גם על ידי לחיצה ימנית על האייקון במגש המערכת בצד ימין למטה, למקרה שלא ניתן יותר לפתוח אותו דרך התפריט.</value>
   </data>
 </root>

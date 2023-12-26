@@ -192,7 +192,7 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Գունային սխեման մուգ միշտ ակտիվ</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
+  <data name="Expanded" xml:space="preserve">
     <value>Ընդլայնված</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Մեկ սեղմումով գրացուցակ բացելու համար</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Աջակցեք Gamepad-ին</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Նախկինի կողքին</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Ինտերնետային դյուրանցման պատկերակների տեղեկատու</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Տեսակավորված ըստ տեսակի և ամսաթվի</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Տեսակավորված ըստ տեսակի (թղթապանակի կամ ֆայլի) և ամսաթվի</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Տեսակավորված ըստ տեսակի և անվան</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Տեսակավորված ըստ տեսակի (թղթապանակի կամ ֆայլի) և անվան</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Ստուգել թարմացումները</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Դիմումի չափը</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Ընտրովի հատկանիշներ</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Լուծեք թղթապանակների հղումները և ցուցադրեք բովանդակությունը</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Տեսակավորված ըստ ֆայլի ընդլայնման և անվան</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Պատճենել</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Կտրել</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Կպցնելու համար</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Ընտրելով բոլորը</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Հետարկել</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Այս հուշումն այլևս մի ցուցադրեք:</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Հուշում</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Կարգավորումների ընտրացանկը կարող է բացվել նաև ներքևի աջ մասում գտնվող համակարգի սկուտեղի պատկերակին աջ սեղմելով, եթե այլևս չեք կարող բացել այն ցանկի միջոցով:</value>
   </data>
 </root>

@@ -121,7 +121,7 @@
     <value>Acerca de SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>OK</value>
+    <value>DE ACUERDO</value>
   </data>
   <data name="App start" xml:space="preserve">
     <value>inicio de la aplicación</value>
@@ -151,7 +151,7 @@
     <value>Archivo de registro</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>Reiniciar</value>
+    <value>Reanudar</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
     <value>No se pudo registrar la tecla de acceso rápido.</value>
@@ -163,7 +163,7 @@
     <value>General</value>
   </data>
   <data name="Hotkey" xml:space="preserve">
-    <value>tecla de acceso directo</value>
+    <value>tecla de acceso rápido</value>
   </data>
   <data name="Start with Windows" xml:space="preserve">
     <value>Empieza con las ventanas</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Esquema de color oscuro siempre activo</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Avanzado</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Expandido</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>En la ubicación del ratón</value>
@@ -208,7 +208,7 @@
     <value>personalizar</value>
   </data>
   <data name="Default" xml:space="preserve">
-    <value>Defecto</value>
+    <value>Por defecto</value>
   </data>
   <data name="If the focus is lost and the mouse is still on the menu" xml:space="preserve">
     <value>Si se pierde el foco y el mouse todavía está en el menú</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Un solo clic para abrir un directorio</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Compatible con mando</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Al lado del anterior</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Directorio de iconos de acceso directo a Internet</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ordenado por tipo y fecha</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ordenado por tipo (carpeta o archivo) y fecha</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ordenado por tipo y nombre</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Ordenado por tipo (carpeta o archivo) y nombre</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Buscar actualizaciones</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Tamaño de la aplicación</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Características opcionales</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Resolver enlaces a carpetas y mostrar contenido</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Ordenado por extensión de archivo y nombre</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Cortar</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Pegar</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Deshacer</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>No vuelvas a mostrar esta sugerencia.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Pista</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>El menú de configuración también se puede abrir haciendo clic con el botón derecho en el icono de la bandeja del sistema en la parte inferior derecha, en caso de que ya no pueda abrirlo a través del menú.</value>
   </data>
 </root>

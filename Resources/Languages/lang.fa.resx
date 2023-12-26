@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>طرح رنگ تیره همیشه فعال است</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>پیشرفته</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>منبسط</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>در محل ماوس</value>
@@ -337,7 +337,7 @@
     <value>Task Manager</value>
   </data>
   <data name="Deactivated" xml:space="preserve">
-    <value>غیرفعال شد</value>
+    <value>غیر فعال شد</value>
   </data>
   <data name="Activated" xml:space="preserve">
     <value>فعال شد</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>برای باز کردن دایرکتوری فقط کلیک کنید</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>پشتیبانی از گیم پد</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>کنار قبلی</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>دایرکتوری آیکون های میانبر اینترنت</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>بر اساس نوع و تاریخ مرتب شده است</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>مرتب شده بر اساس نوع (پوشه یا فایل) و تاریخ</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>بر اساس نوع و نام مرتب شده است</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>مرتب شده بر اساس نوع (پوشه یا فایل) و نام</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>به روز رسانی را بررسی کنید</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>اندازه برنامه</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>ویژگی های اختیاری</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>پیوندهای پوشه ها را حل کنید و محتوا را نشان دهید</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>بر اساس پسوند و نام فایل مرتب شده است</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>کپی 🀄</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>برای بریدن</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>چسباندن</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>انتخاب همه</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>واگرد</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>این اشاره را دیگر نشان ندهید.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>اشاره</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>منوی تنظیمات همچنین با کلیک راست بر روی نماد موجود در سینی سیستم در پایین سمت راست باز می شود، در صورتی که دیگر نمی توانید آن را از طریق منو باز کنید.</value>
   </data>
 </root>

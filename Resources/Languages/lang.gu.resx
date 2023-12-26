@@ -151,7 +151,7 @@
     <value>લોગ ફાઈલ</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>ફરી થી શરૂ કરવું</value>
+    <value>પુનઃપ્રારંભ</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
     <value>હોટ કીની નોંધણી કરી શકાઈ નથી.</value>
@@ -184,7 +184,7 @@
     <value>એપ્લિકેશન માટેની તમારી રૂટ ડિરેક્ટરી અસ્તિત્વમાં નથી અથવા ખાલી છે! રૂટ ડિરેક્ટરી બદલો અથવા રૂટ ડિરેક્ટરીમાં કેટલીક ફાઇલો, ડિરેક્ટરીઓ અથવા શોર્ટકટ્સ મૂકો.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
-    <value>તમારી પાસે એપ્લિકેશનની રૂટ ડાયરેક્ટરીનો કોઈ ઍક્સેસ નથી. ડિરેક્ટરીમાં ઍક્સેસ આપો અથવા રૂટ ડિરેક્ટરી બદલો.</value>
+    <value>તમારી પાસે એપ્લિકેશનની રૂટ ડાયરેક્ટરીનો કોઈ ઍક્સેસ નથી. ડિરેક્ટરીમાં એક્સેસ આપો અથવા રૂટ ડિરેક્ટરી બદલો.</value>
   </data>
   <data name="Single click to open an element" xml:space="preserve">
     <value>એક તત્વ ખોલવા માટે એક ક્લિક કરો</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>રંગ યોજના શ્યામ હંમેશા સક્રિય</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>અદ્યતન</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>વિસ્તૃત</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>માઉસ સ્થાન પર</value>
@@ -211,7 +211,7 @@
     <value>ડિફૉલ્ટ</value>
   </data>
   <data name="If the focus is lost and the mouse is still on the menu" xml:space="preserve">
-    <value>જો ફોકસ ખોવાઈ જાય અને માઉસ હજુ પણ મેનુ પર હોય</value>
+    <value>જો ફોકસ ખોવાઈ ગયું હોય અને માઉસ હજુ પણ મેનુ પર હોય</value>
   </data>
   <data name="Milliseconds until a menu opens when the mouse is on it" xml:space="preserve">
     <value>જ્યારે માઉસ તેના પર હોય ત્યારે મેનૂ ખુલે ત્યાં સુધી મિલિસેકન્ડ</value>
@@ -271,7 +271,7 @@
     <value>ક્લિક કરતી વખતે એરો</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
-    <value>તીર જ્યારે માઉસ તેના પર ફરે છે</value>
+    <value>તીર જ્યારે તેના પર માઉસ ફરે છે</value>
   </data>
   <data name="Background of arrow when clicking" xml:space="preserve">
     <value>ક્લિક કરતી વખતે તીરની પૃષ્ઠભૂમિ</value>
@@ -421,7 +421,7 @@
     <value>હંમેશા બતાવો</value>
   </data>
   <data name="Hidden files and directories" xml:space="preserve">
-    <value>છુપાયેલ ફાઇલો અને ડિરેક્ટરીઓ</value>
+    <value>છુપાયેલી ફાઇલો અને ડિરેક્ટરીઓ</value>
   </data>
   <data name="Never show" xml:space="preserve">
     <value>ક્યારેય બતાવશો નહીં</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ડિરેક્ટરી ખોલવા માટે એક ક્લિક કરો</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>ગેમપેડને સપોર્ટ કરો</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>પાછલા એકની બાજુમાં</value>
   </data>
@@ -448,7 +451,7 @@
     <value>ઓવરલેપિંગ</value>
   </data>
   <data name="Sub menu appears" xml:space="preserve">
-    <value>સબ મેનુ દેખાય છે</value>
+    <value>સબ મેનૂ દેખાય છે</value>
   </data>
   <data name="Icon size" xml:space="preserve">
     <value>ચિહ્નનું કદ</value>
@@ -493,7 +496,7 @@
     <value>ફંક્શન કી 'ઓપન ફોલ્ડર' બતાવો</value>
   </data>
   <data name="Show function key 'Pin menu'" xml:space="preserve">
-    <value>ફંક્શન કી 'પિન મેનૂ' બતાવો</value>
+    <value>ફંક્શન કી 'પિન મેનુ' બતાવો</value>
   </data>
   <data name="Show function key 'Settings'" xml:space="preserve">
     <value>ફંક્શન કી 'સેટિંગ્સ' બતાવો</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>ઈન્ટરનેટ શોર્ટકટ ચિહ્નોની ડિરેક્ટરી</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>પ્રકાર અને તારીખ દ્વારા ક્રમાંકિત</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>પ્રકાર (ફોલ્ડર અથવા ફાઇલ) અને તારીખ દ્વારા સૉર્ટ કરેલ</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>પ્રકાર અને નામ દ્વારા ક્રમાંકિત</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>પ્રકાર (ફોલ્ડર અથવા ફાઇલ) અને નામ દ્વારા સૉર્ટ કરેલ</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>અપડેટ માટે ચકાસો</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>એપ્લિકેશનનું કદ</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>વૈકલ્પિક લક્ષણો</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>ફોલ્ડર્સની લિંક્સ ઉકેલો અને સામગ્રી બતાવો</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>ફાઇલ એક્સ્ટેંશન અને નામ દ્વારા સૉર્ટ કરેલ</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>નકલ કરો</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>કાપવા માટે</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>પેસ્ટ કરવા માટે</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>બધા પસંદ કરી રહ્યા છીએ</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>પૂર્વવત્ કરો</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>આ સંકેત ફરીથી બતાવશો નહીં.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>ઈશારો</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>સેટિંગ્સ મેનૂને નીચે જમણી બાજુએ સિસ્ટમ ટ્રેમાંના આઇકન પર જમણું-ક્લિક કરીને પણ ખોલી શકાય છે, જો તમે તેને મેનૂ દ્વારા ખોલી શકતા નથી.</value>
   </data>
 </root>

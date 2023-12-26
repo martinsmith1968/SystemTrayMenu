@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Esquema de colors fosc sempre actiu</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Avançat</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Ampliat</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>A la ubicació del ratolí</value>
@@ -346,7 +346,7 @@
     <value>Expert</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
-    <value>Si es perd el focus i es premeu la tecla Enter</value>
+    <value>Si es perd el focus i es prem la tecla Enter</value>
   </data>
   <data name="Milliseconds until the menu closes if the menu is not reactivated" xml:space="preserve">
     <value>Mil·lisegons fins que el menú es tanqui si el menú no es reactiva</value>
@@ -424,7 +424,7 @@
     <value>Fitxers i directoris ocults</value>
   </data>
   <data name="Never show" xml:space="preserve">
-    <value>No mostrar mai</value>
+    <value>No mostris mai</value>
   </data>
   <data name="Size and location" xml:space="preserve">
     <value>Mida i ubicació</value>
@@ -437,6 +437,9 @@
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Un sol clic per obrir un directori</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Suport Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Al costat de l'anterior</value>
@@ -478,7 +481,7 @@
     <value>Arrossegueu</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
-    <value>Desplaceu-vos amb lliscar</value>
+    <value>Desplaceu-vos amb el dit</value>
   </data>
   <data name="Filter menu by file type e.g.: *.exe|*.dll" xml:space="preserve">
     <value>Filtra el menú per tipus de fitxer, p. ex.: *.exe|*.dll</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Directori d'icones de dreceres d'Internet</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ordenat per tipus i data</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ordenat per tipus (carpeta o fitxer) i data</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ordenat per tipus i nom</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Ordenat per tipus (carpeta o fitxer) i nom</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Buscar actualitzacions</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Mida de l'aplicació</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Característiques opcionals</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Resoldre enllaços a carpetes i mostrar contingut</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Ordenat per extensió de fitxer i nom</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Còpia</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Per retallar</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Per enganxar</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Seleccionant-ho tot</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Desfer</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>No tornis a mostrar aquesta pista.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Pista</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>El menú de configuració també es pot obrir fent clic amb el botó dret a la icona de la safata del sistema a la part inferior dreta, en cas que ja no el pugueu obrir mitjançant el menú.</value>
   </data>
 </root>

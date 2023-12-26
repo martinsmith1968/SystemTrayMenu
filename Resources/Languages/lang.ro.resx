@@ -121,7 +121,7 @@
     <value>Despre SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>O.K</value>
+    <value>Bine</value>
   </data>
   <data name="App start" xml:space="preserve">
     <value>Pornirea aplicației</value>
@@ -181,7 +181,7 @@
     <value>Selectați directorul</value>
   </data>
   <data name="Your root directory for the app does not exist or is empty! Change the root directory or put some files, directories or shortcuts into the root directory." xml:space="preserve">
-    <value>Directorul tău rădăcină pentru aplicație nu există sau este gol! Schimbați directorul rădăcină sau puneți unele fișiere, directoare sau comenzi rapide în directorul rădăcină.</value>
+    <value>Directorul dvs. rădăcină pentru aplicație nu există sau este gol! Schimbați directorul rădăcină sau puneți unele fișiere, directoare sau comenzi rapide în directorul rădăcină.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
     <value>Nu aveți acces la directorul rădăcină al aplicației. Acordați acces la director sau schimbați directorul rădăcină.</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Schema de culori întunecată întotdeauna activă</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Avansat</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Extins</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>La locația mouse-ului</value>
@@ -268,7 +268,7 @@
     <value>Săgeată</value>
   </data>
   <data name="Arrow when clicking" xml:space="preserve">
-    <value>Săgeată când dați clic</value>
+    <value>Săgeată când faceți clic</value>
   </data>
   <data name="Arrow while mouse hovers over it" xml:space="preserve">
     <value>Săgeată în timp ce mouse-ul trece peste ea</value>
@@ -313,7 +313,7 @@
     <value>Chenarul meniului</value>
   </data>
   <data name="Icons" xml:space="preserve">
-    <value>Pictograme</value>
+    <value>icoane</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
     <value>Setați prin meniul contextual</value>
@@ -328,7 +328,7 @@
     <value>Problemă cu legătura rapidă</value>
   </data>
   <data name="The item that this shortcut refers to has been changed or moved, so this shortcut will no longer work properly." xml:space="preserve">
-    <value>Elementul la care se referă această comandă rapidă a fost schimbat sau mutat, așa că această comandă rapidă nu va mai funcționa corect.</value>
+    <value>Elementul la care se referă această comandă rapidă a fost modificat sau mutat, așa că această comandă rapidă nu va mai funcționa corect.</value>
   </data>
   <data name="Open directory" xml:space="preserve">
     <value>Deschide directorul</value>
@@ -379,7 +379,7 @@
     <value>Goliți memoria cache dacă este mai mare de acest număr de elemente</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>Adăugați exemplu de director „Meniu Start”</value>
+    <value>Adăugați exemplu de director „Meniul Start”</value>
   </data>
   <data name="Row height" xml:space="preserve">
     <value>Înălțimea rândului</value>
@@ -437,6 +437,9 @@
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Un singur clic pentru a deschide un director</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Suport Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Alături de precedentul</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Director cu pictograme de comenzi rapide pe Internet</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Sortate după tip și dată</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Sortate după tip (dosar sau fișier) și dată</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Sortate după tip și nume</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Sortate după tip (dosar sau fișier) și nume</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Verifică pentru actualizări</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Dimensiunea aplicației</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Caracteristici opționale</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Rezolvați linkurile către dosare și afișați conținutul</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Sortate după extensia și nume de fișier</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copie</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>A decupa</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Pentru a lipi</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Selectarea tuturor</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Anula</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Nu mai afișa acest indiciu din nou.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Aluzie</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Meniul de setări poate fi deschis și făcând clic dreapta pe pictograma din bara de sistem din dreapta jos, în cazul în care nu îl mai puteți deschide prin meniu.</value>
   </data>
 </root>

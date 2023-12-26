@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>ಕಲರ್ ಸ್ಕೀಮ್ ಡಾರ್ಕ್ ಯಾವಾಗಲೂ ಸಕ್ರಿಯವಾಗಿರುತ್ತದೆ</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>ಸುಧಾರಿತ</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>ವಿಸ್ತರಿಸಲಾಗಿದೆ</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>ಮೌಸ್ ಸ್ಥಳದಲ್ಲಿ</value>
@@ -343,7 +343,7 @@
     <value>ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>ತಜ್ಞ</value>
+    <value>ಪರಿಣಿತ</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
     <value>ಫೋಕಸ್ ಕಳೆದುಹೋದರೆ ಮತ್ತು Enter ಕೀಲಿಯನ್ನು ಒತ್ತಿದರೆ</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>ಡೈರೆಕ್ಟರಿಯನ್ನು ತೆರೆಯಲು ಒಂದೇ ಕ್ಲಿಕ್ ಮಾಡಿ</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>ಗೇಮ್‌ಪ್ಯಾಡ್ ಅನ್ನು ಬೆಂಬಲಿಸಿ</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>ಹಿಂದಿನದಕ್ಕೆ ಮುಂದೆ</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>ಇಂಟರ್ನೆಟ್ ಶಾರ್ಟ್‌ಕಟ್ ಐಕಾನ್‌ಗಳ ಡೈರೆಕ್ಟರಿ</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>ಪ್ರಕಾರ ಮತ್ತು ದಿನಾಂಕದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಲಾಗಿದೆ</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>ಪ್ರಕಾರ (ಫೋಲ್ಡರ್ ಅಥವಾ ಫೈಲ್) ಮತ್ತು ದಿನಾಂಕದ ಪ್ರಕಾರ ವಿಂಗಡಿಸಲಾಗಿದೆ</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>ಪ್ರಕಾರ ಮತ್ತು ಹೆಸರಿನ ಮೂಲಕ ವಿಂಗಡಿಸಲಾಗಿದೆ</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>ಪ್ರಕಾರ (ಫೋಲ್ಡರ್ ಅಥವಾ ಫೈಲ್) ಮತ್ತು ಹೆಸರಿನ ಮೂಲಕ ವಿಂಗಡಿಸಲಾಗಿದೆ</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>ಅಪ್ಲಿಕೇಶನ್ ಗಾತ್ರ</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>ಐಚ್ಛಿಕ ವೈಶಿಷ್ಟ್ಯಗಳು</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>ಫೋಲ್ಡರ್‌ಗಳಿಗೆ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಹರಿಸಿ ಮತ್ತು ವಿಷಯವನ್ನು ತೋರಿಸಿ</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>ಫೈಲ್ ವಿಸ್ತರಣೆ ಮತ್ತು ಹೆಸರಿನ ಮೂಲಕ ವಿಂಗಡಿಸಲಾಗಿದೆ</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>ನಕಲು ಮಾಡಿ</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>ಕತ್ತರಿಸಲು</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>ಅಂಟಿಸಲು</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಲಾಗುತ್ತಿದೆ</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>ರದ್ದುಮಾಡು</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>ಈ ಸುಳಿವನ್ನು ಮತ್ತೆ ತೋರಿಸಬೇಡಿ.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>ಸುಳಿವು</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುವನ್ನು ನೀವು ಇನ್ನು ಮುಂದೆ ಮೆನು ಮೂಲಕ ತೆರೆಯಲು ಸಾಧ್ಯವಾಗದಿದ್ದಲ್ಲಿ, ಕೆಳಗಿನ ಬಲಭಾಗದಲ್ಲಿರುವ ಸಿಸ್ಟಮ್ ಟ್ರೇನಲ್ಲಿರುವ ಐಕಾನ್ ಅನ್ನು ಬಲ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ತೆರೆಯಬಹುದು.</value>
   </data>
 </root>

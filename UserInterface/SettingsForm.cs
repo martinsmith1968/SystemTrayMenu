@@ -45,8 +45,8 @@ namespace SystemTrayMenu.UserInterface
                     Name = "textBoxHotkey",
                     Size = new Size(200, 20),
                     Text = "None",
+                    TabStop = false,
                 };
-                textBoxHotkey.TabStop = false;
                 textBoxHotkey.Enter += new EventHandler(TextBoxHotkeyEnter);
                 textBoxHotkey.Leave += new EventHandler(TextBoxHotkey_Leave);
                 tableLayoutPanelHotkey.Controls.Remove(textBoxHotkeyPlaceholder);
@@ -145,10 +145,13 @@ namespace SystemTrayMenu.UserInterface
                 labelOverlappingByPixelsOffset.Text = Translator.GetText("Offset by pixels");
                 buttonSizeAndLocationDefault.Text = Translator.GetText("Default");
 
-                tabPageAdvanced.Text = Translator.GetText("Advanced");
-                groupBoxClick.Text = Translator.GetText("Click");
+                tabPageAdvanced.Text = Translator.GetText("Expanded");
+                groupBoxOptionalFeatures.Text = Translator.GetText("Optional Features");
+                checkBoxResolveLinksToFolders.Text = Translator.GetText("Resolve links to folders and show content");
                 checkBoxShowInTaskbar.Text = Translator.GetText("Show in Taskbar");
                 checkBoxSendHotkeyInsteadKillOtherInstances.Text = Translator.GetText("Send hotkey to other instance");
+                checkBoxSupportGamepad.Text = Translator.GetText("Support Gamepad");
+                groupBoxClick.Text = Translator.GetText("Click");
                 checkBoxOpenItemWithOneClick.Text = Translator.GetText("Single click to open an element");
                 checkBoxOpenDirectoryWithOneClick.Text = Translator.GetText("Single click to open a directory");
                 groupBoxDrag.Text = Translator.GetText("Drag");
@@ -157,8 +160,9 @@ namespace SystemTrayMenu.UserInterface
                 groupBoxInternetShortcutIcons.Text = Translator.GetText("Directory of Internet Shortcut Icons");
                 buttonChangeIcoFolder.Text = Translator.GetText("Changing directory");
                 groupBoxSorting.Text = Translator.GetText("Sorting");
-                radioButtonSortByTypeAndName.Text = Translator.GetText("Sorted by type and name");
-                radioButtonSortByTypeAndDate.Text = Translator.GetText("Sorted by type and date");
+                radioButtonSortByTypeAndName.Text = Translator.GetText("Sorted by type (folder or file) and name");
+                radioButtonSortByTypeAndDate.Text = Translator.GetText("Sorted by type (folder or file) and date");
+                radioButtonSortByFileExtensionAndName.Text = Translator.GetText("Sorted by file extension and name");
                 radioButtonSortByName.Text = Translator.GetText("Sorted by name");
                 radioButtonSortByDate.Text = Translator.GetText("Sorted by date");
                 groupBoxHiddenFilesAndFolders.Text = Translator.GetText("Hidden files and directories");
@@ -296,12 +300,12 @@ namespace SystemTrayMenu.UserInterface
                     new Language() { Name = "Español", Value = "es" },
                     new Language() { Name = "Esperanto", Value = "eo" },
                     new Language() { Name = "euskara", Value = "eu" },
-                    new Language() { Name = "Filipino", Value = "tl" },
+                    new Language() { Name = "Filipino", Value = "fil" },
                     new Language() { Name = "Français", Value = "fr" },
-                    new Language() { Name = "Gaeilge", Value = "it" },
+                    new Language() { Name = "Italian", Value = "it" },
                     new Language() { Name = "galego", Value = "gl" },
                     new Language() { Name = "Hrvatski", Value = "hr" },
-                    new Language() { Name = "Irish", Value = "ga" },
+                    new Language() { Name = "Gaeilge", Value = "ga" },
                     new Language() { Name = "íslenskur", Value = "is" },
                     new Language() { Name = "kiswahili", Value = "sw" },
                     new Language() { Name = "Kreyòl ayisyen", Value = "ht" },
@@ -312,7 +316,7 @@ namespace SystemTrayMenu.UserInterface
                     new Language() { Name = "Malti", Value = "mt" },
                     new Language() { Name = "Melayu", Value = "ms" },
                     new Language() { Name = "Nederlands", Value = "nl" },
-                    new Language() { Name = "norsk", Value = "no" },
+                    new Language() { Name = "norsk", Value = "nb" },
                     new Language() { Name = "Polski", Value = "pl" },
                     new Language() { Name = "Português (Brasil)", Value = "pt-BR" },
                     new Language() { Name = "português (Portugal)", Value = "pt-PT" },
@@ -333,7 +337,7 @@ namespace SystemTrayMenu.UserInterface
                     new Language() { Name = "ქართული", Value = "ka" },
                     new Language() { Name = "հայերեն", Value = "hy" },
                     new Language() { Name = "יידיש", Value = "yi" },
-                    new Language() { Name = "עִברִית", Value = "iw" },
+                    new Language() { Name = "עִברִית", Value = "he" },
                     new Language() { Name = "اردو", Value = "ur" },
                     new Language() { Name = "عربي", Value = "ar" },
                     new Language() { Name = "فارسی", Value = "fa" },
@@ -355,10 +359,7 @@ namespace SystemTrayMenu.UserInterface
                 comboBoxLanguage.ValueMember = "Value";
                 comboBoxLanguage.SelectedValue =
                     Settings.Default.CurrentCultureInfoName;
-                if (comboBoxLanguage.SelectedValue == null)
-                {
-                    comboBoxLanguage.SelectedValue = "en";
-                }
+                comboBoxLanguage.SelectedValue ??= "en";
             }
 
             numericUpDownSizeInPercent.Minimum = 100;
@@ -411,7 +412,7 @@ namespace SystemTrayMenu.UserInterface
                 numericUpDownRowHeighteInPercentage.Value = Settings.Default.RowHeighteInPercentage;
             }
 
-            numericUpDownMenuWidth.Minimum = 25;
+            numericUpDownMenuWidth.Minimum = 0;
             numericUpDownMenuWidth.Maximum = 400;
             numericUpDownMenuWidth.Increment = 5;
             numericUpDownMenuWidth.Value = Settings.Default.WidthMaxInPercent;
@@ -450,8 +451,11 @@ namespace SystemTrayMenu.UserInterface
                 numericUpDownOverlappingOffsetPixels.Enabled = true;
             }
 
+            checkBoxResolveLinksToFolders.Checked = Settings.Default.ResolveLinksToFolders;
             checkBoxShowInTaskbar.Checked = Settings.Default.ShowInTaskbar;
+            checkBoxShowInTaskbar.CheckedChanged += ShowHintToFindSettings;
             checkBoxSendHotkeyInsteadKillOtherInstances.Checked = Settings.Default.SendHotkeyInsteadKillOtherInstances;
+            checkBoxSupportGamepad.Checked = Settings.Default.SupportGamepad;
             checkBoxOpenItemWithOneClick.Checked = Settings.Default.OpenItemWithOneClick;
             checkBoxOpenDirectoryWithOneClick.Checked = Settings.Default.OpenDirectoryWithOneClick;
 
@@ -469,6 +473,7 @@ namespace SystemTrayMenu.UserInterface
             textBoxIcoFolder.Text = Settings.Default.PathIcoDirectory;
             radioButtonSortByTypeAndName.Checked = Settings.Default.SortByTypeAndNameWindowsExplorerSort;
             radioButtonSortByTypeAndDate.Checked = Settings.Default.SortByTypeAndDate;
+            radioButtonSortByFileExtensionAndName.Checked = Settings.Default.SortByFileExtensionAndName;
             radioButtonSortByName.Checked = Settings.Default.SortByName;
             radioButtonSortByDate.Checked = Settings.Default.SortByDate;
             radioButtonSystemSettingsShowHiddenFiles.Checked = Settings.Default.SystemSettingsShowHiddenFiles;
@@ -534,6 +539,7 @@ namespace SystemTrayMenu.UserInterface
             checkBoxShowFunctionKeyPinMenu.Checked = Settings.Default.ShowFunctionKeyPinMenu;
             checkBoxShowFunctionKeySettings.Checked = Settings.Default.ShowFunctionKeySettings;
             checkBoxShowFunctionKeyRestart.Checked = Settings.Default.ShowFunctionKeyRestart;
+            checkBoxShowFunctionKeySettings.CheckedChanged += ShowHintToFindSettings;
 
             textBoxColorSelectedItem.Text = Settings.Default.ColorSelectedItem;
             textBoxColorSelecetedItemDarkMode.Text = Settings.Default.ColorDarkModeSelecetedItem;
@@ -574,9 +580,6 @@ namespace SystemTrayMenu.UserInterface
             textBoxColorArrowHoverBackgroundDarkMode.Text = Settings.Default.ColorArrowHoverBackgroundDarkMode;
         }
 
-        /// <summary>
-        /// Gets NewHotKey.
-        /// </summary>
         public string NewHotKey { get; } = string.Empty;
 
         /// <summary>
@@ -748,10 +751,7 @@ namespace SystemTrayMenu.UserInterface
 
                 registryKeyContextMenuCommand = Registry.CurrentUser.CreateSubKey(Command);
 
-                if (registryKeyContextMenuCommand != null)
-                {
-                    registryKeyContextMenuCommand.SetValue(string.Empty, binLocation + " \"%1\"");
-                }
+                registryKeyContextMenuCommand?.SetValue(string.Empty, binLocation + " \"%1\"");
 
                 Settings.Default.SetFolderByWindowsContextMenu = true;
             }
@@ -761,15 +761,9 @@ namespace SystemTrayMenu.UserInterface
             }
             finally
             {
-                if (registryKeyContextMenu != null)
-                {
-                    registryKeyContextMenu.Close();
-                }
+                registryKeyContextMenu?.Close();
 
-                if (registryKeyContextMenuCommand != null)
-                {
-                    registryKeyContextMenuCommand.Close();
-                }
+                registryKeyContextMenuCommand?.Close();
             }
         }
 
@@ -806,6 +800,18 @@ namespace SystemTrayMenu.UserInterface
             useStartupTask = true;
 #endif
             return useStartupTask;
+        }
+
+        private void ShowHintToFindSettings(object sender, EventArgs e)
+        {
+            if (!((CheckBox)sender).Checked &&
+                Settings.Default.ShowHintYouCanOpenSettingsInSystemtrayIconRightClick)
+            {
+                using HintYouCanOpenSettingsInSystemtrayIconRightClickForm hintForm = new();
+                hintForm.ShowDialog();
+                Settings.Default.ShowHintYouCanOpenSettingsInSystemtrayIconRightClick =
+                    hintForm.GetShowHintAgain();
+            }
         }
 
         private void SettingsForm_Load(object sender, EventArgs e)
@@ -954,8 +960,10 @@ namespace SystemTrayMenu.UserInterface
                 Settings.Default.AppearNextToPreviousMenu = false;
             }
 
+            Settings.Default.ResolveLinksToFolders = checkBoxResolveLinksToFolders.Checked;
             Settings.Default.ShowInTaskbar = checkBoxShowInTaskbar.Checked;
             Settings.Default.SendHotkeyInsteadKillOtherInstances = checkBoxSendHotkeyInsteadKillOtherInstances.Checked;
+            Settings.Default.SupportGamepad = checkBoxSupportGamepad.Checked;
             Settings.Default.OpenItemWithOneClick = checkBoxOpenItemWithOneClick.Checked;
             Settings.Default.OpenDirectoryWithOneClick = checkBoxOpenDirectoryWithOneClick.Checked;
 
@@ -973,6 +981,7 @@ namespace SystemTrayMenu.UserInterface
             Settings.Default.PathIcoDirectory = textBoxIcoFolder.Text;
             Settings.Default.SortByTypeAndNameWindowsExplorerSort = radioButtonSortByTypeAndName.Checked;
             Settings.Default.SortByTypeAndDate = radioButtonSortByTypeAndDate.Checked;
+            Settings.Default.SortByFileExtensionAndName = radioButtonSortByFileExtensionAndName.Checked;
             Settings.Default.SortByName = radioButtonSortByName.Checked;
             Settings.Default.SortByDate = radioButtonSortByDate.Checked;
             Settings.Default.SystemSettingsShowHiddenFiles = radioButtonSystemSettingsShowHiddenFiles.Checked;
@@ -1270,8 +1279,10 @@ namespace SystemTrayMenu.UserInterface
 
         private void ButtonAdvancedDefault_Click(object sender, EventArgs e)
         {
+            checkBoxResolveLinksToFolders.Checked = true;
             checkBoxShowInTaskbar.Checked = true;
             checkBoxSendHotkeyInsteadKillOtherInstances.Checked = false;
+            checkBoxSupportGamepad.Checked = false;
             checkBoxOpenItemWithOneClick.Checked = true;
             checkBoxOpenDirectoryWithOneClick.Checked = false;
             if (DllImports.NativeMethods.IsTouchEnabled())
@@ -1493,6 +1504,7 @@ namespace SystemTrayMenu.UserInterface
 
         private void SettingsForm_FormClosed(object sender, FormClosedEventArgs e)
         {
+            textBoxHotkey?.Dispose();
             settingsForm?.Dispose();
             settingsForm = null;
         }

@@ -151,7 +151,7 @@
     <value>ملف تسجيل</value>
   </data>
   <data name="Restart" xml:space="preserve">
-    <value>إعادة بدء</value>
+    <value>إعادة تشغيل</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
     <value>تعذر تسجيل مفتاح التشغيل السريع.</value>
@@ -190,10 +190,10 @@
     <value>نقرة واحدة لفتح عنصر</value>
   </data>
   <data name="Color scheme dark always active" xml:space="preserve">
-    <value>نظام الألوان الداكن نشط دائمًا</value>
+    <value>نظام الألوان داكن نشط دائمًا</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>متقدم</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>موسع</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>في موقع الماوس</value>
@@ -322,7 +322,7 @@
     <value>تعيين كدليل</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>جار التحميل</value>
+    <value>تحميل</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
     <value>مشكلة في ارتباط الاختصار</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>نقرة واحدة لفتح دليل</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>دعم Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>بجانب السابق</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>دليل أيقونات اختصارات الإنترنت</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>مرتبة حسب النوع والتاريخ</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>مرتبة حسب النوع (مجلد أو ملف) والتاريخ</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>مرتبة حسب النوع والاسم</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>مرتبة حسب النوع (المجلد أو الملف) والاسم</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>تحقق من وجود تحديثات</value>
@@ -526,7 +529,7 @@
     <value>انتقل إلى صفحة التنزيل</value>
   </data>
   <data name="Latest available version:" xml:space="preserve">
-    <value>أحدث نسخة متاحة:</value>
+    <value>أحدث إصدار متاح:</value>
   </data>
   <data name="New version available!" xml:space="preserve">
     <value>نسخة جديدة متاحة!</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>حجم التطبيق</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>ميزات اختيارية</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>حل روابط المجلدات وإظهار المحتوى</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>مرتبة حسب امتداد الملف والاسم</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>ينسخ</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>لقطع</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>اختيار الكل</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>الغاء التحميل</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>لا تظهر هذا التلميح مرة أخرى.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>تَلمِيح</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>يمكن أيضًا فتح قائمة الإعدادات بالنقر بزر الماوس الأيمن فوق الرمز الموجود في علبة النظام أسفل اليمين ، في حالة عدم قدرتك على فتحه عبر القائمة.</value>
   </data>
 </root>

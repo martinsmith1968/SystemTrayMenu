@@ -121,10 +121,10 @@
     <value>Tentang SystemTrayMenu</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Oke</value>
+    <value>OKE</value>
   </data>
   <data name="App start" xml:space="preserve">
-    <value>Aplikasi mulai</value>
+    <value>Mulai aplikasi</value>
   </data>
   <data name="Exit app" xml:space="preserve">
     <value>Keluar dari aplikasi</value>
@@ -136,7 +136,7 @@
     <value>Direktori kosong</value>
   </data>
   <data name="Details" xml:space="preserve">
-    <value>rincian</value>
+    <value>Detail</value>
   </data>
   <data name="System Info" xml:space="preserve">
     <value>Sistem Informasi</value>
@@ -148,13 +148,13 @@
     <value>Bahasa</value>
   </data>
   <data name="Log File" xml:space="preserve">
-    <value>File Log</value>
+    <value>Berkas Log</value>
   </data>
   <data name="Restart" xml:space="preserve">
     <value>Mengulang kembali</value>
   </data>
   <data name="Could not register the hot key." xml:space="preserve">
-    <value>Tidak dapat mendaftarkan kunci pintas.</value>
+    <value>Tidak dapat mendaftarkan hot key.</value>
   </data>
   <data name="Abort" xml:space="preserve">
     <value>Menggugurkan</value>
@@ -163,10 +163,10 @@
     <value>Umum</value>
   </data>
   <data name="Hotkey" xml:space="preserve">
-    <value>Tombol pintas</value>
+    <value>Hotkey</value>
   </data>
   <data name="Start with Windows" xml:space="preserve">
-    <value>Mulai dengan Windows</value>
+    <value>Mulailah dengan Windows</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Pengaturan</value>
@@ -181,7 +181,7 @@
     <value>Pilih direktori</value>
   </data>
   <data name="Your root directory for the app does not exist or is empty! Change the root directory or put some files, directories or shortcuts into the root directory." xml:space="preserve">
-    <value>Direktori root Anda untuk aplikasi tidak ada atau kosong! Ubah direktori root atau letakkan beberapa file, direktori, atau pintasan ke direktori root.</value>
+    <value>Direktori root Anda untuk aplikasi tidak ada atau kosong! Ubah direktori root atau letakkan beberapa file, direktori, atau pintasan ke dalam direktori root.</value>
   </data>
   <data name="You have no access to the root directory of the app. Grant access to the directory or change the root directory." xml:space="preserve">
     <value>Anda tidak memiliki akses ke direktori root aplikasi. Berikan akses ke direktori atau ubah direktori root.</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Skema warna gelap selalu aktif</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Canggih</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Diperluas</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Di lokasi tikus</value>
@@ -223,13 +223,13 @@
     <value>Lebar menu maksimum</value>
   </data>
   <data name="Menu stays open" xml:space="preserve">
-    <value>Menu tetap buka</value>
+    <value>Menu tetap terbuka</value>
   </data>
   <data name="Time until a menu opens" xml:space="preserve">
-    <value>Waktu sampai menu terbuka</value>
+    <value>Waktu hingga menu terbuka</value>
   </data>
   <data name="If an element was clicked" xml:space="preserve">
-    <value>Jika sebuah elemen diklik</value>
+    <value>Jika suatu elemen diklik</value>
   </data>
   <data name="Background" xml:space="preserve">
     <value>Latar belakang</value>
@@ -247,7 +247,7 @@
     <value>Elemen yang dipilih</value>
   </data>
   <data name="Border of selected element" xml:space="preserve">
-    <value>Batas elemen yang dipilih</value>
+    <value>Perbatasan elemen yang dipilih</value>
   </data>
   <data name="Relative directory" xml:space="preserve">
     <value>Direktori relatif</value>
@@ -295,13 +295,13 @@
     <value>Penggeser</value>
   </data>
   <data name="Slider while dragging" xml:space="preserve">
-    <value>Penggeser sambil menyeret</value>
+    <value>Geser sambil menyeret</value>
   </data>
   <data name="Slider while mouse hovers over it 1" xml:space="preserve">
-    <value>Penggeser saat mouse melayang di atasnya 1</value>
+    <value>Slider saat mouse melayang di atasnya 1</value>
   </data>
   <data name="Slider while mouse hovers over it 2" xml:space="preserve">
-    <value>Geser saat mouse melayang di atasnya 2</value>
+    <value>Slider saat mouse melayang di atasnya 2</value>
   </data>
   <data name="Use icon from directory" xml:space="preserve">
     <value>Gunakan ikon dari direktori</value>
@@ -316,13 +316,13 @@
     <value>Ikon</value>
   </data>
   <data name="Set by context menu " xml:space="preserve">
-    <value>Ditetapkan oleh menu konteks</value>
+    <value>Diatur oleh menu konteks</value>
   </data>
   <data name="Set as directory" xml:space="preserve">
     <value>Tetapkan sebagai direktori</value>
   </data>
   <data name="loading" xml:space="preserve">
-    <value>Memuat</value>
+    <value>memuat</value>
   </data>
   <data name="Problem with shortcut link" xml:space="preserve">
     <value>Masalah dengan tautan pintasan</value>
@@ -343,7 +343,7 @@
     <value>Diaktifkan</value>
   </data>
   <data name="Expert" xml:space="preserve">
-    <value>Ahli</value>
+    <value>Pakar</value>
   </data>
   <data name="If the focus is lost and the Enter key was pressed" xml:space="preserve">
     <value>Jika fokus hilang dan tombol Enter ditekan</value>
@@ -379,13 +379,13 @@
     <value>Hapus cache jika lebih dari jumlah item ini</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>Tambahkan direktori contoh 'Start Menu'</value>
+    <value>Tambahkan contoh direktori 'Start Menu'</value>
   </data>
   <data name="Row height" xml:space="preserve">
     <value>Tinggi baris</value>
   </data>
   <data name="Round corners" xml:space="preserve">
-    <value>Sudut bulat</value>
+    <value>Sudut bundar</value>
   </data>
   <data name="Appearance" xml:space="preserve">
     <value>Penampilan</value>
@@ -438,11 +438,14 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Satu klik untuk membuka direktori</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Dukungan Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Di sebelah yang sebelumnya</value>
   </data>
   <data name="Offset by pixels" xml:space="preserve">
-    <value>Diimbangi oleh piksel</value>
+    <value>Diimbangi dengan piksel</value>
   </data>
   <data name="Overlapping" xml:space="preserve">
     <value>Tumpang tindih</value>
@@ -478,13 +481,13 @@
     <value>Menyeret</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
-    <value>Gulir melalui geser</value>
+    <value>Gulir melalui gesekan</value>
   </data>
   <data name="Filter menu by file type e.g.: *.exe|*.dll" xml:space="preserve">
-    <value>Filter menu menurut jenis file misalnya: *.exe|*.dll</value>
+    <value>Saring menu berdasarkan jenis file misalnya: *.exe|*.dll</value>
   </data>
   <data name="Show count of elements" xml:space="preserve">
-    <value>Tampilkan jumlah elemen</value>
+    <value>Tampilkan hitungan elemen</value>
   </data>
   <data name="Show directory title at top" xml:space="preserve">
     <value>Tampilkan judul direktori di atas</value>
@@ -499,7 +502,7 @@
     <value>Tampilkan tombol fungsi 'Pengaturan'</value>
   </data>
   <data name="Show function key 'Restart'" xml:space="preserve">
-    <value>Tampilkan tombol fungsi 'Mulai ulang'</value>
+    <value>Tampilkan tombol fungsi 'Restart'</value>
   </data>
   <data name="Show search bar" xml:space="preserve">
     <value>Tampilkan bilah pencarian</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Direktori Ikon Pintasan Internet</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Diurutkan berdasarkan jenis dan tanggal</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Diurutkan berdasarkan jenis (folder atau file) dan tanggal</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Diurutkan berdasarkan jenis dan nama</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Diurutkan berdasarkan jenis (folder atau file) dan nama</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Periksa pembaruan</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Ukuran aplikasi</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Fitur pilihan</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Selesaikan tautan ke folder dan tampilkan konten</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Diurutkan berdasarkan ekstensi file dan nama</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Menyalin</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Untuk memotong</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Untuk menempel</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Memilih Semua</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Membuka</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Jangan tunjukkan petunjuk ini lagi.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Petunjuk</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Menu pengaturan juga dapat dibuka dengan mengklik kanan ikon di baki sistem di kanan bawah, jika Anda tidak lagi dapat membukanya melalui menu.</value>
   </data>
 </root>
