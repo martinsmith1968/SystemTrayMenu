@@ -13,6 +13,8 @@ namespace SystemTrayMenu.Utilities
     using System.Threading;
     using System.Windows.Forms;
     using Clearcove.Logging;
+    using IWshRuntimeLibrary;
+    using File = System.IO.File;
 
     internal static class Log
     {
@@ -159,6 +161,23 @@ namespace SystemTrayMenu.Utilities
 
             try
             {
+                string verb = string.Empty;
+                if (!PrivilegeChecker.IsCurrentUserInAdminGroup)
+                {
+                    bool isLink = Path.GetExtension(fileName)
+                        .Equals(".lnk", StringComparison.InvariantCultureIgnoreCase);
+                    if (isLink)
+                    {
+                        WshShell shell = new();
+                        IWshShortcut shortcut = (IWshShortcut)shell.CreateShortcut(fileName);
+                        bool startAsAdmin = shortcut.WindowStyle == 3;
+                        if (startAsAdmin)
+                        {
+                            verb = "runas";
+                        }
+                    }
+                }
+
                 using Process p = new()
                 {
                     StartInfo = new ProcessStartInfo(fileName)
@@ -168,6 +187,7 @@ namespace SystemTrayMenu.Utilities
                         WorkingDirectory = workingDirectory,
                         CreateNoWindow = createNoWindow,
                         UseShellExecute = true,
+                        Verb = verb,
                     },
                 };
                 p.Start();

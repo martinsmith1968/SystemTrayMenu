@@ -192,7 +192,7 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Тъмната цветова схема винаги е активна</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
+  <data name="Expanded" xml:space="preserve">
     <value>Разширено</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Едно щракване за отваряне на директория</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Поддържа геймпад</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>До предишния</value>
   </data>
@@ -513,14 +516,14 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Директория с икони за бърз достъп до интернет</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Сортирани по вид и дата</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Сортирани по тип (папка или файл) и дата</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Сортирани по тип и име</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Сортирани по тип (папка или файл) и име</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
-    <value>Провери за обновления</value>
+    <value>Провери за актуализации</value>
   </data>
   <data name="Go to download page" xml:space="preserve">
     <value>Отидете на страницата за изтегляне</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Размер на приложението</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Опционални функции</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Разрешаване на връзки към папки и показване на съдържание</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Сортирани по файлово разширение и име</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>копие</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>За изрязване</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>За да залепите</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Избиране на всички</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Отмяна</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Не показвайте тази подсказка отново.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Подсказка</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Менюто с настройки може да се отвори и чрез щракване с десния бутон върху иконата в системната област долу вдясно, в случай че вече не можете да го отворите чрез менюто.</value>
   </data>
 </root>

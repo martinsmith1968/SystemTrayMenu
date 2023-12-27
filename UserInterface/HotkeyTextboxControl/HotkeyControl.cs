@@ -53,7 +53,6 @@ namespace SystemTrayMenu.UserInterface.HotkeyTextboxControl
             PopulateModifierLists();
         }
 
-        // Delegates for hooking up events.
         public delegate void HotKeyHandler();
 
         private enum Modifiers
@@ -415,6 +414,20 @@ namespace SystemTrayMenu.UserInterface.HotkeyTextboxControl
         public override string ToString()
         {
             return HotkeyToString(HotkeyModifiers, Hotkey);
+        }
+
+        /// <summary>
+        /// Disposes of the resources used by the HotkeyControl.
+        /// </summary>
+        /// <param name="disposing">True if being called from Dispose, false otherwise.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                dummy.Dispose();
+            }
+
+            base.Dispose(disposing);
         }
 
         /// <summary>

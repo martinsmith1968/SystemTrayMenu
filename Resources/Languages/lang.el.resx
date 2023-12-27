@@ -157,7 +157,7 @@
     <value>Δεν ήταν δυνατή η εγγραφή του πλήκτρου συντόμευσης.</value>
   </data>
   <data name="Abort" xml:space="preserve">
-    <value>Κάνω αποβολή</value>
+    <value>Αμβλώνω</value>
   </data>
   <data name="General" xml:space="preserve">
     <value>Γενικός</value>
@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Ο συνδυασμός χρωμάτων σκούρο πάντα ενεργός</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Προχωρημένος</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Αναπτυγμένος</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Στη θέση του ποντικιού</value>
@@ -295,7 +295,7 @@
     <value>Ολισθητής</value>
   </data>
   <data name="Slider while dragging" xml:space="preserve">
-    <value>Ρυθμίστε κατά τη μεταφορά</value>
+    <value>Ρυθμιστικό κατά τη μεταφορά</value>
   </data>
   <data name="Slider while mouse hovers over it 1" xml:space="preserve">
     <value>Σύρετε ενώ το ποντίκι αιωρείται πάνω του 1</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Ένα μόνο κλικ για να ανοίξετε έναν κατάλογο</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Υποστήριξη Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Δίπλα στο προηγούμενο</value>
   </data>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Κατάλογος εικονιδίων συντομεύσεων Διαδικτύου</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Ταξινόμηση κατά τύπο και ημερομηνία</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Ταξινόμηση κατά τύπο (φάκελο ή αρχείο) και ημερομηνία</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Ταξινόμηση κατά τύπο και όνομα</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Ταξινόμηση κατά τύπο (φάκελο ή αρχείο) και όνομα</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Ελεγχος για ενημερώσεις</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Μέγεθος εφαρμογής</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Προαιρετικά χαρακτηριστικά</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Επίλυση συνδέσμων σε φακέλους και εμφάνιση περιεχομένου</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Ταξινόμηση κατά επέκταση αρχείου και όνομα</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>αντίγραφο</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Να κόψει</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Για να επικολλήσετε</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Επιλογή όλων</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Ξεκάνω</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Μην εμφανίσετε ξανά αυτήν την υπόδειξη.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Ιχνος</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Το μενού ρυθμίσεων μπορεί επίσης να ανοίξει κάνοντας δεξί κλικ στο εικονίδιο στο δίσκο συστήματος κάτω δεξιά, σε περίπτωση που δεν μπορείτε πλέον να το ανοίξετε μέσω του μενού.</value>
   </data>
 </root>

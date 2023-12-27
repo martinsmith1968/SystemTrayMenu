@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Litasamsetning dökk alltaf virk</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Ítarlegri</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Útvíkkað</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Á músarstað</value>
@@ -379,7 +379,7 @@
     <value>Hreinsaðu skyndiminni ef fleiri en þessi fjöldi liða</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
-    <value>Bæta við sýnishornsmöppu 'Start Menu'</value>
+    <value>Bæta við sýnishornsskrá 'Start Menu'</value>
   </data>
   <data name="Row height" xml:space="preserve">
     <value>Röð hæð</value>
@@ -437,6 +437,9 @@
   </data>
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Einn smellur til að opna möppu</value>
+  </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Stuðningur Gamepad</value>
   </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Við hliðina á fyrri</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Skrá yfir Internet flýtivísa tákn</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Raðað eftir tegund og dagsetningu</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Raðað eftir tegund (möppu eða skrá) og dagsetningu</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Raðað eftir tegund og nafni</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Raðað eftir tegund (möppu eða skrá) og nafni</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Athugaðu með uppfærslur</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Umsóknarstærð</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Valfrjálsir eiginleikar</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Leysa tengla á möppur og sýna efni</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Raðað eftir skráarlengingu og nafni</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Afrita</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Að skera út</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Til að líma</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Velja allt</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Afturkalla</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Ekki sýna þessa vísbendingu aftur.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Vísbending</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Einnig er hægt að opna stillingarvalmyndina með því að hægrismella á táknið í kerfisbakkanum neðst til hægri, ef þú getur ekki lengur opnað hana í gegnum valmyndina.</value>
   </data>
 </root>

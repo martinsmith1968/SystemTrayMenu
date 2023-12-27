@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Rəng sxemi qaranlıq həmişə aktivdir</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>Qabaqcıl</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Genişləndirilmiş</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Siçan yerində</value>
@@ -301,7 +301,7 @@
     <value>Siçan üzərinə sürüşdürərkən sürüşdürün 1</value>
   </data>
   <data name="Slider while mouse hovers over it 2" xml:space="preserve">
-    <value>Siçan onun üzərində hərəkət edərkən sürüşdürün 2</value>
+    <value>Siçan üzərinə sürüşdürərkən sürüşdürün 2</value>
   </data>
   <data name="Use icon from directory" xml:space="preserve">
     <value>Kataloqdan ikonadan istifadə edin</value>
@@ -376,7 +376,7 @@
     <value>Yalnız Fayllar</value>
   </data>
   <data name="Clear cache if more than this number of items" xml:space="preserve">
-    <value>Bu sayda element varsa, önbelleği təmizləyin</value>
+    <value>Bu sayda element varsa, keşi təmizləyin</value>
   </data>
   <data name="Add sample directory 'Start Menu'" xml:space="preserve">
     <value>'Başlat Menyu' nümunə qovluğu əlavə edin</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Bir qovluğu açmaq üçün bir kliklə</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Gamepad dəstəyi</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Əvvəlki birinin yanında</value>
   </data>
@@ -454,7 +457,7 @@
     <value>Nişan ölçüsü</value>
   </data>
   <data name="Support SystemTrayMenu" xml:space="preserve">
-    <value>SystemTrayMenu dəstəyi</value>
+    <value>SystemTrayMenu-nu dəstəkləyin</value>
   </data>
   <data name="Fading" xml:space="preserve">
     <value>Solğunluq</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>İnternet Qısayol İkonlarının Kataloqu</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Növ və tarixə görə çeşidlənir</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Növ (qovluq və ya fayl) və tarixə görə çeşidlənir</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Növ və ada görə çeşidlənir</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Növ (qovluq və ya fayl) və ada görə çeşidlənir</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Yeniləmələri yoxlayın</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Tətbiq ölçüsü</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Könüllü Xüsusiyyətlər</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Qovluqlara keçidləri həll edin və məzmunu göstərin</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Fayl uzantısı və adına görə sıralanıb</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopyalayın</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Kəsmək üçün</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Yapışdırmaq</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Hamısının seçilməsi</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Geri al</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Bu işarəni bir daha göstərməyin.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>İpucu</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Parametrlər menyusu, menyu vasitəsilə artıq aça bilməyəcəyiniz halda, sağ altdakı sistem tepsisindəki işarəni sağ klikləməklə də açıla bilər.</value>
   </data>
 </root>

@@ -192,8 +192,8 @@
   <data name="Color scheme dark always active" xml:space="preserve">
     <value>Skema e ngjyrave të errëta gjithmonë aktive</value>
   </data>
-  <data name="Advanced" xml:space="preserve">
-    <value>E avancuar</value>
+  <data name="Expanded" xml:space="preserve">
+    <value>Zgjeruar</value>
   </data>
   <data name="At mouse location" xml:space="preserve">
     <value>Në vendndodhjen e miut</value>
@@ -337,7 +337,7 @@
     <value>Menaxher detyrë</value>
   </data>
   <data name="Deactivated" xml:space="preserve">
-    <value>Çaktivizohet</value>
+    <value>I çaktivizuar</value>
   </data>
   <data name="Activated" xml:space="preserve">
     <value>Aktivizuar</value>
@@ -352,7 +352,7 @@
     <value>Milisekonda derisa menyja të mbyllet nëse menyja nuk riaktivizohet</value>
   </data>
   <data name="Show in Taskbar" xml:space="preserve">
-    <value>Shfaq në Taskbar</value>
+    <value>Shfaq në shiritin e detyrave</value>
   </data>
   <data name="Add directory" xml:space="preserve">
     <value>Shto direktori</value>
@@ -438,6 +438,9 @@
   <data name="Single click to open a directory" xml:space="preserve">
     <value>Një klikim i vetëm për të hapur një direktori</value>
   </data>
+  <data name="Support Gamepad" xml:space="preserve">
+    <value>Mbështet Gamepad</value>
+  </data>
   <data name="Next to the previous one" xml:space="preserve">
     <value>Pranë të mëparshmes</value>
   </data>
@@ -475,7 +478,7 @@
     <value>Kopjoni elementin e rreshtit duke zvarritur dhe lëshuar</value>
   </data>
   <data name="Drag" xml:space="preserve">
-    <value>Zvarritni</value>
+    <value>Zvarrit</value>
   </data>
   <data name="Scroll via swipe" xml:space="preserve">
     <value>Lëvizni përmes rrëshqitjes</value>
@@ -513,11 +516,11 @@
   <data name="Directory of Internet Shortcut Icons" xml:space="preserve">
     <value>Drejtoria e ikonave të shkurtoreve të internetit</value>
   </data>
-  <data name="Sorted by type and date" xml:space="preserve">
-    <value>Renditur sipas llojit dhe datës</value>
+  <data name="Sorted by type (folder or file) and date" xml:space="preserve">
+    <value>Renditur sipas llojit (dosjes ose skedarit) dhe datës</value>
   </data>
-  <data name="Sorted by type and name" xml:space="preserve">
-    <value>Renditur sipas llojit dhe emrit</value>
+  <data name="Sorted by type (folder or file) and name" xml:space="preserve">
+    <value>Renditur sipas llojit (dosjes ose skedarit) dhe emrit</value>
   </data>
   <data name="Check for updates" xml:space="preserve">
     <value>Kontrolloni për përditësime</value>
@@ -536,5 +539,38 @@
   </data>
   <data name="Application size" xml:space="preserve">
     <value>Madhësia e aplikimit</value>
+  </data>
+  <data name="Optional Features" xml:space="preserve">
+    <value>Karakteristikat opsionale</value>
+  </data>
+  <data name="Resolve links to folders and show content" xml:space="preserve">
+    <value>Zgjidh lidhjet me dosjet dhe shfaq përmbajtjen</value>
+  </data>
+  <data name="Sorted by file extension and name" xml:space="preserve">
+    <value>Renditur sipas zgjerimit dhe emrit të skedarit</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Kopjo</value>
+  </data>
+  <data name="To cut out" xml:space="preserve">
+    <value>Për të prerë</value>
+  </data>
+  <data name="To paste" xml:space="preserve">
+    <value>Për të ngjitur</value>
+  </data>
+  <data name="Selecting All" xml:space="preserve">
+    <value>Përzgjedhja e të gjitha</value>
+  </data>
+  <data name="Undo" xml:space="preserve">
+    <value>Zhbër</value>
+  </data>
+  <data name="Don't show this hint again." xml:space="preserve">
+    <value>Mos e shfaq më këtë aluzion.</value>
+  </data>
+  <data name="Hint" xml:space="preserve">
+    <value>Këshillë</value>
+  </data>
+  <data name="The settings menu can also be opened by right-clicking the icon in the system tray at the bottom right, in case you can no longer open it via the menu." xml:space="preserve">
+    <value>Menyja e cilësimeve mund të hapet gjithashtu duke klikuar me të djathtën mbi ikonën në tabakanë e sistemit në fund djathtas, në rast se nuk mund ta hapni më përmes menysë.</value>
   </data>
 </root>
