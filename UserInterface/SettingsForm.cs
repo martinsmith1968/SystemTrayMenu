@@ -2,6 +2,8 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using SystemTrayMenu.Business.Types;
+
 namespace SystemTrayMenu.UserInterface
 {
     using System;
@@ -54,9 +56,9 @@ namespace SystemTrayMenu.UserInterface
             }
 
             // Initialise Tags
-            radioButtonRemoveDuplicateShortcutsByFullFileName.Tag = Constants.RemoveDuplicatesBy.FullFileName;
-            radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag = Constants.RemoveDuplicatesBy.FileNameAndExtension;
-            radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag = Constants.RemoveDuplicatesBy.FileNameOnly;
+            radioButtonRemoveDuplicateShortcutsByFullFileName.Tag = DuplicateHandlingType.FullFileName.ToString();
+            radioButtonRemoveDuplicateShortcutsByFileNameAndExtension.Tag = DuplicateHandlingType.FileNameAndExtension.ToString();
+            radioButtonRemoveDuplicateShortcutsByFileNameOnly.Tag = DuplicateHandlingType.FileNameOnly.ToString();
 
             // designer always resets it to 1
             tabControl.SelectedIndex = 0;

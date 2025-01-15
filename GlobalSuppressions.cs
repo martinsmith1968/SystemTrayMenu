@@ -3,6 +3,7 @@
 // </copyright>
 
 using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
 
 [assembly: SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA0001:XML comment analysis is disabled due to project configuration", Justification = "no idea what this is")]
 
@@ -14,3 +15,5 @@ using System.Diagnostics.CodeAnalysis;
 [assembly: SuppressMessage("StyleCop.CSharp.ReadabilityRules", "SA1101:Prefix local calls with this", Justification = "Standard codecleanup removes the this")]
 
 [assembly: SuppressMessage("Interoperability", "CA1416:Check platform compatibility", Justification = "this is a long way to get platform compatibility")]
+
+[assembly: InternalsVisibleToAttribute("SystemTrayMenu.Tests")]

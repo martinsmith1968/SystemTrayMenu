@@ -2,6 +2,7 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using SystemTrayMenu.Business.Types;
 using SystemTrayMenu.Properties;
 
 namespace SystemTrayMenu.Business
@@ -375,7 +376,12 @@ namespace SystemTrayMenu.Business
 
             if (Settings.Default.RemoveDuplicateShortcuts && !Settings.Default.ShowOnlyAsSearchResult)
             {
-                data = FilterRowData(data);
+                if (!Enum.TryParse<DuplicateHandlingType>(Settings.Default.RemoveDuplicateShortcutsBy, out var duplicateHandlingType))
+                {
+                    duplicateHandlingType = DuplicateHandlingType.None;
+                }
+
+                data = FilterRowData(data, duplicateHandlingType);
             }
 
             foreach (RowData rowData in data)
@@ -605,7 +611,7 @@ namespace SystemTrayMenu.Business
             }
         }
 
-        private static List<RowData> FilterRowData(List<RowData> data)
+        internal static List<RowData> FilterRowData(List<RowData> data, DuplicateHandlingType duplicateHandlingType)
         {
             var filteredRowData = new List<RowData>();
 
@@ -613,20 +619,20 @@ namespace SystemTrayMenu.Business
             {
                 RowData firstItem = null;
 
-                if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FullFileName)
+                switch (duplicateHandlingType)
                 {
-                    firstItem = data.FirstOrDefault(d => d.FileInfo.FullName == rowData.FileInfo.FullName);
-                }
-                else if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FileNameAndExtension)
-                {
-                    firstItem = data.FirstOrDefault(d => d.FileInfo.Name == rowData.FileInfo.Name && d.FileInfo.Extension == rowData.FileInfo.Extension);
-                }
-                else if (Settings.Default.RemoveDuplicateShortcutsBy == Constants.RemoveDuplicatesBy.FileNameOnly)
-                {
-                    firstItem = data.FirstOrDefault(d => d.FileInfo.Name == rowData.FileInfo.Name);
+                    case DuplicateHandlingType.FullFileName:
+                        firstItem = data.FirstOrDefault(d => d.FileInfo.FullName == rowData.FileInfo.FullName);
+                        break;
+                    case DuplicateHandlingType.FileNameAndExtension:
+                        firstItem = data.FirstOrDefault(d => d.FileInfo.Name == rowData.FileInfo.Name);
+                        break;
+                    case DuplicateHandlingType.FileNameOnly:
+                        firstItem = data.FirstOrDefault(d => Path.GetFileNameWithoutExtension(d.FileInfo.Name) == Path.GetFileNameWithoutExtension(rowData.FileInfo.Name));
+                        break;
                 }
 
-                if (!string.Equals(firstItem?.FileInfo.FullName, rowData.FileInfo.FullName, StringComparison.Ordinal))
+                if (firstItem != null && firstItem != rowData)
                 {
                     Log.Info($"Removed duplicate: {rowData.FileInfo.Name}{rowData.FileInfo.Extension} ({rowData.FileInfo.FullName})");
                     continue;
