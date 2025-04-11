@@ -117,51 +117,60 @@
             <TabItem Header="{u:Translate 'Expanded'}">
                 <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
                     <StackPanel>
-                        <GroupBox Header="{u:Translate 'Optional Features'}">
+                        <GroupBox Header="{u:Translate Optional Features}">
                             <StackPanel>
-                                <CheckBox x:Name="checkBoxResolveLinksToFolders" Content="{u:Translate 'Resolve links to folders and show content'}"/>
-                                <CheckBox x:Name="checkBoxShowInTaskbar" Content="{u:Translate 'Show in Taskbar'}" Unchecked="ShowHowToOpenSettings"/>
-                                <CheckBox x:Name="checkBoxSendHotkeyInsteadKillOtherInstances" Content="{u:Translate 'Send hotkey to other instance'}"/> <!-- TODO: It will use named pipes instead of hotkey! -->
-                                <CheckBox x:Name="checkBoxSupportGamepad" Content="{u:Translate 'Support Gamepad'}"/>
+                                <CheckBox x:Name="checkBoxResolveLinksToFolders" Content="{u:Translate Resolve links to folders and show content}"/>
+                                <CheckBox x:Name="checkBoxShowInTaskbar" Content="{u:Translate Show in Taskbar}" Unchecked="ShowHowToOpenSettings"/>
+                                <CheckBox x:Name="checkBoxSendHotkeyInsteadKillOtherInstances" Content="{u:Translate Send hotkey to other instance}"/>
+                                <!-- TODO: It will use named pipes instead of hotkey! -->
+                                <CheckBox x:Name="checkBoxSupportGamepad" Content="{u:Translate Support Gamepad}"/>
                             </StackPanel>
                         </GroupBox>
-                        <GroupBox Header="{u:Translate 'Click'}">
+                        <GroupBox Header="{u:Translate Click}">
                             <StackPanel>
-                                <CheckBox x:Name="checkBoxOpenItemWithOneClick" Content="{u:Translate 'Single click to open an element'}"/>
-                                <CheckBox x:Name="checkBoxOpenDirectoryWithOneClick" Content="{u:Translate 'Single click to open a directory'}"/>
+                                <CheckBox x:Name="checkBoxOpenItemWithOneClick" Content="{u:Translate Single click to open an element}"/>
+                                <CheckBox x:Name="checkBoxOpenDirectoryWithOneClick" Content="{u:Translate Single click to open a directory}"/>
                             </StackPanel>
                         </GroupBox>
-                        <GroupBox Header="{u:Translate 'Drag'}">
+                        <GroupBox Header="{u:Translate Drag}">
                             <StackPanel>
-                                <CheckBox x:Name="checkBoxDragDropItems" Content="{u:Translate 'Copy row element via drag and drop'}"/>
-                                <CheckBox x:Name="checkBoxSwipeScrolling" Content="{u:Translate 'Scroll via swipe'}"/>
+                                <CheckBox x:Name="checkBoxDragDropItems" Content="{u:Translate Copy row element via drag and drop}"/>
+                                <CheckBox x:Name="checkBoxSwipeScrolling" Content="{u:Translate Scroll via swipe}"/>
                             </StackPanel>
                         </GroupBox>
-                        <GroupBox Header="{u:Translate 'Directory of Internet Shortcut Icons'}">
+                        <GroupBox Header="{u:Translate Directory of Internet Shortcut Icons}">
                             <StackPanel>
                                 <TextBox x:Name="textBoxIcoFolder" Margin="2" Background="{x:Null}" IsReadOnly="True" TextWrapping="NoWrap"/>
                                 <StackPanel HorizontalAlignment="Left">
-                                    <Button Content="{u:Translate 'Changing directory'}" Click="ButtonChangeIcoFolder_Click" VerticalAlignment="Center"/>
+                                    <Button Content="{u:Translate Changing directory}" Click="ButtonChangeIcoFolder_Click" VerticalAlignment="Center"/>
                                 </StackPanel>
                             </StackPanel>
                         </GroupBox>
-                        <GroupBox Header="{u:Translate 'Sorting'}">
+                        <GroupBox Header="{u:Translate Sorting}">
                             <StackPanel>
-                                <RadioButton x:Name="radioButtonSortByTypeAndName" GroupName="SortBy" Content="{u:Translate 'Sorted by type (folder or file) and name'}" />
-                                <RadioButton x:Name="radioButtonSortByTypeAndDate" GroupName="SortBy" Content="{u:Translate 'Sorted by type (folder or file) and date'}" />
-                                <RadioButton x:Name="radioButtonSortByFileExtensionAndName" GroupName="SortBy" Content="{u:Translate 'Sorted by file extension and name'}" />
-                                <RadioButton x:Name="radioButtonSortByName" GroupName="SortBy" Content="{u:Translate 'Sorted by name'}" />
-                                <RadioButton x:Name="radioButtonSortByDate" GroupName="SortBy" Content="{u:Translate 'Sorted by date'}" />
+                                <RadioButton x:Name="radioButtonSortByTypeAndName" GroupName="SortBy" Content="{u:Translate Sorted by type (folder or file) and name}" />
+                                <RadioButton x:Name="radioButtonSortByTypeAndDate" GroupName="SortBy" Content="{u:Translate Sorted by type (folder or file) and date}" />
+                                <RadioButton x:Name="radioButtonSortByFileExtensionAndName" GroupName="SortBy" Content="{u:Translate Sorted by file extension and name}" />
+                                <RadioButton x:Name="radioButtonSortByName" GroupName="SortBy" Content="{u:Translate Sorted by name}" />
+                                <RadioButton x:Name="radioButtonSortByDate" GroupName="SortBy" Content="{u:Translate Sorted by date}" />
                             </StackPanel>
                         </GroupBox>
-                        <GroupBox Header="{u:Translate 'Hidden files and directories'}">
+                        <GroupBox Header="{u:Translate Hidden files and directories}">
                             <StackPanel>
-                                <RadioButton x:Name="radioButtonSystemSettingsShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate 'Use operating system settings'}" />
-                                <RadioButton x:Name="radioButtonNeverShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate 'Never show'}" />
-                                <RadioButton x:Name="radioButtonAlwaysShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate 'Always show'}" />
+                                <RadioButton x:Name="radioButtonSystemSettingsShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate Use operating system settings}" />
+                                <RadioButton x:Name="radioButtonNeverShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate Never show}" />
+                                <RadioButton x:Name="radioButtonAlwaysShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate Always show}" />
                             </StackPanel>
                         </GroupBox>
-                        <Button Content="{u:Translate 'Default'}" Click="ButtonAdvancedDefault_Click" HorizontalAlignment="Left"/>
+                        <GroupBox Header="{u:Translate Duplicate File Handling}">
+                            <StackPanel>
+                                <RadioButton x:Name="radioButtonDuplicateFileHandlingNone" GroupName="ShowHiddenFiles" Content="{u:Translate None (Ignore Duplicate Files)}" />
+                                <RadioButton x:Name="radioButtonDuplicateFileHandlingFileName" GroupName="ShowHiddenFiles" Content="{u:Translate Remove Files with same name and extension }" />
+                                <RadioButton x:Name="radioButtonDuplicateFileHandlingFileNameWithoutExtension" GroupName="ShowHiddenFiles" Content="{u:Translate Remove files with same name (ignore file extension)}" />
+                                <RadioButton x:Name="radioButtonDuplicateFileHandlingFullFileName" GroupName="ShowHiddenFiles" Content="{u:Translate Remove files with exact full file names}" />
+                            </StackPanel>
+                        </GroupBox>
+                        <Button Content="{u:Translate Default}" Click="ButtonAdvancedDefault_Click" HorizontalAlignment="Left"/>
                     </StackPanel>
                 </ScrollViewer>
             </TabItem>
