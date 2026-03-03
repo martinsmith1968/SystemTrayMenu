@@ -7,12 +7,20 @@ namespace SystemTrayMenu.Helpers
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
-    using System.Data;
     using System.Diagnostics;
     using System.IO;
     using System.Linq;
+    using System.Windows.Shapes;
     using SystemTrayMenu.DataClasses;
     using SystemTrayMenu.Utilities;
+
+    public enum DuplicateHandlingType
+    {
+        Ignore = 0,
+        IgnoreSameFullPathName,
+        IgnoreSameNameAndExtension,
+        IgnoreSameName,
+    }
 
     internal static class DirectoryHelpers
     {
@@ -172,7 +180,7 @@ namespace SystemTrayMenu.Helpers
                     int indexOfFirstSpace = line.IndexOf("  ", StringComparison.InvariantCulture);
                     if (indexOfFirstSpace > 0)
                     {
-                        string directory = Path.Combine(path, line[..indexOfFirstSpace]);
+                        string directory = System.IO.Path.Combine(path, line[..indexOfFirstSpace]);
                         menuData.RowDatas.Add(new RowData(true, false, menuData.Level, directory));
                         resolvedSomething = true;
                     }
@@ -201,7 +209,7 @@ namespace SystemTrayMenu.Helpers
                     return;
                 }
 
-                menuData.RowDatas.Add(new RowData(true, false, menuData.Level, directory));
+                AddToMenu(menuData, directory, true, false);
             }
 
             foreach (string file in GetFilesBySearchPattern(path, Config.SearchPattern))
@@ -211,7 +219,7 @@ namespace SystemTrayMenu.Helpers
                     return;
                 }
 
-                menuData.RowDatas.Add(new RowData(false, false, menuData.Level, file));
+                AddToMenu(menuData, file, false, false);
             }
         }
 
@@ -225,14 +233,14 @@ namespace SystemTrayMenu.Helpers
             {
                 foreach (string file in GetFilesBySearchPattern(path, Config.SearchPattern))
                 {
-                    menuData.RowDatas.Add(new RowData(false, true, menuData.Level, file));
+                    AddToMenu(menuData, file, false, true);
                 }
 
                 foreach (string directory in Directory.GetDirectories(path))
                 {
                     if (!onlyFiles)
                     {
-                        menuData.RowDatas.Add(new RowData(true, true, menuData.Level, directory));
+                        AddToMenu(menuData, directory, true, true);
                     }
 
                     if (recursiv)
@@ -245,6 +253,36 @@ namespace SystemTrayMenu.Helpers
             {
                 Log.Warn($"GetDirectoriesAndFilesRecursive path:'{path}'", ex);
             }
+        }
+
+        private static bool AddToMenu(MenuData menuData, string file, bool isFolder, bool isAdditionalItem)
+        {
+            // TODO: Read from User Settings
+            var duplicateHandlingType = DuplicateHandlingType.IgnoreSameNameAndExtension;
+
+            var foundPrevious = duplicateHandlingType == DuplicateHandlingType.Ignore
+                ? false
+                : menuData.RowDatas.FirstOrDefault(rd =>
+                {
+                    return duplicateHandlingType switch
+                    {
+                        DuplicateHandlingType.IgnoreSameFullPathName     => string.Equals(rd.FileInfo.FullName, file, StringComparison.OrdinalIgnoreCase),
+                        DuplicateHandlingType.IgnoreSameNameAndExtension => string.Equals(rd.FileInfo.Name, System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
+                        DuplicateHandlingType.IgnoreSameName             => string.Equals(System.IO.Path.GetFileNameWithoutExtension(rd.FileInfo.Name), System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
+                        _                                                => false
+                    };
+                }) != null;
+
+            if (foundPrevious)
+            {
+                Log.Info($"Ignoring Duplicate Item ({duplicateHandlingType}): {file} ({(isFolder ? "Folder" : "File")})");
+            }
+            else
+            {
+                menuData.RowDatas.Add(new RowData(isFolder, isAdditionalItem, menuData.Level, file));
+            }
+
+            return !foundPrevious;
         }
 
         private static List<string> GetFilesBySearchPattern(string path, string searchPatternCombined)
