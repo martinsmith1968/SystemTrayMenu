@@ -23,10 +23,7 @@ namespace SystemTrayMenu.Properties
 
         public static Settings Default
         {
-            get
-            {
-                return defaultInstance;
-            }
+            get { return defaultInstance; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -35,14 +32,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool IsUpgraded
         {
-            get
-            {
-                return ((bool)(this["IsUpgraded"]));
-            }
-            set
-            {
-                this["IsUpgraded"] = value;
-            }
+            get { return ((bool)(this["IsUpgraded"])); }
+            set { this["IsUpgraded"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -51,14 +42,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string PathDirectory
         {
-            get
-            {
-                return ((string)(this["PathDirectory"]));
-            }
-            set
-            {
-                this["PathDirectory"] = value;
-            }
+            get { return ((string)(this["PathDirectory"])); }
+            set { this["PathDirectory"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -67,14 +52,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SetFolderByWindowsContextMenu
         {
-            get
-            {
-                return ((bool)(this["SetFolderByWindowsContextMenu"]));
-            }
-            set
-            {
-                this["SetFolderByWindowsContextMenu"] = value;
-            }
+            get { return ((bool)(this["SetFolderByWindowsContextMenu"])); }
+            set { this["SetFolderByWindowsContextMenu"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -83,14 +62,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SaveLogFileInApplicationDirectory
         {
-            get
-            {
-                return ((bool)(this["SaveLogFileInApplicationDirectory"]));
-            }
-            set
-            {
-                this["SaveLogFileInApplicationDirectory"] = value;
-            }
+            get { return ((bool)(this["SaveLogFileInApplicationDirectory"])); }
+            set { this["SaveLogFileInApplicationDirectory"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -99,14 +72,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool IsAutostartActivated
         {
-            get
-            {
-                return ((bool)(this["IsAutostartActivated"]));
-            }
-            set
-            {
-                this["IsAutostartActivated"] = value;
-            }
+            get { return ((bool)(this["IsAutostartActivated"])); }
+            set { this["IsAutostartActivated"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -115,14 +82,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool CheckForUpdates
         {
-            get
-            {
-                return ((bool)(this["CheckForUpdates"]));
-            }
-            set
-            {
-                this["CheckForUpdates"] = value;
-            }
+            get { return ((bool)(this["CheckForUpdates"])); }
+            set { this["CheckForUpdates"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -131,14 +92,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("Ctrl+Win+LWin")]
         public string HotKey
         {
-            get
-            {
-                return ((string)(this["HotKey"]));
-            }
-            set
-            {
-                this["HotKey"] = value;
-            }
+            get { return ((string)(this["HotKey"])); }
+            set { this["HotKey"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -147,14 +102,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string CurrentCultureInfoName
         {
-            get
-            {
-                return ((string)(this["CurrentCultureInfoName"]));
-            }
-            set
-            {
-                this["CurrentCultureInfoName"] = value;
-            }
+            get { return ((string)(this["CurrentCultureInfoName"])); }
+            set { this["CurrentCultureInfoName"] = value; }
         }
 
 
@@ -164,14 +113,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int SizeInPercent
         {
-            get
-            {
-                return ((int)(this["SizeInPercent"]));
-            }
-            set
-            {
-                this["SizeInPercent"] = value;
-            }
+            get { return ((int)(this["SizeInPercent"])); }
+            set { this["SizeInPercent"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -180,14 +123,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int IconSizeInPercent
         {
-            get
-            {
-                return ((int)(this["IconSizeInPercent"]));
-            }
-            set
-            {
-                this["IconSizeInPercent"] = value;
-            }
+            get { return ((int)(this["IconSizeInPercent"])); }
+            set { this["IconSizeInPercent"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -196,14 +133,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
         public int RowHeighteInPercentageTouch
         {
-            get
-            {
-                return ((int)(this["RowHeighteInPercentageTouch"]));
-            }
-            set
-            {
-                this["RowHeighteInPercentageTouch"] = value;
-            }
+            get { return ((int)(this["RowHeighteInPercentageTouch"])); }
+            set { this["RowHeighteInPercentageTouch"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -212,14 +143,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int RowHeighteInPercentage
         {
-            get
-            {
-                return ((int)(this["RowHeighteInPercentage"]));
-            }
-            set
-            {
-                this["RowHeighteInPercentage"] = value;
-            }
+            get { return ((int)(this["RowHeighteInPercentage"])); }
+            set { this["RowHeighteInPercentage"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -228,14 +153,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int WidthMaxInPercent
         {
-            get
-            {
-                return ((int)(this["WidthMaxInPercent"]));
-            }
-            set
-            {
-                this["WidthMaxInPercent"] = value;
-            }
+            get { return ((int)(this["WidthMaxInPercent"])); }
+            set { this["WidthMaxInPercent"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -244,14 +163,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int HeightMaxInPercent
         {
-            get
-            {
-                return ((int)(this["HeightMaxInPercent"]));
-            }
-            set
-            {
-                this["HeightMaxInPercent"] = value;
-            }
+            get { return ((int)(this["HeightMaxInPercent"])); }
+            set { this["HeightMaxInPercent"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -260,14 +173,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool AppearAtTheBottomLeft
         {
-            get
-            {
-                return ((bool)(this["AppearAtTheBottomLeft"]));
-            }
-            set
-            {
-                this["AppearAtTheBottomLeft"] = value;
-            }
+            get { return ((bool)(this["AppearAtTheBottomLeft"])); }
+            set { this["AppearAtTheBottomLeft"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -276,14 +183,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool UseCustomLocation
         {
-            get
-            {
-                return ((bool)(this["UseCustomLocation"]));
-            }
-            set
-            {
-                this["UseCustomLocation"] = value;
-            }
+            get { return ((bool)(this["UseCustomLocation"])); }
+            set { this["UseCustomLocation"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -292,14 +193,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("600")]
         public int CustomLocationX
         {
-            get
-            {
-                return ((int)(this["CustomLocationX"]));
-            }
-            set
-            {
-                this["CustomLocationX"] = value;
-            }
+            get { return ((int)(this["CustomLocationX"])); }
+            set { this["CustomLocationX"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -308,14 +203,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("600")]
         public int CustomLocationY
         {
-            get
-            {
-                return ((int)(this["CustomLocationY"]));
-            }
-            set
-            {
-                this["CustomLocationY"] = value;
-            }
+            get { return ((int)(this["CustomLocationY"])); }
+            set { this["CustomLocationY"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -324,14 +213,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool AppearAtMouseLocation
         {
-            get
-            {
-                return ((bool)(this["AppearAtMouseLocation"]));
-            }
-            set
-            {
-                this["AppearAtMouseLocation"] = value;
-            }
+            get { return ((bool)(this["AppearAtMouseLocation"])); }
+            set { this["AppearAtMouseLocation"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -340,14 +223,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool AppearNextToPreviousMenu
         {
-            get
-            {
-                return ((bool)(this["AppearNextToPreviousMenu"]));
-            }
-            set
-            {
-                this["AppearNextToPreviousMenu"] = value;
-            }
+            get { return ((bool)(this["AppearNextToPreviousMenu"])); }
+            set { this["AppearNextToPreviousMenu"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -356,14 +233,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("150")]
         public int OverlappingOffsetPixels
         {
-            get
-            {
-                return ((int)(this["OverlappingOffsetPixels"]));
-            }
-            set
-            {
-                this["OverlappingOffsetPixels"] = value;
-            }
+            get { return ((int)(this["OverlappingOffsetPixels"])); }
+            set { this["OverlappingOffsetPixels"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -372,14 +243,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ResolveLinksToFolders
         {
-            get
-            {
-                return ((bool)(this["ResolveLinksToFolders"]));
-            }
-            set
-            {
-                this["ResolveLinksToFolders"] = value;
-            }
+            get { return ((bool)(this["ResolveLinksToFolders"])); }
+            set { this["ResolveLinksToFolders"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -388,14 +253,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowInTaskbar
         {
-            get
-            {
-                return ((bool)(this["ShowInTaskbar"]));
-            }
-            set
-            {
-                this["ShowInTaskbar"] = value;
-            }
+            get { return ((bool)(this["ShowInTaskbar"])); }
+            set { this["ShowInTaskbar"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -404,14 +263,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SendHotkeyInsteadKillOtherInstances
         {
-            get
-            {
-                return ((bool)(this["SendHotkeyInsteadKillOtherInstances"]));
-            }
-            set
-            {
-                this["SendHotkeyInsteadKillOtherInstances"] = value;
-            }
+            get { return ((bool)(this["SendHotkeyInsteadKillOtherInstances"])); }
+            set { this["SendHotkeyInsteadKillOtherInstances"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -420,14 +273,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SupportGamepad
         {
-            get
-            {
-                return ((bool)(this["SupportGamepad"]));
-            }
-            set
-            {
-                this["SupportGamepad"] = value;
-            }
+            get { return ((bool)(this["SupportGamepad"])); }
+            set { this["SupportGamepad"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -436,14 +283,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool OpenItemWithOneClick
         {
-            get
-            {
-                return ((bool)(this["OpenItemWithOneClick"]));
-            }
-            set
-            {
-                this["OpenItemWithOneClick"] = value;
-            }
+            get { return ((bool)(this["OpenItemWithOneClick"])); }
+            set { this["OpenItemWithOneClick"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -452,14 +293,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool OpenDirectoryWithOneClick
         {
-            get
-            {
-                return ((bool)(this["OpenDirectoryWithOneClick"]));
-            }
-            set
-            {
-                this["OpenDirectoryWithOneClick"] = value;
-            }
+            get { return ((bool)(this["OpenDirectoryWithOneClick"])); }
+            set { this["OpenDirectoryWithOneClick"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -468,14 +303,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool DragDropItemsEnabledTouch
         {
-            get
-            {
-                return ((bool)(this["DragDropItemsEnabledTouch"]));
-            }
-            set
-            {
-                this["DragDropItemsEnabledTouch"] = value;
-            }
+            get { return ((bool)(this["DragDropItemsEnabledTouch"])); }
+            set { this["DragDropItemsEnabledTouch"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -484,14 +313,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool SwipeScrollingEnabledTouch
         {
-            get
-            {
-                return ((bool)(this["SwipeScrollingEnabledTouch"]));
-            }
-            set
-            {
-                this["SwipeScrollingEnabledTouch"] = value;
-            }
+            get { return ((bool)(this["SwipeScrollingEnabledTouch"])); }
+            set { this["SwipeScrollingEnabledTouch"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -500,14 +323,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool DragDropItemsEnabled
         {
-            get
-            {
-                return ((bool)(this["DragDropItemsEnabled"]));
-            }
-            set
-            {
-                this["DragDropItemsEnabled"] = value;
-            }
+            get { return ((bool)(this["DragDropItemsEnabled"])); }
+            set { this["DragDropItemsEnabled"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -516,14 +333,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SwipeScrollingEnabled
         {
-            get
-            {
-                return ((bool)(this["SwipeScrollingEnabled"]));
-            }
-            set
-            {
-                this["SwipeScrollingEnabled"] = value;
-            }
+            get { return ((bool)(this["SwipeScrollingEnabled"])); }
+            set { this["SwipeScrollingEnabled"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -532,14 +343,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string PathIcoDirectory
         {
-            get
-            {
-                return ((string)(this["PathIcoDirectory"]));
-            }
-            set
-            {
-                this["PathIcoDirectory"] = value;
-            }
+            get { return ((string)(this["PathIcoDirectory"])); }
+            set { this["PathIcoDirectory"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -548,14 +353,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool SortByTypeAndNameWindowsExplorerSort
         {
-            get
-            {
-                return ((bool)(this["SortByTypeAndNameWindowsExplorerSort"]));
-            }
-            set
-            {
-                this["SortByTypeAndNameWindowsExplorerSort"] = value;
-            }
+            get { return ((bool)(this["SortByTypeAndNameWindowsExplorerSort"])); }
+            set { this["SortByTypeAndNameWindowsExplorerSort"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -564,14 +363,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SortByTypeAndDate
         {
-            get
-            {
-                return ((bool)(this["SortByTypeAndDate"]));
-            }
-            set
-            {
-                this["SortByTypeAndDate"] = value;
-            }
+            get { return ((bool)(this["SortByTypeAndDate"])); }
+            set { this["SortByTypeAndDate"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -580,14 +373,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SortByFileExtensionAndName
         {
-            get
-            {
-                return ((bool)(this["SortByFileExtensionAndName"]));
-            }
-            set
-            {
-                this["SortByFileExtensionAndName"] = value;
-            }
+            get { return ((bool)(this["SortByFileExtensionAndName"])); }
+            set { this["SortByFileExtensionAndName"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -596,14 +383,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SortByName
         {
-            get
-            {
-                return ((bool)(this["SortByName"]));
-            }
-            set
-            {
-                this["SortByName"] = value;
-            }
+            get { return ((bool)(this["SortByName"])); }
+            set { this["SortByName"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -612,14 +393,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool SortByDate
         {
-            get
-            {
-                return ((bool)(this["SortByDate"]));
-            }
-            set
-            {
-                this["SortByDate"] = value;
-            }
+            get { return ((bool)(this["SortByDate"])); }
+            set { this["SortByDate"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -628,14 +403,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool SystemSettingsShowHiddenFiles
         {
-            get
-            {
-                return ((bool)(this["SystemSettingsShowHiddenFiles"]));
-            }
-            set
-            {
-                this["SystemSettingsShowHiddenFiles"] = value;
-            }
+            get { return ((bool)(this["SystemSettingsShowHiddenFiles"])); }
+            set { this["SystemSettingsShowHiddenFiles"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -644,14 +413,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool NeverShowHiddenFiles
         {
-            get
-            {
-                return ((bool)(this["NeverShowHiddenFiles"]));
-            }
-            set
-            {
-                this["NeverShowHiddenFiles"] = value;
-            }
+            get { return ((bool)(this["NeverShowHiddenFiles"])); }
+            set { this["NeverShowHiddenFiles"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -660,14 +423,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool AlwaysShowHiddenFiles
         {
-            get
-            {
-                return ((bool)(this["AlwaysShowHiddenFiles"]));
-            }
-            set
-            {
-                this["AlwaysShowHiddenFiles"] = value;
-            }
+            get { return ((bool)(this["AlwaysShowHiddenFiles"])); }
+            set { this["AlwaysShowHiddenFiles"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -676,14 +433,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool ShowOnlyAsSearchResult
         {
-            get
-            {
-                return ((bool)(this["ShowOnlyAsSearchResult"]));
-            }
-            set
-            {
-                this["ShowOnlyAsSearchResult"] = value;
-            }
+            get { return ((bool)(this["ShowOnlyAsSearchResult"])); }
+            set { this["ShowOnlyAsSearchResult"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -692,14 +443,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string PathsAddToMainMenu
         {
-            get
-            {
-                return ((string)(this["PathsAddToMainMenu"]));
-            }
-            set
-            {
-                this["PathsAddToMainMenu"] = value;
-            }
+            get { return ((string)(this["PathsAddToMainMenu"])); }
+            set { this["PathsAddToMainMenu"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -708,14 +453,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool GenerateShortcutsToDrives
         {
-            get
-            {
-                return ((bool)(this["GenerateShortcutsToDrives"]));
-            }
-            set
-            {
-                this["GenerateShortcutsToDrives"] = value;
-            }
+            get { return ((bool)(this["GenerateShortcutsToDrives"])); }
+            set { this["GenerateShortcutsToDrives"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -724,14 +463,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("100")]
         public int TimeUntilOpens
         {
-            get
-            {
-                return ((int)(this["TimeUntilOpens"]));
-            }
-            set
-            {
-                this["TimeUntilOpens"] = value;
-            }
+            get { return ((int)(this["TimeUntilOpens"])); }
+            set { this["TimeUntilOpens"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -740,14 +473,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool StaysOpenWhenItemClicked
         {
-            get
-            {
-                return ((bool)(this["StaysOpenWhenItemClicked"]));
-            }
-            set
-            {
-                this["StaysOpenWhenItemClicked"] = value;
-            }
+            get { return ((bool)(this["StaysOpenWhenItemClicked"])); }
+            set { this["StaysOpenWhenItemClicked"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -756,14 +483,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool StaysOpenWhenFocusLost
         {
-            get
-            {
-                return ((bool)(this["StaysOpenWhenFocusLost"]));
-            }
-            set
-            {
-                this["StaysOpenWhenFocusLost"] = value;
-            }
+            get { return ((bool)(this["StaysOpenWhenFocusLost"])); }
+            set { this["StaysOpenWhenFocusLost"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -772,14 +493,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("400")]
         public int TimeUntilCloses
         {
-            get
-            {
-                return ((int)(this["TimeUntilCloses"]));
-            }
-            set
-            {
-                this["TimeUntilCloses"] = value;
-            }
+            get { return ((int)(this["TimeUntilCloses"])); }
+            set { this["TimeUntilCloses"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -788,14 +503,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool StaysOpenWhenFocusLostAfterEnterPressed
         {
-            get
-            {
-                return ((bool)(this["StaysOpenWhenFocusLostAfterEnterPressed"]));
-            }
-            set
-            {
-                this["StaysOpenWhenFocusLostAfterEnterPressed"] = value;
-            }
+            get { return ((bool)(this["StaysOpenWhenFocusLostAfterEnterPressed"])); }
+            set { this["StaysOpenWhenFocusLostAfterEnterPressed"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -804,14 +513,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("200")]
         public int TimeUntilClosesAfterEnterPressed
         {
-            get
-            {
-                return ((int)(this["TimeUntilClosesAfterEnterPressed"]));
-            }
-            set
-            {
-                this["TimeUntilClosesAfterEnterPressed"] = value;
-            }
+            get { return ((int)(this["TimeUntilClosesAfterEnterPressed"])); }
+            set { this["TimeUntilClosesAfterEnterPressed"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -820,14 +523,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("1000")]
         public int ClearCacheIfMoreThanThisNumberOfItems
         {
-            get
-            {
-                return ((int)(this["ClearCacheIfMoreThanThisNumberOfItems"]));
-            }
-            set
-            {
-                this["ClearCacheIfMoreThanThisNumberOfItems"] = value;
-            }
+            get { return ((int)(this["ClearCacheIfMoreThanThisNumberOfItems"])); }
+            set { this["ClearCacheIfMoreThanThisNumberOfItems"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -836,14 +533,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string SearchPattern
         {
-            get
-            {
-                return ((string)(this["SearchPattern"]));
-            }
-            set
-            {
-                this["SearchPattern"] = value;
-            }
+            get { return ((string)(this["SearchPattern"])); }
+            set { this["SearchPattern"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -852,14 +543,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool UseIconFromRootFolder
         {
-            get
-            {
-                return ((bool)(this["UseIconFromRootFolder"]));
-            }
-            set
-            {
-                this["UseIconFromRootFolder"] = value;
-            }
+            get { return ((bool)(this["UseIconFromRootFolder"])); }
+            set { this["UseIconFromRootFolder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -868,14 +553,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool RoundCorners
         {
-            get
-            {
-                return ((bool)(this["RoundCorners"]));
-            }
-            set
-            {
-                this["RoundCorners"] = value;
-            }
+            get { return ((bool)(this["RoundCorners"])); }
+            set { this["RoundCorners"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -884,14 +563,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool IsDarkModeAlwaysOn
         {
-            get
-            {
-                return ((bool)(this["IsDarkModeAlwaysOn"]));
-            }
-            set
-            {
-                this["IsDarkModeAlwaysOn"] = value;
-            }
+            get { return ((bool)(this["IsDarkModeAlwaysOn"])); }
+            set { this["IsDarkModeAlwaysOn"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -900,14 +573,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool UseFading
         {
-            get
-            {
-                return ((bool)(this["UseFading"]));
-            }
-            set
-            {
-                this["UseFading"] = value;
-            }
+            get { return ((bool)(this["UseFading"])); }
+            set { this["UseFading"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -916,14 +583,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool ShowLinkOverlay
         {
-            get
-            {
-                return ((bool)(this["ShowLinkOverlay"]));
-            }
-            set
-            {
-                this["ShowLinkOverlay"] = value;
-            }
+            get { return ((bool)(this["ShowLinkOverlay"])); }
+            set { this["ShowLinkOverlay"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -932,14 +593,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool ShowDirectoryTitleAtTop
         {
-            get
-            {
-                return ((bool)(this["ShowDirectoryTitleAtTop"]));
-            }
-            set
-            {
-                this["ShowDirectoryTitleAtTop"] = value;
-            }
+            get { return ((bool)(this["ShowDirectoryTitleAtTop"])); }
+            set { this["ShowDirectoryTitleAtTop"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -948,14 +603,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowSearchBar
         {
-            get
-            {
-                return ((bool)(this["ShowSearchBar"]));
-            }
-            set
-            {
-                this["ShowSearchBar"] = value;
-            }
+            get { return ((bool)(this["ShowSearchBar"])); }
+            set { this["ShowSearchBar"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -964,14 +613,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowFunctionKeyOpenFolder
         {
-            get
-            {
-                return ((bool)(this["ShowFunctionKeyOpenFolder"]));
-            }
-            set
-            {
-                this["ShowFunctionKeyOpenFolder"] = value;
-            }
+            get { return ((bool)(this["ShowFunctionKeyOpenFolder"])); }
+            set { this["ShowFunctionKeyOpenFolder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -980,14 +623,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowFunctionKeyPinMenu
         {
-            get
-            {
-                return ((bool)(this["ShowFunctionKeyPinMenu"]));
-            }
-            set
-            {
-                this["ShowFunctionKeyPinMenu"] = value;
-            }
+            get { return ((bool)(this["ShowFunctionKeyPinMenu"])); }
+            set { this["ShowFunctionKeyPinMenu"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -996,14 +633,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowFunctionKeySettings
         {
-            get
-            {
-                return ((bool)(this["ShowFunctionKeySettings"]));
-            }
-            set
-            {
-                this["ShowFunctionKeySettings"] = value;
-            }
+            get { return ((bool)(this["ShowFunctionKeySettings"])); }
+            set { this["ShowFunctionKeySettings"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1012,14 +643,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowFunctionKeyRestart
         {
-            get
-            {
-                return ((bool)(this["ShowFunctionKeyRestart"]));
-            }
-            set
-            {
-                this["ShowFunctionKeyRestart"] = value;
-            }
+            get { return ((bool)(this["ShowFunctionKeyRestart"])); }
+            set { this["ShowFunctionKeyRestart"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1028,14 +653,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("false")]
         public bool ShowCountOfElementsBelow
         {
-            get
-            {
-                return ((bool)(this["ShowCountOfElementsBelow"]));
-            }
-            set
-            {
-                this["ShowCountOfElementsBelow"] = value;
-            }
+            get { return ((bool)(this["ShowCountOfElementsBelow"])); }
+            set { this["ShowCountOfElementsBelow"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1044,14 +663,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#CCE8FF")]
         public string ColorSelectedItem
         {
-            get
-            {
-                return ((string)(this["ColorSelectedItem"]));
-            }
-            set
-            {
-                this["ColorSelectedItem"] = value;
-            }
+            get { return ((string)(this["ColorSelectedItem"])); }
+            set { this["ColorSelectedItem"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1060,14 +673,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#333333")]
         public string ColorDarkModeSelecetedItem
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeSelecetedItem"]));
-            }
-            set
-            {
-                this["ColorDarkModeSelecetedItem"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeSelecetedItem"])); }
+            set { this["ColorDarkModeSelecetedItem"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1076,14 +683,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#99D1FF")]
         public string ColorSelectedItemBorder
         {
-            get
-            {
-                return ((string)(this["ColorSelectedItemBorder"]));
-            }
-            set
-            {
-                this["ColorSelectedItemBorder"] = value;
-            }
+            get { return ((string)(this["ColorSelectedItemBorder"])); }
+            set { this["ColorSelectedItemBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1092,14 +693,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#141D4B")]
         public string ColorDarkModeSelectedItemBorder
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeSelectedItemBorder"]));
-            }
-            set
-            {
-                this["ColorDarkModeSelectedItemBorder"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeSelectedItemBorder"])); }
+            set { this["ColorDarkModeSelectedItemBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1108,14 +703,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#C2F5DE")]
         public string ColorOpenFolder
         {
-            get
-            {
-                return ((string)(this["ColorOpenFolder"]));
-            }
-            set
-            {
-                this["ColorOpenFolder"] = value;
-            }
+            get { return ((string)(this["ColorOpenFolder"])); }
+            set { this["ColorOpenFolder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1124,14 +713,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#14412A")]
         public string ColorDarkModeOpenFolder
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeOpenFolder"]));
-            }
-            set
-            {
-                this["ColorDarkModeOpenFolder"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeOpenFolder"])); }
+            set { this["ColorDarkModeOpenFolder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1140,14 +723,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#99FFA5")]
         public string ColorOpenFolderBorder
         {
-            get
-            {
-                return ((string)(this["ColorOpenFolderBorder"]));
-            }
-            set
-            {
-                this["ColorOpenFolderBorder"] = value;
-            }
+            get { return ((string)(this["ColorOpenFolderBorder"])); }
+            set { this["ColorOpenFolderBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1156,14 +733,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#144B55")]
         public string ColorDarkModeOpenFolderBorder
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeOpenFolderBorder"]));
-            }
-            set
-            {
-                this["ColorDarkModeOpenFolderBorder"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeOpenFolderBorder"])); }
+            set { this["ColorDarkModeOpenFolderBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1172,14 +743,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string ColorSearchField
         {
-            get
-            {
-                return ((string)(this["ColorSearchField"]));
-            }
-            set
-            {
-                this["ColorSearchField"] = value;
-            }
+            get { return ((string)(this["ColorSearchField"])); }
+            set { this["ColorSearchField"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1188,14 +753,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#191919")]
         public string ColorDarkModeSearchField
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeSearchField"]));
-            }
-            set
-            {
-                this["ColorDarkModeSearchField"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeSearchField"])); }
+            set { this["ColorDarkModeSearchField"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1204,14 +763,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string ColorBackground
         {
-            get
-            {
-                return ((string)(this["ColorBackground"]));
-            }
-            set
-            {
-                this["ColorBackground"] = value;
-            }
+            get { return ((string)(this["ColorBackground"])); }
+            set { this["ColorBackground"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1220,14 +773,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#202020")]
         public string ColorDarkModeBackground
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeBackground"]));
-            }
-            set
-            {
-                this["ColorDarkModeBackground"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeBackground"])); }
+            set { this["ColorDarkModeBackground"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1236,14 +783,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
         public string ColorBackgroundBorder
         {
-            get
-            {
-                return ((string)(this["ColorBackgroundBorder"]));
-            }
-            set
-            {
-                this["ColorBackgroundBorder"] = value;
-            }
+            get { return ((string)(this["ColorBackgroundBorder"])); }
+            set { this["ColorBackgroundBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1252,14 +793,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
         public string ColorDarkModeBackgroundBorder
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeBackgroundBorder"]));
-            }
-            set
-            {
-                this["ColorDarkModeBackgroundBorder"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeBackgroundBorder"])); }
+            set { this["ColorDarkModeBackgroundBorder"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1268,14 +803,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#606060")]
         public string ColorArrow
         {
-            get
-            {
-                return ((string)(this["ColorArrow"]));
-            }
-            set
-            {
-                this["ColorArrow"] = value;
-            }
+            get { return ((string)(this["ColorArrow"])); }
+            set { this["ColorArrow"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1284,14 +813,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#dadada")]
         public string ColorArrowHoverBackground
         {
-            get
-            {
-                return ((string)(this["ColorArrowHoverBackground"]));
-            }
-            set
-            {
-                this["ColorArrowHoverBackground"] = value;
-            }
+            get { return ((string)(this["ColorArrowHoverBackground"])); }
+            set { this["ColorArrowHoverBackground"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1300,14 +823,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#000000")]
         public string ColorArrowHover
         {
-            get
-            {
-                return ((string)(this["ColorArrowHover"]));
-            }
-            set
-            {
-                this["ColorArrowHover"] = value;
-            }
+            get { return ((string)(this["ColorArrowHover"])); }
+            set { this["ColorArrowHover"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1316,14 +833,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#ffffff")]
         public string ColorArrowClick
         {
-            get
-            {
-                return ((string)(this["ColorArrowClick"]));
-            }
-            set
-            {
-                this["ColorArrowClick"] = value;
-            }
+            get { return ((string)(this["ColorArrowClick"])); }
+            set { this["ColorArrowClick"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1332,14 +843,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#606060")]
         public string ColorArrowClickBackground
         {
-            get
-            {
-                return ((string)(this["ColorArrowClickBackground"]));
-            }
-            set
-            {
-                this["ColorArrowClickBackground"] = value;
-            }
+            get { return ((string)(this["ColorArrowClickBackground"])); }
+            set { this["ColorArrowClickBackground"] = value; }
         }
 
         [Deprecated("Used in 1.x, Deprecated since 2.0.0.0", DeprecationType.Deprecate, 1)]
@@ -1349,14 +854,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#c0c0c0")]
         public string ColorSliderArrowsAndTrackHover
         {
-            get
-            {
-                return ((string)(this["ColorSliderArrowsAndTrackHover"]));
-            }
-            set
-            {
-                this["ColorSliderArrowsAndTrackHover"] = value;
-            }
+            get { return ((string)(this["ColorSliderArrowsAndTrackHover"])); }
+            set { this["ColorSliderArrowsAndTrackHover"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1365,14 +864,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#cdcdcd")]
         public string ColorSlider
         {
-            get
-            {
-                return ((string)(this["ColorSlider"]));
-            }
-            set
-            {
-                this["ColorSlider"] = value;
-            }
+            get { return ((string)(this["ColorSlider"])); }
+            set { this["ColorSlider"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1381,14 +874,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#a6a6a6")]
         public string ColorSliderHover
         {
-            get
-            {
-                return ((string)(this["ColorSliderHover"]));
-            }
-            set
-            {
-                this["ColorSliderHover"] = value;
-            }
+            get { return ((string)(this["ColorSliderHover"])); }
+            set { this["ColorSliderHover"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1397,14 +884,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#606060")]
         public string ColorSliderDragging
         {
-            get
-            {
-                return ((string)(this["ColorSliderDragging"]));
-            }
-            set
-            {
-                this["ColorSliderDragging"] = value;
-            }
+            get { return ((string)(this["ColorSliderDragging"])); }
+            set { this["ColorSliderDragging"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1413,14 +894,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#f0f0f0")]
         public string ColorScrollbarBackground
         {
-            get
-            {
-                return ((string)(this["ColorScrollbarBackground"]));
-            }
-            set
-            {
-                this["ColorScrollbarBackground"] = value;
-            }
+            get { return ((string)(this["ColorScrollbarBackground"])); }
+            set { this["ColorScrollbarBackground"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1429,14 +904,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#676767")]
         public string ColorArrowDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorArrowDarkMode"]));
-            }
-            set
-            {
-                this["ColorArrowDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorArrowDarkMode"])); }
+            set { this["ColorArrowDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1445,14 +914,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#373737")]
         public string ColorArrowHoverBackgroundDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorArrowHoverBackgroundDarkMode"]));
-            }
-            set
-            {
-                this["ColorArrowHoverBackgroundDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorArrowHoverBackgroundDarkMode"])); }
+            set { this["ColorArrowHoverBackgroundDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1461,14 +924,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#676767")]
         public string ColorArrowHoverDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorArrowHoverDarkMode"]));
-            }
-            set
-            {
-                this["ColorArrowHoverDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorArrowHoverDarkMode"])); }
+            set { this["ColorArrowHoverDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1477,14 +934,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#171717")]
         public string ColorArrowClickDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorArrowClickDarkMode"]));
-            }
-            set
-            {
-                this["ColorArrowClickDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorArrowClickDarkMode"])); }
+            set { this["ColorArrowClickDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1493,14 +944,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#a6a6a6")]
         public string ColorArrowClickBackgroundDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorArrowClickBackgroundDarkMode"]));
-            }
-            set
-            {
-                this["ColorArrowClickBackgroundDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorArrowClickBackgroundDarkMode"])); }
+            set { this["ColorArrowClickBackgroundDarkMode"] = value; }
         }
 
         [Deprecated("Used in 1.x, Deprecated since 2.0.0.0", DeprecationType.Deprecate, 1)]
@@ -1510,14 +955,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#4d4d4d")]
         public string ColorSliderArrowsAndTrackHoverDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorSliderArrowsAndTrackHoverDarkMode"]));
-            }
-            set
-            {
-                this["ColorSliderArrowsAndTrackHoverDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorSliderArrowsAndTrackHoverDarkMode"])); }
+            set { this["ColorSliderArrowsAndTrackHoverDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1526,14 +965,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#4d4d4d")]
         public string ColorSliderDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorSliderDarkMode"]));
-            }
-            set
-            {
-                this["ColorSliderDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorSliderDarkMode"])); }
+            set { this["ColorSliderDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1542,14 +975,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#7a7a7a")]
         public string ColorSliderHoverDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorSliderHoverDarkMode"]));
-            }
-            set
-            {
-                this["ColorSliderHoverDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorSliderHoverDarkMode"])); }
+            set { this["ColorSliderHoverDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1558,14 +985,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#a6a6a6")]
         public string ColorSliderDraggingDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorSliderDraggingDarkMode"]));
-            }
-            set
-            {
-                this["ColorSliderDraggingDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorSliderDraggingDarkMode"])); }
+            set { this["ColorSliderDraggingDarkMode"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1574,30 +995,18 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#171717")]
         public string ColorScrollbarBackgroundDarkMode
         {
-            get
-            {
-                return ((string)(this["ColorScrollbarBackgroundDarkMode"]));
-            }
-            set
-            {
-                this["ColorScrollbarBackgroundDarkMode"] = value;
-            }
+            get { return ((string)(this["ColorScrollbarBackgroundDarkMode"])); }
+            set { this["ColorScrollbarBackgroundDarkMode"] = value; }
         }
-        
+
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Configuration.SettingsProviderAttribute(typeof(CustomSettingsProvider))]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#95a0a6")]
         public string ColorIcons
         {
-            get
-            {
-                return ((string)(this["ColorIcons"]));
-            }
-            set
-            {
-                this["ColorIcons"] = value;
-            }
+            get { return ((string)(this["ColorIcons"])); }
+            set { this["ColorIcons"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1606,14 +1015,8 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("#95a0a6")]
         public string ColorDarkModeIcons
         {
-            get
-            {
-                return ((string)(this["ColorDarkModeIcons"]));
-            }
-            set
-            {
-                this["ColorDarkModeIcons"] = value;
-            }
+            get { return ((string)(this["ColorDarkModeIcons"])); }
+            set { this["ColorDarkModeIcons"] = value; }
         }
 
         [global::System.Configuration.UserScopedSettingAttribute()]
@@ -1622,14 +1025,19 @@ namespace SystemTrayMenu.Properties
         [global::System.Configuration.DefaultSettingValueAttribute("true")]
         public bool ShowHintYouCanOpenSettingsInSystemtrayIconRightClick
         {
-            get
-            {
-                return ((bool)(this["ShowHintYouCanOpenSettingsInSystemtrayIconRightClick"]));
-            }
-            set
-            {
-                this["ShowHintYouCanOpenSettingsInSystemtrayIconRightClick"] = value;
-            }
+            get { return ((bool)(this["ShowHintYouCanOpenSettingsInSystemtrayIconRightClick"])); }
+            set { this["ShowHintYouCanOpenSettingsInSystemtrayIconRightClick"] = value; }
+        }
+
+
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.SettingsProviderAttribute(typeof(CustomSettingsProvider))]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("IncludeAll")]
+        public string DuplicateItemHandlingType
+        {
+            get { return ((string)(this["DuplicateItemHandlingType"])); }
+            set { this["DuplicateItemHandlingType"] = value; }
         }
     }
 }

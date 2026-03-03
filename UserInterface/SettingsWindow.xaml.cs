@@ -234,6 +234,23 @@ namespace SystemTrayMenu.UserInterface
                 radioButtonSortByName.IsChecked = true;
             }
 
+            var duplicateItemHandlingType = Settings.Default.DuplicateItemHandlingType.ParseDuplicateItemHandlingType();
+            switch (duplicateItemHandlingType)
+            {
+                case DuplicateItemHandlingType.ExcludeSameFullPathName:
+                    radioButtonDuplicateHandlingExcludeDuplicateFullPaths.IsChecked = true;
+                    break;
+                case DuplicateItemHandlingType.ExcludeSameNameAndExtension:
+                    radioButtonDuplicateHandlingExcludeDuplicateNameAndExtension.IsChecked = true;
+                    break;
+                case DuplicateItemHandlingType.ExcludeSameName:
+                    radioButtonDuplicateHandlingExcludeDuplicateNameOnly.IsChecked = true;
+                    break;
+                default:
+                    radioButtonDuplicateHandlingIncludeAll.IsChecked = true;
+                    break;
+            }
+
             if (Settings.Default.NeverShowHiddenFiles)
             {
                 radioButtonNeverShowHiddenFiles.IsChecked = true;
@@ -562,6 +579,16 @@ namespace SystemTrayMenu.UserInterface
             Settings.Default.SortByFileExtensionAndName = radioButtonSortByFileExtensionAndName.IsChecked ?? false;
             Settings.Default.SortByName = radioButtonSortByName.IsChecked ?? true;
             Settings.Default.SortByDate = radioButtonSortByDate.IsChecked ?? false;
+
+            Settings.Default.DuplicateItemHandlingType = (
+                (radioButtonDuplicateHandlingExcludeDuplicateFullPaths.IsChecked ?? false)
+                    ? DuplicateItemHandlingType.ExcludeSameFullPathName
+                    : (radioButtonDuplicateHandlingExcludeDuplicateNameAndExtension.IsChecked ?? false)
+                        ? DuplicateItemHandlingType.ExcludeSameNameAndExtension
+                        : (radioButtonDuplicateHandlingExcludeDuplicateNameOnly.IsChecked ?? false)
+                            ? DuplicateItemHandlingType.ExcludeSameName
+                            : DuplicateItemHandlingType.IncludeAll
+            ).ToString();
 
             Settings.Default.SystemSettingsShowHiddenFiles = radioButtonSystemSettingsShowHiddenFiles.IsChecked ?? true;
             Settings.Default.AlwaysShowHiddenFiles = radioButtonAlwaysShowHiddenFiles.IsChecked ?? false;

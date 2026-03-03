@@ -14,12 +14,25 @@ namespace SystemTrayMenu.Helpers
     using SystemTrayMenu.DataClasses;
     using SystemTrayMenu.Utilities;
 
-    public enum DuplicateHandlingType
+    public enum DuplicateItemHandlingType
     {
-        Ignore = 0,
-        IgnoreSameFullPathName,
-        IgnoreSameNameAndExtension,
-        IgnoreSameName,
+        IncludeAll = 0,
+        ExcludeSameFullPathName,
+        ExcludeSameNameAndExtension,
+        ExcludeSameName,
+    }
+
+    public static class DuplicateItemHandlingTypeExtensions
+    {
+        public static DuplicateItemHandlingType ParseDuplicateItemHandlingType(this string text, DuplicateItemHandlingType defaultValue = default)
+        {
+            if (!Enum.TryParse<DuplicateItemHandlingType>(text, true, out var value))
+            {
+                value = defaultValue;
+            }
+
+            return value;
+        }
     }
 
     internal static class DirectoryHelpers
@@ -257,32 +270,31 @@ namespace SystemTrayMenu.Helpers
 
         private static bool AddToMenu(MenuData menuData, string file, bool isFolder, bool isAdditionalItem)
         {
-            // TODO: Read from User Settings
-            var duplicateHandlingType = DuplicateHandlingType.IgnoreSameNameAndExtension;
+            var duplicateItemHandlingType = Properties.Settings.Default.DuplicateItemHandlingType.ParseDuplicateItemHandlingType();
 
-            var foundPrevious = duplicateHandlingType == DuplicateHandlingType.Ignore
-                ? false
+            var previousItem = duplicateItemHandlingType == DuplicateItemHandlingType.IncludeAll
+                ? null
                 : menuData.RowDatas.FirstOrDefault(rd =>
                 {
-                    return duplicateHandlingType switch
+                    return duplicateItemHandlingType switch
                     {
-                        DuplicateHandlingType.IgnoreSameFullPathName     => string.Equals(rd.FileInfo.FullName, file, StringComparison.OrdinalIgnoreCase),
-                        DuplicateHandlingType.IgnoreSameNameAndExtension => string.Equals(rd.FileInfo.Name, System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
-                        DuplicateHandlingType.IgnoreSameName             => string.Equals(System.IO.Path.GetFileNameWithoutExtension(rd.FileInfo.Name), System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
-                        _                                                => false
+                        DuplicateItemHandlingType.ExcludeSameFullPathName     => string.Equals(rd.FileInfo.FullName, file, StringComparison.OrdinalIgnoreCase),
+                        DuplicateItemHandlingType.ExcludeSameNameAndExtension => string.Equals(rd.FileInfo.Name, System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
+                        DuplicateItemHandlingType.ExcludeSameName             => string.Equals(System.IO.Path.GetFileNameWithoutExtension(rd.FileInfo.Name), System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
+                        _                                                    => false
                     };
-                }) != null;
+                });
 
-            if (foundPrevious)
-            {
-                Log.Info($"Ignoring Duplicate Item ({duplicateHandlingType}): {file} ({(isFolder ? "Folder" : "File")})");
-            }
-            else
+            if (previousItem == null)
             {
                 menuData.RowDatas.Add(new RowData(isFolder, isAdditionalItem, menuData.Level, file));
             }
+            else
+            {
+                Log.Info($"Ignoring Duplicate Item ({duplicateItemHandlingType}): {file} ({(isFolder ? "Folder" : "File")})");
+            }
 
-            return !foundPrevious;
+            return previousItem != null;
         }
 
         private static List<string> GetFilesBySearchPattern(string path, string searchPatternCombined)

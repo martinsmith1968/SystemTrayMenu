@@ -154,6 +154,14 @@
                                 <RadioButton x:Name="radioButtonSortByDate" GroupName="SortBy" Content="{u:Translate 'Sorted by date'}" />
                             </StackPanel>
                         </GroupBox>
+                        <GroupBox Header="{u:Translate 'Duplicate Item Handling'}">
+                            <StackPanel>
+                                <RadioButton x:Name="radioButtonDuplicateHandlingIncludeAll" GroupName="DuplicateHandling" Content="{u:Translate 'Include All Items in menus'}" />
+                                <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateFullPaths" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item already added'}" />
+                                <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateNameAndExtension" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item with same File Name and Extension already added'}" />
+                                <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateNameOnly" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item with same File Name already added'}" />
+                            </StackPanel>
+                        </GroupBox>
                         <GroupBox Header="{u:Translate 'Hidden files and directories'}">
                             <StackPanel>
                                 <RadioButton x:Name="radioButtonSystemSettingsShowHiddenFiles" GroupName="ShowHiddenFiles" Content="{u:Translate 'Use operating system settings'}" />
