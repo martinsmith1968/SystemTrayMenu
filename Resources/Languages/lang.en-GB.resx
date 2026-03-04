@@ -579,4 +579,16 @@
   <data name="Duplicate Item Handling" xml:space="preserve">
     <value>Duplicate Item Handling</value>
   </data>
+  <data name="Include All Items in menus" xml:space="preserve">
+    <value>Include All Items in menus</value>
+  </data>
+  <data name="Exclude if Item already added" xml:space="preserve">
+    <value>Exclude if Item already added</value>
+  </data>
+  <data name="Exclude if Item with same File Name and Extension already added" xml:space="preserve">
+    <value>Exclude if Item with same File Name and Extension already added</value>
+  </data>
+  <data name="Exclude if Item with same File Name already added" xml:space="preserve">
+    <value>Exclude if Item with same File Name already added</value>
+  </data>
 </root>
