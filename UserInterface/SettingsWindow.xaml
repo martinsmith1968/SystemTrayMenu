@@ -160,6 +160,7 @@
                                 <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateFullPaths" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item already added'}" />
                                 <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateNameAndExtension" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item with same File Name and Extension already added'}" />
                                 <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateNameOnly" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item with same File Name already added'}" />
+                                <RadioButton x:Name="radioButtonDuplicateHandlingExcludeDuplicateTarget" GroupName="DuplicateHandling" Content="{u:Translate 'Exclude if Item with same File Target already added'}" />
                             </StackPanel>
                         </GroupBox>
                         <GroupBox Header="{u:Translate 'Hidden files and directories'}">

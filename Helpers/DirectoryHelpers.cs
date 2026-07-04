@@ -2,6 +2,8 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using SystemTrayMenu.Utilities.Win32;
+
 namespace SystemTrayMenu.Helpers
 {
     using System;
@@ -20,6 +22,7 @@ namespace SystemTrayMenu.Helpers
         ExcludeSameFullPathName,
         ExcludeSameNameAndExtension,
         ExcludeSameName,
+        ExcludeSameTarget,
     }
 
     public static class DuplicateItemHandlingTypeExtensions
@@ -281,7 +284,8 @@ namespace SystemTrayMenu.Helpers
                         DuplicateItemHandlingType.ExcludeSameFullPathName     => string.Equals(rd.FileInfo.FullName, file, StringComparison.OrdinalIgnoreCase),
                         DuplicateItemHandlingType.ExcludeSameNameAndExtension => string.Equals(rd.FileInfo.Name, System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
                         DuplicateItemHandlingType.ExcludeSameName             => string.Equals(System.IO.Path.GetFileNameWithoutExtension(rd.FileInfo.Name), System.IO.Path.GetFileName(file), StringComparison.OrdinalIgnoreCase),
-                        _                                                    => false
+                        DuplicateItemHandlingType.ExcludeSameTarget           => string.Equals(GetTargetDetails(rd.FileInfo.FullName), GetTargetDetails(file), StringComparison.OrdinalIgnoreCase),
+                        _                                                     => false
                     };
                 });
 
@@ -291,10 +295,38 @@ namespace SystemTrayMenu.Helpers
             }
             else
             {
-                Log.Info($"Ignoring Duplicate Item ({duplicateItemHandlingType}): {file} ({(isFolder ? "Folder" : "File")})");
+                Log.Info($"Ignoring Duplicate Item ({duplicateItemHandlingType}): {(isFolder ? "Folder" : "File")}: {file}");
             }
 
             return previousItem != null;
+        }
+
+        private static string GetTargetDetails(string filePath)
+        {
+            var urlFileReader = new UrlFileReader(filePath);
+            if (urlFileReader.IsValid)
+            {
+                return string.Join("|",
+                    "URL",
+                    urlFileReader.TargetURL,
+                    urlFileReader.IconFile,
+                    urlFileReader.IconIndex
+                );
+            }
+
+            var lnkFileReader = new LnkFileReader(filePath);
+            if (lnkFileReader.IsValid)
+            {
+                return string.Join("|",
+                    "LNK",
+                    lnkFileReader.TargetPath,
+                    lnkFileReader.TargetArguments,
+                    lnkFileReader.WorkingDirectory,
+                    lnkFileReader.Flags
+                );
+            }
+
+            return string.Join("|", "FILE", filePath);
         }
 
         private static List<string> GetFilesBySearchPattern(string path, string searchPatternCombined)

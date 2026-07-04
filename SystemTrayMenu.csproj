@@ -74,6 +74,8 @@ EXIT 0</PreBuildEvent>
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <PackageReference Include="ini-parser-netstandard" Version="2.5.3" />
+    <PackageReference Include="Shellify" Version="0.4.0" />
     <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>

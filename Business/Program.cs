@@ -2,6 +2,8 @@
 // Copyright (c) PlaceholderCompany. All rights reserved.
 // </copyright>
 
+using SystemTrayMenu.Utilities.Win32;
+
 namespace SystemTrayMenu
 {
     using System;
